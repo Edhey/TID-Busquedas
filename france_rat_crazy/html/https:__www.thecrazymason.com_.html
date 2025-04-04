@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+/* <![CDATA[ */
+ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}}); 
+/* ]]> */
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- WP_HEAD() START -->
+<link rel="preload" as="style" href="https://use.typekit.net/tzp3wct.css">
+<link rel="stylesheet" href="https://use.typekit.net/tzp3wct.css">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v24.8.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>The Crazy Mason Milkshake Bar - Your Ultimate Dessert Destination</title>
+	<meta name="description" content="With more than 30 awe-inspiring creations and desserts to choose from we’re the over-the-top milkshake shop where calories don’t count." />
+	<link rel="canonical" href="https://www.thecrazymason.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="The Crazy Mason Milkshake Bar - Your Ultimate Dessert Destination" />
+	<meta property="og:description" content="With more than 30 awe-inspiring creations and desserts to choose from we’re the over-the-top milkshake shop where calories don’t count." />
+	<meta property="og:url" content="https://www.thecrazymason.com/" />
+	<meta property="og:site_name" content="The Crazy Mason Milkshake Bar" />
+	<meta property="article:publisher" content="https://www.facebook.com/CrazyMasonMilkshakes" />
+	<meta property="article:modified_time" content="2025-02-28T21:32:33+00:00" />
+	<meta property="og:image" content="https://www.thecrazymason.com/wp-content/uploads/2024/05/D89A4ADB-7BA9-4E5B-87F4-02C649AA9955-1024x761.png" />
+	<meta property="og:image:width" content="1024" />
+	<meta property="og:image:height" content="761" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.thecrazymason.com/","url":"https://www.thecrazymason.com/","name":"The Crazy Mason Milkshake Bar - Your Ultimate Dessert Destination","isPartOf":{"@id":"https://www.thecrazymason.com/#website"},"about":{"@id":"https://www.thecrazymason.com/#organization"},"primaryImageOfPage":{"@id":"https://www.thecrazymason.com/#primaryimage"},"image":{"@id":"https://www.thecrazymason.com/#primaryimage"},"thumbnailUrl":"https://www.thecrazymason.com/wp-content/uploads/2024/05/D89A4ADB-7BA9-4E5B-87F4-02C649AA9955.png","datePublished":"2021-04-30T20:38:23+00:00","dateModified":"2025-02-28T21:32:33+00:00","description":"With more than 30 awe-inspiring creations and desserts to choose from we’re the over-the-top milkshake shop where calories don’t count.","breadcrumb":{"@id":"https://www.thecrazymason.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.thecrazymason.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.thecrazymason.com/#primaryimage","url":"https://www.thecrazymason.com/wp-content/uploads/2024/05/D89A4ADB-7BA9-4E5B-87F4-02C649AA9955.png","contentUrl":"https://www.thecrazymason.com/wp-content/uploads/2024/05/D89A4ADB-7BA9-4E5B-87F4-02C649AA9955.png","width":1920,"height":1427},{"@type":"BreadcrumbList","@id":"https://www.thecrazymason.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.thecrazymason.com/#website","url":"https://www.thecrazymason.com/","name":"The Crazy Mason Milkshake Bar","description":"Your Dessert Destination. Where Calories Don&#039;t Count.","publisher":{"@id":"https://www.thecrazymason.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.thecrazymason.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.thecrazymason.com/#organization","name":"The Crazy Mason Milkshake Bar","url":"https://www.thecrazymason.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.thecrazymason.com/#/schema/logo/image/","url":"https://www.thecrazymason.com/wp-content/uploads/2021/06/CM-logo-square.png","contentUrl":"https://www.thecrazymason.com/wp-content/uploads/2021/06/CM-logo-square.png","width":600,"height":600,"caption":"The Crazy Mason Milkshake Bar"},"image":{"@id":"https://www.thecrazymason.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CrazyMasonMilkshakes","https://www.instagram.com/crazymason_milkshakes/"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//pro.fontawesome.com' />
+<link rel="alternate" type="application/rss+xml" title="The Crazy Mason Milkshake Bar &raquo; Homepage Comments Feed" href="https://www.thecrazymason.com/home/feed/" />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.thecrazymason.com/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1' type='text/css' media='all' />
+<style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='oxygen-css' href='https://www.thecrazymason.com/wp-content/plugins/oxygen/component-framework/oxygen.css?ver=4.9.1' type='text/css' media='all' />
+<style id='wpgb-head-inline-css' type='text/css'>
+.wp-grid-builder:not(.wpgb-template),.wpgb-facet{opacity:0.01}.wpgb-facet fieldset{margin:0;padding:0;border:none;outline:none;box-shadow:none}.wpgb-facet fieldset:last-child{margin-bottom:40px;}.wpgb-facet fieldset legend.wpgb-sr-only{height:1px;width:1px}
+</style>
+<link rel='stylesheet' id='custom-fa-css' href='https://pro.fontawesome.com/releases/v5.14.0/css/all.css?ver=6.7.1' type='text/css' media='all' />
+<style id='akismet-widget-style-inline-css' type='text/css'>
+
+			.a-stats {
+				--akismet-color-mid-green: #357b49;
+				--akismet-color-white: #fff;
+				--akismet-color-light-grey: #f6f7f7;
+
+				max-width: 350px;
+				width: auto;
+			}
+
+			.a-stats * {
+				all: unset;
+				box-sizing: border-box;
+			}
+
+			.a-stats strong {
+				font-weight: 600;
+			}
+
+			.a-stats a.a-stats__link,
+			.a-stats a.a-stats__link:visited,
+			.a-stats a.a-stats__link:active {
+				background: var(--akismet-color-mid-green);
+				border: none;
+				box-shadow: none;
+				border-radius: 8px;
+				color: var(--akismet-color-white);
+				cursor: pointer;
+				display: block;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+				font-weight: 500;
+				padding: 12px;
+				text-align: center;
+				text-decoration: none;
+				transition: all 0.2s ease;
+			}
+
+			/* Extra specificity to deal with TwentyTwentyOne focus style */
+			.widget .a-stats a.a-stats__link:focus {
+				background: var(--akismet-color-mid-green);
+				color: var(--akismet-color-white);
+				text-decoration: none;
+			}
+
+			.a-stats a.a-stats__link:hover {
+				filter: brightness(110%);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+			}
+
+			.a-stats .count {
+				color: var(--akismet-color-white);
+				display: block;
+				font-size: 1.5em;
+				line-height: 1.4;
+				padding: 0 13px;
+				white-space: nowrap;
+			}
+		
+</style>
+<link rel='stylesheet' id='tablepress-default-css' href='https://www.thecrazymason.com/wp-content/plugins/tablepress/css/build/default.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-responsive-tables-css' href='https://www.thecrazymason.com/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive.min.css?ver=1.8' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.thecrazymason.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-M3VR4Z2" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.thecrazymason.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-M3VR4Z2");
+/* ]]> */
+</script>
+
+<!-- End Google tag (gtag.js) snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://www.thecrazymason.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.thecrazymason.com/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.thecrazymason.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://www.thecrazymason.com/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.thecrazymason.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.thecrazymason.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.thecrazymason.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.thecrazymason.com%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.149.1" /><noscript><style>.wp-grid-builder .wpgb-card.wpgb-card-hidden .wpgb-card-wrapper{opacity:1!important;visibility:visible!important;transform:none!important}.wpgb-facet {opacity:1!important;pointer-events:auto!important}.wpgb-facet *:not(.wpgb-pagination-facet){display:none}</style></noscript> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11191158855"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'AW-11191158855');
+	</script>
+	
+<!-- Google Tag Manager snippet added by Site Kit -->
+<script type="text/javascript">
+/* <![CDATA[ */
+
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-PFDNRZD2' );
+			
+/* ]]> */
+</script>
+
+<!-- End Google Tag Manager snippet added by Site Kit -->
+<link rel='stylesheet' id='oxygen-cache-25-css' href='//www.thecrazymason.com/wp-content/uploads/oxygen/css/25.css?cache=1742230561&#038;ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='oxygen-cache-2466-css' href='//www.thecrazymason.com/wp-content/uploads/oxygen/css/2466.css?cache=1683580215&#038;ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='oxygen-cache-26-css' href='//www.thecrazymason.com/wp-content/uploads/oxygen/css/26.css?cache=1709130746&#038;ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='oxygen-cache-24-css' href='//www.thecrazymason.com/wp-content/uploads/oxygen/css/24.css?cache=1664810745&#038;ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='oxygen-cache-2-css' href='//www.thecrazymason.com/wp-content/uploads/oxygen/css/2.css?cache=1721310047&#038;ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='oxygen-universal-styles-css' href='//www.thecrazymason.com/wp-content/uploads/oxygen/css/universal.css?cache=1742239958&#038;ver=6.7.1' type='text/css' media='all' />
+<!-- END OF WP_HEAD() -->
+</head>
+<body class="home page-template-default page page-id-2  wp-embed-responsive oxygen-body" >
+
+		<!-- Google Tag Manager (noscript) snippet added by Site Kit -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFDNRZD2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) snippet added by Site Kit -->
+		
+
+
+						<div id="code_block-79-26" class="ct-code-block" ></div><header id="header" class=" ct-section ct-section-with-shape-divider" ><div class="ct-section-inner-wrap"><div id="div_block-97-26" class="ct-div-block" ><a id="link_text-112-26" class="ct-link-text" href="https://www.thecrazymason.com/our-locations/"   >Menu items may vary by location</a></div><div id="header-inner" class="ct-div-block" ><div id="header-content" class="ct-div-block w-100" ><div id="div_block-47-26" class="ct-div-block" ><a id="logo-wrap" class="ct-link" href="/"   ><img  id="logo" alt="" src="https://www.thecrazymason.com/wp-content/uploads/2023/09/Crazy-Mason-Logo.png" class="ct-image"/></a></div><div id="div_block-48-26" class="ct-div-block" ><div id="top-menu-wrap" class="ct-div-block w-100" ><a id="link-25-26" class="ct-link menu-item" href="https://www.thecrazymason.com/our-locations/"    role="button"><div id="text_block-26-26" class="ct-text-block menu-item-text" >Locations&nbsp;</div><div id="code_block-21-26" class="ct-code-block pink svg-icon orange menu-text-icon" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<path class="pink" d="M37.8,23.4c-0.1-0.4-0.3-0.8-0.7-1c-1.2-0.8-1.9-2.9-2-3.7c0-0.2-0.1-0.4-0.3-0.5c0,0,0,0-0.1-0.1V18
+	c0-1.6-0.7-3.1-1.8-4.3c-0.6-0.6-1.4-1.1-2.1-1.3c-0.6-2.5-2.6-4.4-5.2-4.7c-1.6-0.2-3.2,0.3-4.4,1.2l-4.3-6.4
+	c-0.2-0.2-0.4-0.4-0.7-0.4c-0.3,0-0.6,0-0.8,0.2l-3.3,2.5c-0.4,0.3-0.5,0.9-0.2,1.3l4.4,6.6c-0.6,0.3-1.1,0.7-1.5,1.1
+	c-1.1,1.1-1.8,2.7-1.8,4.3c0,0.1,0,0.1,0,0.2c-0.1,0.1-0.1,0.2-0.1,0.3c-0.1,0.7-0.8,2.9-2,3.7c-0.2,0.1-0.4,0.3-0.5,0.5
+	c-0.2,0.4-0.3,0.8-0.2,1.2c0.1,0.4,0.3,0.7,0.7,1c0.5,0.4,1.2,0.7,1.9,0.8v14.2c0,0.1,0,0.2,0.1,0.3c0.1,0.2,2.1,5.5,10.7,5.5
+	c8.5,0,11-4.5,11.1-4.7c0.1-0.1,0.1-0.3,0.1-0.5V26c0.8-0.1,1.6-0.4,2.3-0.9c0.2-0.1,0.3-0.3,0.5-0.5C37.8,24.3,37.9,23.8,37.8,23.4
+	z M32.7,17.8c-1.4,0-3.8,0-8.1,0c0.1-1,0.4-1.9,1.1-2.6c0.8-0.8,1.8-1.2,2.9-1.2c1.1,0,2.1,0.4,2.9,1.1
+	C32.2,15.9,32.6,16.8,32.7,17.8z M25.3,9.7c1.4,0.2,2.6,1.1,3.2,2.3c-1.6,0-3.1,0.7-4.2,1.8c-0.2,0.2-0.3,0.3-0.4,0.5
+	c-0.7-0.9-1.7-1.6-2.9-2C21.6,10.6,23.4,9.4,25.3,9.7z M14.1,5.8l1.7-1.3l3.9,5.9c-0.3,0.5-0.6,1.1-0.8,1.7c-0.2,0-0.4,0-0.6,0
+	L14.1,5.8z M19.1,14.1c0.2,0,0.3,0,0.5,0c1.4,0.2,2.5,1,3.1,2.3c-0.1,0.5-0.2,0.9-0.2,1.4c-2.1,0-4.6,0-7.5,0c0.1-1,0.5-1.9,1.2-2.6
+	C17,14.5,18,14.1,19.1,14.1z M23.6,43.9c-6.5,0-8.5-3.3-8.8-4V25.8c0.4-0.1,0.7-0.3,1-0.5c0.4-0.2,0.6-0.4,1.2-0.4
+	c0.6,0,0.8,0.2,1.2,0.4c0.5,0.3,1.1,0.7,2.3,0.7s1.8-0.4,2.3-0.7c0.4-0.2,0.6-0.4,1.2-0.4c0.6,0,0.8,0.2,1.2,0.4
+	c0.5,0.3,1.1,0.7,2.3,0.7s1.8-0.4,2.3-0.7c0.4-0.2,0.6-0.4,1.2-0.4s0.8,0.2,1.2,0.4c0.2,0.1,0.4,0.2,0.6,0.3v14.9
+	C32.3,41.3,30,43.9,23.6,43.9z M34.5,24c-0.6,0-0.8-0.2-1.2-0.4c-0.5-0.3-1.1-0.7-2.3-0.7s-1.8,0.4-2.3,0.7
+	c-0.4,0.2-0.6,0.4-1.2,0.4c-0.6,0-0.8-0.2-1.2-0.4c-0.5-0.3-1.1-0.7-2.3-0.7c-1.2,0-1.8,0.4-2.3,0.7c-0.4,0.2-0.6,0.4-1.2,0.4
+	s-0.8-0.2-1.2-0.4c-0.5-0.3-1.1-0.7-2.3-0.7s-1.8,0.4-2.3,0.7c-0.4,0.2-0.6,0.4-1.2,0.4c-0.4,0-0.8-0.1-1.1-0.3
+	c1.3-1.1,2-2.8,2.3-3.9c6.7,0,16-0.1,18.6,0c0.3,1,1,2.8,2.3,3.9C35.2,23.9,34.9,24,34.5,24z"/>
+</svg>
+</div></a><a id="link-113-26" class="ct-link menu-item" href="https://www.thecrazymason.com/coffee-locations/myrtle-beach/"    role="button"><div id="text_block-114-26" class="ct-text-block menu-item-text" >Coffee</div><div id="code_block-115-26" class="ct-code-block svg-icon menu-text-icon" ><svg id="uuid-bbe2ee2a-06b1-486b-898d-2481d56c0179" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="32" height="48" viewBox="0 0 32 48">
+  <g id="uuid-17df62a1-4c78-4695-901f-dab0040d7a9c" data-name="icons">
+    <path d="m29,6c1.1,0,2,.9,2,2v3H1v-3c0-1.1.9-2,2-2h1V2c0-.55.45-1,1-1h22c.55,0,1,.45,1,1v4h1Zm-.5,13l.5-8H3l.5,8m1.26,20l.38,6.13c.07,1.05.94,1.87,2,1.87h17.72c1.06,0,1.93-.82,2-1.87l.38-6.13m1.33,0l1.27-20H2.16l1.27,20h25.13ZM4,6h12m6,0h6m-12,17c-3.31,0-6,2.69-6,6s2.69,6,6,6,6-2.69,6-6-2.69-6-6-6Z" style="fill: none; stroke: #ff3068; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3px;"/>
+  </g>
+</svg></div></a><a id="link-21-19" class="ct-link menu-item" href="https://stores.inksoft.com/the_crazy_mason/shop/home"    role="button"><div id="text_block-23-19" class="ct-text-block menu-item-text" >Shop</div><div id="code_block-64-26" class="ct-code-block icon-code blue pl-10 menu-text-icon" ><i class="fal fa-store"></i></div></a><a id="menu-trigger" class="ct-link menu-item" href="#" target="_self"   role="button"><div id="text_block-37-26" class="ct-text-block menu-item-text menu-open" >More</div><div id="text_block-84-26" class="ct-text-block menu-item-text menu-close" >Close</div><div id="code_block-38-26" class="ct-code-block icon-code pl-10 white menu-text-icon" ><i class="fal menu-open fa-bars"></i>
+<i class="fal menu-close fa-times"></i></div></a></div></div></div></div>
+		<div id="-shape-divider-54-26" class="oxy-shape-divider  " >        
+        <div class="oxy_shape_divider oxy_shape_divider_top" style="transform:  scaleY(-1) scaleX(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="currentColor" fill-opacity="1" d="M0,288L1440,0L1440,320L0,320Z"></path></svg>        </div>
+
+        </div>
+
+		</div></header><aside id="sidebar" class="ct-div-block " ><div id="menu-overlay" class="ct-div-block transition-05" ></div><nav id="menu-main" class="ct-div-block pink-back texture-crazy" ><div id="menu-main-close" class="ct-code-block white" ><i class="fal fa-times"></i></div><div id="menu-inner" class="ct-div-block " ><nav id="menu-wrap" class="oxy-nav-menu w-100 oxy-nav-menu-dropdowns oxy-nav-menu-dropdown-arrow oxy-nav-menu-vertical" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-main-menu-container"><ul id="menu-main-menu" class="oxy-nav-menu-list"><li id="menu-item-2520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2520"><a href="https://www.thecrazymason.com/gift-cards/">Gift Cards</a></li>
+<li id="menu-item-2521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2521"><a href="https://www.thecrazymason.com/allergens/">Allergens</a></li>
+<li id="menu-item-1200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1200"><a href="https://www.thecrazymason.com/our-locations/">Locations &#038; Hours</a></li>
+<li id="menu-item-1201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1201"><a href="https://www.thecrazymason.com/about/">About Us</a></li>
+<li id="menu-item-1463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1463"><a href="https://www.thecrazymason.com/contact/">Contact Us</a></li>
+</ul></div></nav></div></nav></aside><main id="main-content" class="ct-div-block" ><div id='inner_content-5-24' class='ct-inner-content'><div id="homepage-scripts" class="ct-code-block" ></div><section id="section-slider" class=" ct-section position-relative" ><div class="ct-section-inner-wrap"><div id="hero-slider" class="oxy-dynamic-list hero-carousel"><div id="div_block-19-2-1" class="ct-div-block w-100 carousel-cell" data-id="div_block-19-2"><div id="code_block-3-2-1" class="ct-code-block h-100 w-100 position-absolute" data-id="code_block-3-2">
+
+<div class="w-100 h-100 background-gradient no-lazy-load" style="background: '#60e224';
+            background-blend-mode: multiply;
+            background-size: 300px 300px, auto;
+            background-image: url();
+			background-image: url(), -moz-linear-gradient(135deg, #60e224 0%, #31a82b 100%);
+			background-image: url(), -webkit-linear-gradient(135deg, #60e224 0%, #31a82b 100%);
+			background-image: url(), linear-gradient(135deg, #60e224 0%, #31a82b 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=">                                                                                                                                  
+</div>
+
+
+
+</div><div id="hero-inner-1" class="ct-div-block container" data-id="hero-inner"><div id="div_block-199-2-1" class="ct-div-block " style="background-image:url();background-size: auto;" data-id="div_block-199-2"><div id="div_block-5-2-1" class="ct-div-block" data-id="div_block-5-2"><div id="code_block-214-2-1" class="ct-code-block w-100 pt-20" data-id="code_block-214-2">
+
+      <div class="label white text-shadow"> 
+        The Paddy is Just Getting Started!      </div>
+      <div class="head-72 white headline text-shadow"> 
+        Un-Pinchable      </div>
+      <div class="font-21 white text-shadow"> 
+        <p>Anyone ready to be Irish for St. Patrick's Day!</p>
+      </div>
+      <a class="link-wrap" href="https://www.thecrazymason.com/desserts/un-pinchable/"> 
+          <button class="btn btn-200 btn-white btn-hover-black box-shadow"> 
+            	Try It Today 
+          </button>
+      </a>
+
+
+
+
+
+</div></div><div id="code_block-616-2-1" class="ct-code-block " data-id="code_block-616-2">
+
+  		<div class="featured-shake-wrap">
+          <div class="featured-shake-label text-shadow orange">
+            Featured Shake
+          </div>
+          <div class="featured-shake-title white text-shadow">
+            Un-Pinchable          </div>
+          <div class="featured-shake-tagline white text-shadow">
+            The Paddy is Just Getting Started!          </div>
+  		</div>
+ </div></div><div id="code_block-209-2-1" class="ct-code-block main-image-outer" data-id="code_block-209-2"><img src="https://www.thecrazymason.com/wp-content/uploads/2025/02/Untitled-design-28.png" class="main-image-inner no-lazy-load">
+
+</div><div id="code_block-619-2-1" class="ct-code-block " data-id="code_block-619-2">
+
+
+
+  		<div class="featured-shake-wrap" style="background-color: #60e224;">
+          <div class="featured-shake-label text-shadow orange">
+            Featured Shake
+          </div>
+          <div class="featured-shake-title white text-shadow">
+            Un-Pinchable          </div>
+          <div class="featured-shake-tagline white text-shadow">
+            The Paddy is Just Getting Started!          </div>
+  		</div>
+ </div></div><div id="div_block-221-2-1" class="ct-div-block featured-shake-wrap featured-image-wrap shake-image shake-content shake-title shake-text block-title block-content main-image-outer main-image-inner featured-shake-label featured-shake-title featured-shake-tagline white block-text" data-id="div_block-221-2"></div></div><div id="div_block-19-2-2" class="ct-div-block w-100 carousel-cell" data-id="div_block-19-2"><div id="code_block-3-2-2" class="ct-code-block h-100 w-100 position-absolute" data-id="code_block-3-2">
+
+<div class="w-100 h-100 background-gradient no-lazy-load" style="background: '#e27a2b';
+            background-blend-mode: multiply;
+            background-size: 300px 300px, auto;
+            background-image: url();
+			background-image: url(), -moz-linear-gradient(135deg, #e27a2b 0%, #44c113 100%);
+			background-image: url(), -webkit-linear-gradient(135deg, #e27a2b 0%, #44c113 100%);
+			background-image: url(), linear-gradient(135deg, #e27a2b 0%, #44c113 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=">                                                                                                                                  
+</div>
+
+
+
+</div><div id="hero-inner-2" class="ct-div-block container" data-id="hero-inner"><div id="div_block-199-2-2" class="ct-div-block " style="background-image:url();background-size: auto;" data-id="div_block-199-2"><div id="div_block-5-2-2" class="ct-div-block" data-id="div_block-5-2"><div id="code_block-214-2-2" class="ct-code-block w-100 pt-20" data-id="code_block-214-2">
+
+      <div class="label white text-shadow"> 
+        Is it Luck or is it just that good!      </div>
+      <div class="head-72 white headline text-shadow"> 
+        Irish Charm      </div>
+      <div class="font-21 white text-shadow"> 
+        <p>Follow the rainbow to find your Irish Charm.</p>
+      </div>
+      <a class="link-wrap" href="https://www.thecrazymason.com/desserts/irish-charm/"> 
+          <button class="btn btn-200 btn-white btn-hover-black box-shadow"> 
+            	Try It Today 
+          </button>
+      </a>
+
+
+
+
+
+</div></div><div id="code_block-616-2-2" class="ct-code-block " data-id="code_block-616-2">
+
+  		<div class="featured-shake-wrap">
+          <div class="featured-shake-label text-shadow orange">
+            Featured Shake
+          </div>
+          <div class="featured-shake-title white text-shadow">
+            Irish Charm          </div>
+          <div class="featured-shake-tagline white text-shadow">
+            Is it Luck or is it just that good!          </div>
+  		</div>
+ </div></div><div id="code_block-209-2-2" class="ct-code-block main-image-outer" data-id="code_block-209-2"><img src="https://www.thecrazymason.com/wp-content/uploads/2025/02/Untitled-design-29.png" class="main-image-inner no-lazy-load">
+
+</div><div id="code_block-619-2-2" class="ct-code-block " data-id="code_block-619-2">
+
+
+
+  		<div class="featured-shake-wrap" style="background-color: #e27a2b;">
+          <div class="featured-shake-label text-shadow orange">
+            Featured Shake
+          </div>
+          <div class="featured-shake-title white text-shadow">
+            Irish Charm          </div>
+          <div class="featured-shake-tagline white text-shadow">
+            Is it Luck or is it just that good!          </div>
+  		</div>
+ </div></div><div id="div_block-221-2-2" class="ct-div-block featured-shake-wrap featured-image-wrap shake-image shake-content shake-title shake-text block-title block-content main-image-outer main-image-inner featured-shake-label featured-shake-title featured-shake-tagline white block-text" data-id="div_block-221-2"></div></div><div id="div_block-19-2-3" class="ct-div-block w-100 carousel-cell" data-id="div_block-19-2"><div id="code_block-3-2-3" class="ct-code-block h-100 w-100 position-absolute" data-id="code_block-3-2">
+
+<div class="w-100 h-100 background-gradient no-lazy-load" style="background: '#7cd121';
+            background-blend-mode: multiply;
+            background-size: 300px 300px, auto;
+            background-image: url();
+			background-image: url(), -moz-linear-gradient(135deg, #7cd121 0%, #efe40e 100%);
+			background-image: url(), -webkit-linear-gradient(135deg, #7cd121 0%, #efe40e 100%);
+			background-image: url(), linear-gradient(135deg, #7cd121 0%, #efe40e 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=">                                                                                                                                  
+</div>
+
+
+
+</div><div id="hero-inner-3" class="ct-div-block container" data-id="hero-inner"><div id="div_block-199-2-3" class="ct-div-block " style="background-image:url();background-size: auto;" data-id="div_block-199-2"><div id="div_block-5-2-3" class="ct-div-block" data-id="div_block-5-2"><div id="code_block-214-2-3" class="ct-code-block w-100 pt-20" data-id="code_block-214-2">
+
+      <div class="label white text-shadow"> 
+        A Wee Bit of Luck      </div>
+      <div class="head-72 white headline text-shadow"> 
+        Shamrock Kid Sundae      </div>
+      <div class="font-21 white text-shadow"> 
+        <p>The kiddos will love this just as much as the Leprechaun likes their gold!</p>
+      </div>
+      <a class="link-wrap" href="https://www.thecrazymason.com/desserts/shamrock-kid-sundae/"> 
+          <button class="btn btn-200 btn-white btn-hover-black box-shadow"> 
+            	Try It Today 
+          </button>
+      </a>
+
+
+
+
+
+</div></div><div id="code_block-616-2-3" class="ct-code-block " data-id="code_block-616-2">
+
+  		<div class="featured-shake-wrap">
+          <div class="featured-shake-label text-shadow orange">
+            Featured Shake
+          </div>
+          <div class="featured-shake-title white text-shadow">
+            Shamrock Kid Sundae          </div>
+          <div class="featured-shake-tagline white text-shadow">
+            A Wee Bit of Luck          </div>
+  		</div>
+ </div></div><div id="code_block-209-2-3" class="ct-code-block main-image-outer" data-id="code_block-209-2"><img src="https://www.thecrazymason.com/wp-content/uploads/2025/02/Untitled-design-30.png" class="main-image-inner no-lazy-load">
+
+</div><div id="code_block-619-2-3" class="ct-code-block " data-id="code_block-619-2">
+
+
+
+  		<div class="featured-shake-wrap" style="background-color: #7cd121;">
+          <div class="featured-shake-label text-shadow orange">
+            Featured Shake
+          </div>
+          <div class="featured-shake-title white text-shadow">
+            Shamrock Kid Sundae          </div>
+          <div class="featured-shake-tagline white text-shadow">
+            A Wee Bit of Luck          </div>
+  		</div>
+ </div></div><div id="div_block-221-2-3" class="ct-div-block featured-shake-wrap featured-image-wrap shake-image shake-content shake-title shake-text block-title block-content main-image-outer main-image-inner featured-shake-label featured-shake-title featured-shake-tagline white block-text" data-id="div_block-221-2"></div></div></div>
+</div></section><section id="section-935-2" class=" ct-section bg-black" ><div class="ct-section-inner-wrap"><div id="div_block-936-2" class="ct-div-block " ><a id="link-937-2" class="ct-link" href="" target="_self"  ></a></div><div id="div_block-939-2" class="ct-div-block " ><h1 id="headline-940-2" class="ct-headline headline label center"><span id="span-941-2" class="ct-span" ></span></h1><h2 id="headline-942-2" class="ct-headline headline white center head-54"><span id="span-943-2" class="ct-span" ></span></h2><div id="text_block-944-2" class="ct-text-block w-100 white center font-21 no-p" ><span id="span-945-2" class="ct-span" ></span></div><div id="text_block-946-2" class="ct-text-block w-100 white center no-p font-18" ><span id="span-947-2" class="ct-span" ></span></div><div id="div_block-948-2" class="ct-div-block" ><a id="link_button-949-2" class="ct-link-button " href="" target="_self"  >Hours &amp; Details&nbsp;  </a><a id="link_button-950-2" class="ct-link-button " href="" target="_self"  >Menu</a></div></div></div></section><section id="section-treats" class=" ct-section bg-black ct-section-with-shape-divider" ><div class="ct-section-inner-wrap">
+		<div id="-shape-divider-412-2" class="oxy-shape-divider slant " >        
+        <div class="oxy_shape_divider oxy_shape_divider_top" style="transform:  scaleY(-1) scaleX(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="currentColor" fill-opacity="1" d="M0,288L1440,0L1440,320L0,320Z"></path></svg>        </div>
+
+        </div>
+
+		<div id="div_block-223-2" class="ct-div-block w-100" ><h1 id="headline-224-2" class="ct-headline headline label center"><span id="span-225-2" class="ct-span" >Your Dessert Destination</span></h1><h2 id="headline-227-2" class="ct-headline headline white center head-72"><span id="span-228-2" class="ct-span" >Choose wisely.</span></h2><div id="text_block-230-2" class="ct-text-block w-100 white center font-21 no-p" ><span id="span-231-2" class="ct-span" ><p>The hardest part about a trip to The Crazy Mason is figuring out what to order. With so many great shakes, desserts and ways to customize them, the choices are endless.</p>
+<p><strong>*Menu items vary by location</strong></p>
+</span></div><div id="div_block-234-2" class="ct-div-block w-100" ><div id="_dynamic_list-246-2" class="oxy-dynamic-list w-100"><div id="div_block-247-2-1" class="ct-div-block" data-id="div_block-247-2"><div id="code_block-328-2-1" class="ct-code-block" data-id="code_block-328-2">           
+	          <div class="shake-card w-100">
+             
+                 <div class="shake-photo">
+                   <a class="link-wrap" href="/our-locations/myrtle-beach/#shakes">
+                   <div class="shake-background" style="background: '#ff3068' ;
+                          background-blend-mode: multiply;
+                          background-size: 300px 300px, auto;
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-12.svg);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-12.svg), -moz-linear-gradient(135deg, #ff3068 0%, #dd194f 100%);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-12.svg), -webkit-linear-gradient(135deg, #ff3068 0%, #dd194f 100%);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-12.svg), linear-gradient(135deg, #ff3068 0%, #dd194f 100%);
+                          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=">
+                     	<img class="shake-image" src="https://www.thecrazymason.com/wp-content/uploads/2021/05/TheBillboard.png" width="100%">
+                   </div>
+                   </a>
+                 </div>
+                 <div class="block-content">
+                   <a class="link-wrap" href="/our-locations/myrtle-beach/#shakes">
+                   <h3 class="block-title white">Crazy Masons</h3>
+                   <div class="block-text white">
+                     <p>These are the reason you're here. Our original, outrageous signature shake creations.</p>
+                   </div>
+                   </a>
+                 </div>
+               
+          </div>
+
+     
+</div></div><div id="div_block-247-2-2" class="ct-div-block" data-id="div_block-247-2"><div id="code_block-328-2-2" class="ct-code-block" data-id="code_block-328-2">           
+	          <div class="shake-card w-100">
+             
+                 <div class="shake-photo">
+                   <a class="link-wrap" href="/our-locations/myrtle-beach/#waffles">
+                   <div class="shake-background" style="background: '#803e18' ;
+                          background-blend-mode: multiply;
+                          background-size: 300px 300px, auto;
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-waffle-1.png);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-waffle-1.png), -moz-linear-gradient(135deg, #803e18 0%, #ffa123 100%);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-waffle-1.png), -webkit-linear-gradient(135deg, #803e18 0%, #ffa123 100%);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-waffle-1.png), linear-gradient(135deg, #803e18 0%, #ffa123 100%);
+                          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=">
+                     	<img class="shake-image" src="https://www.thecrazymason.com/wp-content/uploads/2022/10/CC-Waffle.png" width="100%">
+                   </div>
+                   </a>
+                 </div>
+                 <div class="block-content">
+                   <a class="link-wrap" href="/our-locations/myrtle-beach/#waffles">
+                   <h3 class="block-title white">Crazy Waffles</h3>
+                   <div class="block-text white">
+                     <p>Three scoop sundaes made atop a warm, crisp Sugar Pearl Waffle.</p>
+                   </div>
+                   </a>
+                 </div>
+               
+          </div>
+
+     
+</div></div><div id="div_block-247-2-3" class="ct-div-block" data-id="div_block-247-2"><div id="code_block-328-2-3" class="ct-code-block" data-id="code_block-328-2">           
+	          <div class="shake-card w-100">
+             
+                 <div class="shake-photo">
+                   <a class="link-wrap" href="/our-locations/myrtle-beach/#bombs">
+                   <div class="shake-background" style="background: '#76d851' ;
+                          background-blend-mode: multiply;
+                          background-size: 300px 300px, auto;
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-22.svg);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-22.svg), -moz-linear-gradient(135deg, #76d851 0%, #2f880e 100%);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-22.svg), -webkit-linear-gradient(135deg, #76d851 0%, #2f880e 100%);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-22.svg), linear-gradient(135deg, #76d851 0%, #2f880e 100%);
+                          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=">
+                     	<img class="shake-image" src="https://www.thecrazymason.com/wp-content/uploads/2021/05/CrazyBombs.png" width="100%">
+                   </div>
+                   </a>
+                 </div>
+                 <div class="block-content">
+                   <a class="link-wrap" href="/our-locations/myrtle-beach/#bombs">
+                   <h3 class="block-title white">Crazy Bombs</h3>
+                   <div class="block-text white">
+                     <p>Your favorite ice cream jammed between two homemade cookies and rolled in toppings</p>
+                   </div>
+                   </a>
+                 </div>
+               
+          </div>
+
+     
+</div></div><div id="div_block-247-2-4" class="ct-div-block" data-id="div_block-247-2"><div id="code_block-328-2-4" class="ct-code-block" data-id="code_block-328-2">           
+	          <div class="shake-card w-100">
+             
+                 <div class="shake-photo">
+                   <a class="link-wrap" href="/our-locations/myrtle-beach/#desserts">
+                   <div class="shake-background" style="background: '#ff3068' ;
+                          background-blend-mode: multiply;
+                          background-size: 300px 300px, auto;
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-hearts-1.png);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-hearts-1.png), -moz-linear-gradient(135deg, #ff3068 0%, #dd194f 100%);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-hearts-1.png), -webkit-linear-gradient(135deg, #ff3068 0%, #dd194f 100%);
+                          background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/texture-hearts-1.png), linear-gradient(135deg, #ff3068 0%, #dd194f 100%);
+                          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=">
+                     	<img class="shake-image" src="https://www.thecrazymason.com/wp-content/uploads/2021/05/Desserts.png" width="100%">
+                   </div>
+                   </a>
+                 </div>
+                 <div class="block-content">
+                   <a class="link-wrap" href="/our-locations/myrtle-beach/#desserts">
+                   <h3 class="block-title white">Crazy Desserts</h3>
+                   <div class="block-text white">
+                     <p>The fun doesn&rsquo;t end with milkshakes. We also make amazing desserts, pies, cakes and more!</p>
+                   </div>
+                   </a>
+                 </div>
+               
+          </div>
+
+     
+</div></div></div>
+</div></div></div></section><section id="section-location" class=" ct-section  ct-section-with-shape-divider" ><div class="ct-section-inner-wrap"><div id="div_block-347-2" class="ct-div-block w-100" ><div id="_dynamic_list-444-2" class="oxy-dynamic-list quote-carousel"><div id="div_block-445-2-1" class="ct-div-block carousel-cell" data-id="div_block-445-2"><div id="div_block-320-2-1" class="ct-div-block " data-id="div_block-320-2"><div id="code_block-442-2-1" class="ct-code-block " data-id="code_block-442-2"><i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i></div><div id="text_block-323-2-1" class="ct-text-block white text-shadow no-p" data-id="text_block-323-2"><span id="span-324-2-1" class="ct-span" data-id="span-324-2"><p>Great fun with the family. With tons of different flavors to choose from, everyone found something they loved. In fact, it made it tough to choose just one. The line was a little long, but the staff moved out along quickly. A must-visit for any ice cream lover in the Myrtle Beach area.</p>
+</span></div><div id="text_block-469-2-1" class="ct-text-block font-bold w-100 pb-20 text-shadow" data-id="text_block-469-2"><span id="span-471-2-1" class="ct-span" data-id="span-471-2">R. Eric Frazee</span></div><a id="link-437-2-1" class="ct-link" href="https://g.page/Crazy-Mason-Milkshake-Bar/review?rc" target="_self" data-id="link-437-2"><div id="code_block-440-2-1" class="ct-code-block pr-10 white" data-id="code_block-440-2"><i class="fab fa-google text-shadow"></i></div><div id="text_block-438-2-1" class="ct-text-block font-bold text-shadow white" data-id="text_block-438-2">Review us on Google</div></a></div></div><div id="div_block-445-2-2" class="ct-div-block carousel-cell" data-id="div_block-445-2"><div id="div_block-320-2-2" class="ct-div-block " data-id="div_block-320-2"><div id="code_block-442-2-2" class="ct-code-block " data-id="code_block-442-2"><i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i></div><div id="text_block-323-2-2" class="ct-text-block white text-shadow no-p" data-id="text_block-323-2"><span id="span-324-2-2" class="ct-span" data-id="span-324-2"><p>Absolutely delicious!! If you are an ice cream lover you definitely need to check this place out. The staff is extremely friendly and helpful.</p>
+</span></div><div id="text_block-469-2-2" class="ct-text-block font-bold w-100 pb-20 text-shadow" data-id="text_block-469-2"><span id="span-471-2-2" class="ct-span" data-id="span-471-2">Allan Pack</span></div><a id="link-437-2-2" class="ct-link" href="https://g.page/Crazy-Mason-Milkshake-Bar/review?rc" target="_self" data-id="link-437-2"><div id="code_block-440-2-2" class="ct-code-block pr-10 white" data-id="code_block-440-2"><i class="fab fa-google text-shadow"></i></div><div id="text_block-438-2-2" class="ct-text-block font-bold text-shadow white" data-id="text_block-438-2">Review us on Google</div></a></div></div><div id="div_block-445-2-3" class="ct-div-block carousel-cell" data-id="div_block-445-2"><div id="div_block-320-2-3" class="ct-div-block " data-id="div_block-320-2"><div id="code_block-442-2-3" class="ct-code-block " data-id="code_block-442-2"><i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i></div><div id="text_block-323-2-3" class="ct-text-block white text-shadow no-p" data-id="text_block-323-2"><span id="span-324-2-3" class="ct-span" data-id="span-324-2"><p>If you love ice cream, then you'll likely love this place and their creations! I've seen nothing like it anywhere else so I had to try it.</p>
+</span></div><div id="text_block-469-2-3" class="ct-text-block font-bold w-100 pb-20 text-shadow" data-id="text_block-469-2"><span id="span-471-2-3" class="ct-span" data-id="span-471-2">Ryan Luke</span></div><a id="link-437-2-3" class="ct-link" href="https://g.page/Crazy-Mason-Milkshake-Bar/review?rc" target="_self" data-id="link-437-2"><div id="code_block-440-2-3" class="ct-code-block pr-10 white" data-id="code_block-440-2"><i class="fab fa-google text-shadow"></i></div><div id="text_block-438-2-3" class="ct-text-block font-bold text-shadow white" data-id="text_block-438-2">Review us on Google</div></a></div></div><div id="div_block-445-2-4" class="ct-div-block carousel-cell" data-id="div_block-445-2"><div id="div_block-320-2-4" class="ct-div-block " data-id="div_block-320-2"><div id="code_block-442-2-4" class="ct-code-block " data-id="code_block-442-2"><i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i></div><div id="text_block-323-2-4" class="ct-text-block white text-shadow no-p" data-id="text_block-323-2"><span id="span-324-2-4" class="ct-span" data-id="span-324-2"><p>"You have to try this! Huge enough to share. You have to see to believe how big it is. You won't be disappointed."</p>
+</span></div><div id="text_block-469-2-4" class="ct-text-block font-bold w-100 pb-20 text-shadow" data-id="text_block-469-2"><span id="span-471-2-4" class="ct-span" data-id="span-471-2">Christy Hodge</span></div><a id="link-437-2-4" class="ct-link" href="https://g.page/Crazy-Mason-Milkshake-Bar/review?rc" target="_self" data-id="link-437-2"><div id="code_block-440-2-4" class="ct-code-block pr-10 white" data-id="code_block-440-2"><i class="fab fa-google text-shadow"></i></div><div id="text_block-438-2-4" class="ct-text-block font-bold text-shadow white" data-id="text_block-438-2">Review us on Google</div></a></div></div><div id="div_block-445-2-5" class="ct-div-block carousel-cell" data-id="div_block-445-2"><div id="div_block-320-2-5" class="ct-div-block " data-id="div_block-320-2"><div id="code_block-442-2-5" class="ct-code-block " data-id="code_block-442-2"><i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i> <i class="fa fa-star text-shadow"></i></div><div id="text_block-323-2-5" class="ct-text-block white text-shadow no-p" data-id="text_block-323-2"><span id="span-324-2-5" class="ct-span" data-id="span-324-2"><p>Awesome place!! Very knowledgeable and careful about food allergies. Made 2 trips in 3 days.</p>
+</span></div><div id="text_block-469-2-5" class="ct-text-block font-bold w-100 pb-20 text-shadow" data-id="text_block-469-2"><span id="span-471-2-5" class="ct-span" data-id="span-471-2">Venicia Jones</span></div><a id="link-437-2-5" class="ct-link" href="https://g.page/Crazy-Mason-Milkshake-Bar/review?rc" target="_self" data-id="link-437-2"><div id="code_block-440-2-5" class="ct-code-block pr-10 white" data-id="code_block-440-2"><i class="fab fa-google text-shadow"></i></div><div id="text_block-438-2-5" class="ct-text-block font-bold text-shadow white" data-id="text_block-438-2">Review us on Google</div></a></div></div></div>
+<div id="text_block-429-2" class="ct-text-block" >“</div><div id="text_block-436-2" class="ct-text-block" >“</div></div>
+		<div id="-shape-divider-876-2" class="oxy-shape-divider slant " >        
+        <div class="oxy_shape_divider oxy_shape_divider_top" style="transform:  scaleY(-1) scaleX(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="currentColor" fill-opacity="1" d="M0,288L1440,0L1440,320L0,320Z"></path></svg>        </div>
+
+        </div>
+
+		
+		<div id="-shape-divider-545-2" class="oxy-shape-divider " >        
+        <div class="oxy_shape_divider oxy_shape_divider_top" style="transform:  scaleY(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="currentColor" fill-opacity="1" d="M0,288L1440,0L1440,320L0,320Z"></path></svg>        </div>
+
+        </div>
+
+		</div></section><section id="section-413-2" class=" ct-section  ct-section-with-shape-divider" ><div class="ct-section-inner-wrap"><div id="div_block-414-2" class="ct-div-block w-100" ><div id="div_block-415-2" class="ct-div-block " ><div id="text_block-416-2" class="ct-text-block label-sm blue" ><b><span id="span-417-2" class="ct-span" >The Crazy Mason Locations</span></b></div><h1 id="headline-418-2" class="ct-headline headline head-72"><span id="span-419-2" class="ct-span" >Find your crazy</span></h1><div id="text_block-420-2" class="ct-text-block intro-text no-p" ><span id="span-421-2" class="ct-span" ><p>Choose the milkshake bar closest to you or enter your zip code below for local hours, menu &amp; directions:</p>
+</span></div>
+		<div id="-wpgb-facet-796-2" class="oxy-wpgb-facet " ><div class="wpgb-facet wpgb-loading wpgb-facet-19" data-facet="19" data-grid="oxygen-element-427">	<h4 class="wpgb-facet-title">States</h4>
+		<fieldset>
+		<legend class="wpgb-facet-title wpgb-sr-only">States</legend>
+		<div class="wpgb-button-facet"><ul class="wpgb-inline-list"><li><div class="wpgb-button" role="button" aria-pressed="true" tabindex="0"><input type="hidden" name="location_states" value=""><span class="wpgb-button-label">All</span></div></li><li><div class="wpgb-button" role="button" aria-pressed="false" tabindex="0"><input type="hidden" name="location_states" value="sc"><span class="wpgb-button-label">South Carolina</span></div></li><li><div class="wpgb-button" role="button" aria-pressed="false" tabindex="0"><input type="hidden" name="location_states" value="florida"><span class="wpgb-button-label">Florida</span></div></li><li><div class="wpgb-button" role="button" aria-pressed="false" tabindex="0"><input type="hidden" name="location_states" value="nc"><span class="wpgb-button-label">North Carolina</span></div></li><li><div class="wpgb-button" role="button" aria-pressed="false" tabindex="0"><input type="hidden" name="location_states" value="ma"><span class="wpgb-button-label">Maryland</span></div></li><li><div class="wpgb-button" role="button" aria-pressed="false" tabindex="0"><input type="hidden" name="location_states" value="pennsylvania"><span class="wpgb-button-label">Pennsylvania</span></div></li><li><div class="wpgb-button" role="button" aria-pressed="false" tabindex="0"><input type="hidden" name="location_states" value="tn"><span class="wpgb-button-label">Tennessee</span></div></li><li><div class="wpgb-button" role="button" aria-pressed="false" tabindex="0"><input type="hidden" name="location_states" value="va"><span class="wpgb-button-label">Virginia</span></div></li><li><div class="wpgb-button" role="button" aria-pressed="false" tabindex="0"><input type="hidden" name="location_states" value="dc"><span class="wpgb-button-label">Washington DC</span></div></li></ul></div>	</fieldset>
+	</div></div>
+
+		</div><div id="div_block-425-2" class="ct-div-block " ><div id="div_block-426-2" class="ct-div-block shake-title shake-photo shake-card shake-text shake-image shake-background related-content shake-tagline shake-content last-shake d-flex-horiz location-content location-photo location-card location-img pb-10 location-title" ></div>        
+                <div id="_posts_grid-427-2" class='oxy-easy-posts oxy-posts-grid' >
+                                    <div class='oxy-posts'>
+                     
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Myrtle Beach, SC</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 2461 Coastal Grand Circle, Myrtle Beach, SC 29577        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/myrtle-beach/'><button style="background-color: #ffd152;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/MB-Pic-4.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">North Myrtle Beach, SC</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 801 Main St. North Myrtle Beach, SC 29482        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/north-myrtle-beach/'><button style="background-color: #f4e970;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/North-Myrtle-Beach-e1720496014857.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Gatlinburg, TN</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 812 Parkway, Suite 106, Gatlinburg, TN 37738        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/gatlinburg/'><button style="background-color: #76d851;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/05/Gatlinburg.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Concord/Charlotte, NC</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 5965 Thunder Rd NW, Concord, NC 28027        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/charlotte/'><button style="background-color: #007dbc;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/07/Concord.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Greenville, SC</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 942 South Main St., Greenville, SC 29601        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/greenville/'><button style="background-color: #ffaf26;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2021/10/Greenville.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Old Ellicott City Baltimore, MD</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 8225 Main St., Ellicott City, MD 21043        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/old-ellicott-city-baltimore/'><button style="background-color: #63b291;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2022/03/EC.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Wilmington, NC</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 3608 Oleander Dr. Suite E, Wilmington, NC        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/wilmington-nc/'><button style="background-color: #b13e54;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2022/11/Wilmington.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Old Town Alexandria, VA</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 716 King Street, Alexandria, VA 22314        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/old-town-alexandria-va/'><button style="background-color: ;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2023/02/848D2794-7909-4D43-9FDB-2C95EF6D3597.jpg);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Kissimmee/Orlando, FL</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 5741 W. Irlo Bronson Memorial Hwy, Kissimmee, Florida 34747        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/orlando-fl/'><button style="background-color: #ffac3f;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2023/05/e1616146-76ae-4046-8ddf-ede2baa5f807.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Pittsburgh, PA</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 167 East Bridge Street, Homestead, PA.        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/pittsburgh-pa/'><button style="background-color: ;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2023/05/Pittsburgh-PA.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Tampa, FL</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> Now Booking Food Truck Events!        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/tampa/'><button style="background-color: ;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2023/11/Tampa-FL.png);'>
+
+    </div>
+    
+</div>
+ 
+<div class='card location-card'>
+  
+	<div class="location-content">
+  
+        <h4 class="black location-title head-28">Fort Mill, SC</h4>
+
+        <div class='gray font-14 pb-10'>
+          <i class="fa fa-map-marker-alt"></i> 816 Brayden Parkway, Fort Mill, SC 29708        </div>
+
+      	<a class='link-wrap btn-hover' href='https://www.thecrazymason.com/our-locations/fort-mill-sc/'><button style="background-color: ;" class="btn btn-sm btn-hover-black btn-hover">Details</button></a>
+      
+   </div>
+    <div class="location-photo">
+
+        <img class="location-img" style='background-position: center;background-image: url(https://www.thecrazymason.com/wp-content/uploads/2024/05/Fort-Mill.png);'>
+
+    </div>
+    
+</div>
+                </div>
+                                <div class='oxy-easy-posts-pages'>
+                                    </div>
+                                            </div>
+                </div></div>
+		<div id="-shape-divider-428-2" class="oxy-shape-divider slant " >        
+        <div class="oxy_shape_divider oxy_shape_divider_top" style="transform:  scaleY(-1) scaleX(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="currentColor" fill-opacity="1" d="M0,288L1440,0L1440,320L0,320Z"></path></svg>        </div>
+
+        </div>
+
+		</div></section><section id="section-social" class=" ct-section bg-black ct-section-with-shape-divider" ><div class="ct-section-inner-wrap"><div id="div_block-374-2" class="ct-div-block w-100" ><h1 id="headline-375-2" class="ct-headline headline label orange center"><span id="span-376-2" class="ct-span" >Let’s get social</span></h1><h1 id="headline-377-2" class="ct-headline headline white center head-72"><span id="span-378-2" class="ct-span" >Show us your shakes!</span></h1><div id="text_block-379-2" class="ct-text-block w-100 white center" ><span id="span-380-2" class="ct-span" ><p>Nothing makes us smile more than seeing your smiling faces as you enjoy our signature shakes and other crazy treats. Make sure to follow us on social media for monthly specials and coupons and share your shake photos using <a href="https://www.instagram.com/explore/tags/thecrazymason/" target="_blank" rel="noopener">#thecrazymason</a> to be featured here.</p>
+</span></div><div id="div_block-410-2" class="ct-div-block" ><div id="_social_icons-405-2" class="oxy-social-icons" ><a href='https://www.facebook.com/CrazyMasonMyrtleBeach' target='_blank' class='oxy-social-icons-facebook'><svg><title>Visit our Facebook</title><use xlink:href='#oxy-social-icons-icon-facebook'></use></svg></a><a href='https://www.instagram.com/crazymason_milkshakes/' target='_blank' class='oxy-social-icons-instagram'><svg><title>Visit our Instagram</title><use xlink:href='#oxy-social-icons-icon-instagram'></use></svg></a></div><div id="code_block-14-2466" class="ct-code-block" ><a href="https://www.tiktok.com/@crazymasonmilkshakebar" target="_blank">
+	<div class="cm-social-tiktok-icon">
+		<i class="fab fa-tiktok fa-lg"></i>
+	</div>
+</a></div></div></div><div id="div_block-381-2" class="ct-div-block w-100" ><div id="code_block-402-2" class="ct-code-block w-100 pt-20" ><!-- Place <div> tag where you want the feed to appear -->
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+<script type="text/javascript">
+/* curator-feed-default-feed-layout */
+(function(){
+var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+i.src = "https://cdn.curator.io/published/06b99387-a72f-4228-a356-fd39973e2bf3.js";
+e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script></div></div>
+		<div id="-shape-divider-411-2" class="oxy-shape-divider slant " >        
+        <div class="oxy_shape_divider oxy_shape_divider_top" style="transform:  scaleY(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="currentColor" fill-opacity="1" d="M0,288L1440,0L1440,320L0,320Z"></path></svg>        </div>
+
+        </div>
+
+		</div></section></div></main><section id="email-footer" class=" ct-section ct-section-with-shape-divider" ><div class="ct-section-inner-wrap">
+		<div id="-shape-divider-101-25" class="oxy-shape-divider " >        
+        <div class="oxy_shape_divider oxy_shape_divider_top" style="transform:  scaleY(-1) scaleX(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="currentColor" fill-opacity="1" d="M0,288L1440,0L1440,320L0,320Z"></path></svg>        </div>
+
+        </div>
+
+		
+		<div id="-shape-divider-121-25" class="oxy-shape-divider " >        
+        <div class="oxy_shape_divider oxy_shape_divider_top" style="transform:  scaleY(-1) scaleX(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="currentColor" fill-opacity="1" d="M0,288L1440,0L1440,320L0,320Z"></path></svg>        </div>
+
+        </div>
+
+		<div id="div_block-102-25" class="ct-div-block w-100" ><div id="div_block-103-25" class="ct-div-block" ><img  id="image-105-25" alt="The Billboard Milkshake" src="https://thecrazymason.com/wp-content/uploads/2021/05/Billboard-sm.png" class="ct-image"/></div><div id="div_block-104-25" class="ct-div-block white px-20" ><div id="text_block-110-25" class="ct-text-block label-sm orange" >E-mail Signup</div><h3 id="headline-106-25" class="ct-headline head-36 headline">You won't want to miss this...<br></h3><div id="text_block-113-25" class="ct-text-block w-100 font-18 line-height" >Sign up below for the latest information about shakes, locations, and other happenings at Crazy Mason.</div><div id="shortcode-115-25" class="ct-shortcode w-100 mt-10" ><script type="text/javascript"></script>
+                <div class='gf_browser_unknown gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' >
+                        <div class='gform_heading'>
+                            <p class='gform_description'></p>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_1'  action='/' data-formid='1' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_1_1" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_1" ><label class='gfield_label gform-field-label' for='input_1_1'>Email Address<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_1_1' type='email' value='' class='large'   placeholder='Enter E-mail Address' aria-required="true" aria-invalid="false"  autocomplete="email"/>
+                        </div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' value='Submit'  /> 
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='postback' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjE0OGE5MTBjODg0MjY3OTIxZmVjYTc1NmQxYzI5ODBmIl0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        <p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="231"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        </div><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://www.thecrazymason.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://www.thecrazymason.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+</div></div></div></div></section><footer id="footer" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="div_block-8-22" class="ct-div-block" ><div id="footer-left" class="ct-div-block" ><div id="div_block-31-25" class="ct-div-block w-100" ><h4 id="headline-32-25" class="ct-headline footer-header">Our Menu</h4><a id="link-36-25" class="ct-link link-wrap footer-menu-item" href="/our-locations/myrtle-beach/#featured"   ><div id="code_block-37-25" class="ct-code-block footer-icon pr-10 blue" ><i class="fal fa-fw fa-calendar-alt"></i></div><div id="text_block-38-25" class="ct-text-block footer-text" >Monthly Specials</div></a><a id="link-67-25" class="ct-link link-wrap footer-menu-item" href="/our-locations/myrtle-beach/#shakes"   ><div id="code_block-68-25" class="ct-code-block pr-10 blue footer-svg" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<path class="st0" d="M37.8,23.4c-0.1-0.4-0.3-0.8-0.7-1c-1.2-0.8-1.9-2.9-2-3.7c0-0.2-0.1-0.4-0.3-0.5c0,0,0,0-0.1-0.1V18
+	c0-1.6-0.7-3.1-1.8-4.3c-0.6-0.6-1.4-1.1-2.1-1.3c-0.6-2.5-2.6-4.4-5.2-4.7c-1.6-0.2-3.2,0.3-4.4,1.2l-4.3-6.4
+	c-0.2-0.2-0.4-0.4-0.7-0.4c-0.3,0-0.6,0-0.8,0.2l-3.3,2.5c-0.4,0.3-0.5,0.9-0.2,1.3l4.4,6.6c-0.6,0.3-1.1,0.7-1.5,1.1
+	c-1.1,1.1-1.8,2.7-1.8,4.3c0,0.1,0,0.1,0,0.2c-0.1,0.1-0.1,0.2-0.1,0.3c-0.1,0.7-0.8,2.9-2,3.7c-0.2,0.1-0.4,0.3-0.5,0.5
+	c-0.2,0.4-0.3,0.8-0.2,1.2c0.1,0.4,0.3,0.7,0.7,1c0.5,0.4,1.2,0.7,1.9,0.8v14.2c0,0.1,0,0.2,0.1,0.3c0.1,0.2,2.1,5.5,10.7,5.5
+	c8.5,0,11-4.5,11.1-4.7c0.1-0.1,0.1-0.3,0.1-0.5V26c0.8-0.1,1.6-0.4,2.3-0.9c0.2-0.1,0.3-0.3,0.5-0.5C37.8,24.3,37.9,23.8,37.8,23.4
+	z M32.7,17.8c-1.4,0-3.8,0-8.1,0c0.1-1,0.4-1.9,1.1-2.6c0.8-0.8,1.8-1.2,2.9-1.2c1.1,0,2.1,0.4,2.9,1.1
+	C32.2,15.9,32.6,16.8,32.7,17.8z M25.3,9.7c1.4,0.2,2.6,1.1,3.2,2.3c-1.6,0-3.1,0.7-4.2,1.8c-0.2,0.2-0.3,0.3-0.4,0.5
+	c-0.7-0.9-1.7-1.6-2.9-2C21.6,10.6,23.4,9.4,25.3,9.7z M14.1,5.8l1.7-1.3l3.9,5.9c-0.3,0.5-0.6,1.1-0.8,1.7c-0.2,0-0.4,0-0.6,0
+	L14.1,5.8z M19.1,14.1c0.2,0,0.3,0,0.5,0c1.4,0.2,2.5,1,3.1,2.3c-0.1,0.5-0.2,0.9-0.2,1.4c-2.1,0-4.6,0-7.5,0c0.1-1,0.5-1.9,1.2-2.6
+	C17,14.5,18,14.1,19.1,14.1z M23.6,43.9c-6.5,0-8.5-3.3-8.8-4V25.8c0.4-0.1,0.7-0.3,1-0.5c0.4-0.2,0.6-0.4,1.2-0.4
+	c0.6,0,0.8,0.2,1.2,0.4c0.5,0.3,1.1,0.7,2.3,0.7s1.8-0.4,2.3-0.7c0.4-0.2,0.6-0.4,1.2-0.4c0.6,0,0.8,0.2,1.2,0.4
+	c0.5,0.3,1.1,0.7,2.3,0.7s1.8-0.4,2.3-0.7c0.4-0.2,0.6-0.4,1.2-0.4s0.8,0.2,1.2,0.4c0.2,0.1,0.4,0.2,0.6,0.3v14.9
+	C32.3,41.3,30,43.9,23.6,43.9z M34.5,24c-0.6,0-0.8-0.2-1.2-0.4c-0.5-0.3-1.1-0.7-2.3-0.7s-1.8,0.4-2.3,0.7
+	c-0.4,0.2-0.6,0.4-1.2,0.4c-0.6,0-0.8-0.2-1.2-0.4c-0.5-0.3-1.1-0.7-2.3-0.7c-1.2,0-1.8,0.4-2.3,0.7c-0.4,0.2-0.6,0.4-1.2,0.4
+	s-0.8-0.2-1.2-0.4c-0.5-0.3-1.1-0.7-2.3-0.7s-1.8,0.4-2.3,0.7c-0.4,0.2-0.6,0.4-1.2,0.4c-0.4,0-0.8-0.1-1.1-0.3
+	c1.3-1.1,2-2.8,2.3-3.9c6.7,0,16-0.1,18.6,0c0.3,1,1,2.8,2.3,3.9C35.2,23.9,34.9,24,34.5,24z"/>
+</svg></div><div id="text_block-69-25" class="ct-text-block footer-text" >Crazy Shakes</div></a><a id="link-70-25" class="ct-link link-wrap footer-menu-item" href="/our-locations/myrtle-beach/#byos"   ><div id="code_block-71-25" class="ct-code-block footer-icon pr-10 blue" ><i class="fal fa-fw fa-beer"></i></div><div id="text_block-72-25" class="ct-text-block footer-text" >Build Your Own Shake</div></a><a id="link-39-25" class="ct-link link-wrap footer-menu-item" href="/our-locations/myrtle-beach/#sundaes"   ><div id="code_block-65-25" class="ct-code-block pr-10 blue footer-svg" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g>
+	<path class="st0" d="M9.9,17.8c0-2.2,3.6-4.7,11.6-4.9c0.6,0,1.1-0.5,1.1-1.1c0-0.6-0.5-1-1.1-1.1C13,11,7.7,13.6,7.7,17.8
+		l3.9,19.7l0,0c0.6,3.4,6.7,5.2,12.4,5.2c5.8,0,12-1.8,12.5-5.2l3.8-19.6c0-1.8-1-6.1-10.4-7c-0.6-0.1-1.1,0.4-1.2,1
+		c-0.1,0.6,0.4,1.1,1,1.2c5.3,0.5,8.5,2.4,8.5,4.9c0,0.1,0,0.1,0,0.2c-0.4,2.3-6.1,4.8-14.1,4.8c-5.6,0-10.8-1.3-13.1-3.3
+		C9.8,18.7,9.9,17.8,9.9,17.8z M36.2,27.3c-0.2,1.2-0.9,2.2-2,2.8c-0.7,0.4-1.3,0.6-1.9,0.8c-5.6,1.8-11.5,1.8-17.1,0
+		c-0.7-0.3-1.3-0.5-1.8-0.8c-0.8-0.4-1.4-1.3-1.6-2.2l-1.1-5.8c3,1.8,7.9,2.9,13.3,2.9c5,0,10.2-1,13.3-2.9L36.2,27.3z M34.3,37.1
+		c-0.2,1.4-4.2,3.4-10.3,3.4c-6.3,0-10.1-2-10.3-3.4l-1-5c0.6,0.4,1.3,0.6,2,0.8c3,0.9,6.1,1.4,9.2,1.4c3.1,0,6.1-0.5,9.1-1.4
+		c0.9-0.2,1.7-0.6,2.4-1L34.3,37.1z"/>
+	<path class="st0" d="M21.9,13.7c-0.8,0-1.7,0.3-2.3,1c-0.9,0.9-1.3,2.2-1.3,3.7c0,1.1,0.6,2.1,1.5,2.6c1.2,0.7,2.7,1,4.3,1
+		c1.3,0,2.6-0.2,3.9-0.7c1.1-0.4,2-1.3,2.5-2.5c0.4-1.1,0.3-2.2-0.3-3.2c-0.8-1.3-2.3-2.2-4.3-1.9c1.1-4,5.5-6.4,5.6-6.4
+		c0.5-0.3,0.7-0.9,0.4-1.5c-0.3-0.5-0.9-0.7-1.5-0.4c-0.3,0.1-5.8,3.1-6.8,8.5C23.1,13.8,22.5,13.7,21.9,13.7z M28.2,16.7
+		c0.4,0.3,0.3,0.9,0.1,1.4c-0.2,0.5-0.6,1-1.2,1.2C25,20,22.4,20,20.8,19.1c-0.2-0.1-0.4-0.4-0.4-0.8c0-0.9,0.2-1.7,0.7-2.1
+		c0.2-0.2,0.5-0.3,0.8-0.3c0.6,0,1.1,0.1,1.4,0.3c0.7,0.5,1.7,0.4,2.4,0C25.7,16.2,26.8,15.5,28.2,16.7z"/>
+</g>
+</svg>
+</div><div id="text_block-41-25" class="ct-text-block footer-text" >Crazy Sundaes</div></a><a id="link-42-25" class="ct-link link-wrap footer-menu-item" href="/our-locations/myrtle-beach/#desserts"   ><div id="code_block-62-25" class="ct-code-block pr-10 blue footer-svg" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g>
+	<path class="st0" d="M42.3,21.2c0-0.6-0.3-1.2-0.8-1.7L28.7,7.9c-1.2-1-2.8-1.2-4.2-0.5l0,0l0,0L6.9,17.1l0,0l0,0
+		c-0.6,0.4-1.1,1-1.2,1.7c0,0.1,0,0.2,0,0.2h0v7.7c0,0.6,0.3,1.2,0.8,1.7l12.9,11.6c0.7,0.6,1.6,0.9,2.4,0.9c0.6,0,1.2-0.1,1.8-0.4
+		l17.6-9.7c0.6-0.4,1.1-1,1.2-1.7c0-0.1,0-0.2,0-0.2L42.3,21.2C42.3,21.2,42.3,21.2,42.3,21.2z M7.8,18.9l16.6-9.2l1-0.5
+		C25.7,9,26,9,26.2,9c0.4,0,0.8,0.1,1.1,0.4L40.2,21c0.1,0.1,0.1,0.1,0.1,0.2v0c0,0.1-0.1,0.2-0.1,0.2l0,0l0,0l-17.6,9.7l0,0
+		c-0.6,0.3-1.4,0.2-1.9-0.2L7.8,19.3c-0.1-0.1-0.1-0.1-0.1-0.2C7.7,19,7.8,18.9,7.8,18.9L7.8,18.9z M7.7,21.9l11.7,10.5
+		c0.7,0.6,1.6,0.9,2.4,0.9c0.6,0,1.2-0.1,1.8-0.4v0l0,0c0,0,0,0,0,0l16.8-9.3l0,1.4l0,0c0,0.1-0.1,0.2-0.1,0.2L22.6,35
+		c-0.6,0.3-1.4,0.3-1.9-0.2L7.8,23.2C7.7,23.1,7.7,23,7.7,23V21.9z M40.2,29.1l-17.6,9.7c-0.6,0.3-1.4,0.2-1.9-0.2L7.8,27
+		c-0.1-0.1-0.1-0.1-0.1-0.2v-1l11.7,10.5c0.7,0.6,1.6,0.9,2.4,0.9c0.6,0,1.2-0.1,1.8-0.4l16.8-9.3l0,1.4
+		C40.3,29,40.2,29.1,40.2,29.1z"/>
+	<path class="st0" d="M23.6,24.9c-0.3-0.3-0.8-0.3-1.2-0.1l-3,1.6c-0.3,0.2-0.5,0.4-0.5,0.8c0,0.3,0.1,0.6,0.3,0.9l2.2,2
+		c0.2,0.2,0.4,0.3,0.7,0.3c0.2,0,0.3,0,0.5-0.1l3-1.6c0.3-0.2,0.5-0.4,0.5-0.8c0-0.3-0.1-0.6-0.3-0.9L23.6,24.9z M22.3,28.1
+		l-0.7-0.6l1.1-0.6l0.7,0.6L22.3,28.1z"/>
+	<path class="st0" d="M30.8,20.6c0,0.3,0.1,0.6,0.3,0.9l2.2,2c0.2,0.2,0.4,0.3,0.7,0.3c0.2,0,0.3,0,0.5-0.1l3-1.6
+		c0.3-0.2,0.5-0.4,0.5-0.8c0-0.3-0.1-0.6-0.3-0.9l-2.2-2c-0.2-0.2-0.4-0.3-0.7-0.3l0,1l0,0l0-1c-0.2,0-0.3,0-0.5,0.1l-3,1.6
+		C31,20,30.8,20.3,30.8,20.6z M34.6,20.3l0.7,0.6l-1.1,0.6l-0.7-0.6L34.6,20.3z"/>
+	<path class="st0" d="M29.5,21.6c-0.2-0.2-0.4-0.3-0.7-0.3c-0.2,0-0.3,0-0.5,0.1l-3,1.6c-0.3,0.2-0.5,0.4-0.5,0.8
+		c0,0.3,0.1,0.6,0.3,0.9l2.2,2c0.2,0.2,0.4,0.3,0.7,0.3c0.2,0,0.3,0,0.5-0.1l3-1.6c0.3-0.2,0.5-0.4,0.5-0.8c0-0.3-0.1-0.6-0.3-0.9
+		L29.5,21.6z M28.2,24.8l-0.7-0.6l1.1-0.6l0.7,0.6L28.2,24.8z"/>
+	<path class="st0" d="M23.6,23c0.2,0,0.3,0,0.5-0.1l3-1.6c0.3-0.2,0.5-0.4,0.5-0.8c0-0.3-0.1-0.6-0.3-0.9l-2.2-2
+		c-0.3-0.3-0.8-0.3-1.2-0.1l-3,1.6c-0.3,0.2-0.5,0.4-0.5,0.8c0,0.3,0.1,0.6,0.3,0.9l2.2,2C23.1,22.9,23.4,23,23.6,23z M24.2,19.6
+		l0.7,0.6l-1.1,0.6l-0.7-0.6L24.2,19.6z"/>
+	<path class="st0" d="M26.4,16.6c0,0.3,0.1,0.6,0.3,0.9l2.2,2c0.2,0.2,0.4,0.3,0.7,0.3c0.2,0,0.3,0,0.5-0.1l3-1.6
+		c0.3-0.2,0.5-0.4,0.5-0.8s-0.1-0.6-0.3-0.9l-2.2-2c-0.3-0.3-0.8-0.3-1.2-0.1l-3,1.6C26.6,16,26.4,16.3,26.4,16.6z M30.2,16.3
+		l0.7,0.6l-1.1,0.6l-0.7-0.6L30.2,16.3z"/>
+	<path class="st0" d="M21.6,23.7c0-0.3-0.1-0.6-0.3-0.9l-2.2-2c-0.3-0.3-0.8-0.3-1.1-0.1l-3,1.6c-0.3,0.2-0.5,0.4-0.5,0.8
+		c0,0.3,0.1,0.6,0.3,0.9l2.2,2c0.2,0.2,0.4,0.3,0.7,0.3c0.2,0,0.3,0,0.5-0.1l3-1.6C21.4,24.3,21.6,24.1,21.6,23.7z M17.8,24
+		l-0.7-0.6l1.1-0.6l0.7,0.6L17.8,24z"/>
+	<path class="st0" d="M18.5,18.7c0.2,0.2,0.4,0.3,0.7,0.3c0.2,0,0.3,0,0.5-0.1l3-1.6c0.3-0.2,0.5-0.4,0.5-0.8c0-0.3-0.1-0.6-0.3-0.9
+		l-2.2-2c-0.3-0.3-0.8-0.3-1.2-0.1l-3,1.6c-0.3,0.2-0.5,0.4-0.5,0.8c0,0.3,0.1,0.6,0.3,0.9L18.5,18.7z M19.8,15.5l0.7,0.6l-1.1,0.6
+		l-0.7-0.6L19.8,15.5z"/>
+	<path class="st0" d="M24.4,15.4c0.2,0.2,0.4,0.3,0.7,0.3c0.2,0,0.3,0,0.5-0.1l3-1.6c0.3-0.2,0.5-0.4,0.5-0.8c0-0.3-0.1-0.6-0.3-0.9
+		l-2.2-2c-0.3-0.3-0.8-0.3-1.2-0.1l-3,1.6c-0.3,0.2-0.5,0.4-0.5,0.8c0,0.3,0.1,0.6,0.3,0.9L24.4,15.4z M25.7,12.3l0.7,0.6l-1.1,0.6
+		l-0.7-0.6L25.7,12.3z"/>
+	<path class="st0" d="M12.5,22c0.2,0.2,0.4,0.3,0.7,0.3c0.2,0,0.3,0,0.5-0.1l3-1.7c0.3-0.2,0.5-0.4,0.5-0.8c0-0.3-0.1-0.6-0.3-0.9
+		l-2.2-2c-0.3-0.3-0.8-0.3-1.2-0.1l-3,1.6c-0.3,0.2-0.5,0.4-0.5,0.8c0,0.3,0.1,0.6,0.3,0.9L12.5,22z M13.8,18.8l0.7,0.6L13.4,20
+		l-0.7-0.6L13.8,18.8z"/>
+</g>
+</svg></div><div id="text_block-44-25" class="ct-text-block footer-text" >Crazy Desserts</div></a><a id="link-45-25" class="ct-link link-wrap footer-menu-item" href="/our-locations/myrtle-beach/#bombs"   ><div id="code_block-46-25" class="ct-code-block footer-icon pr-10 blue" ><i class="fal fa-fw fa-cookie"></i></div><div id="text_block-47-25" class="ct-text-block footer-text" >Crazy Bombs</div></a></div></div><div id="div_block-4-22" class="ct-div-block" ><div id="div_block-75-25" class="ct-div-block" ><img  id="image-12-22" alt="" src="https://www.thecrazymason.com/wp-content/uploads/2023/09/CrazyMasonLogo.png" class="ct-image"/><div id="text_block-13-22" class="ct-text-block gray font-14" ><b>The Crazy Mason</b> is a locally-owned and operated small business originated in Myrtle Beach, SC. We buy our products locally and give back to the communities we operate in.</div><div id="div_block-137-25" class="ct-div-block" ><div id="_social_icons-16-22" class="oxy-social-icons" ><a href='https://www.facebook.com/CrazyMasonMyrtleBeach' target='_blank' class='oxy-social-icons-facebook'><svg><title>Visit our Facebook</title><use xlink:href='#oxy-social-icons-icon-facebook'></use></svg></a><a href='https://www.instagram.com/crazymason_milkshakes' target='_blank' class='oxy-social-icons-instagram'><svg><title>Visit our Instagram</title><use xlink:href='#oxy-social-icons-icon-instagram'></use></svg></a></div><div id="code_block-136-25" class="ct-code-block" ><a href="https://www.tiktok.com/@crazymasonmilkshakebar" target="_blank">
+	<div class="cm-social-icon">
+		<i class="fab fa-tiktok"></i>
+	</div>
+</a></div></div><div id="code_block-81-25" class="ct-code-block" >&copy; 2025 The Crazy Mason
+</div><div id="text_block-78-25" class="ct-text-block blue link-wrap center font-14" ><a href="http://www.archetypesc.com"><a href="http://www.archetypesc.com" target="_blank">Website by Archetype SC</a><br></a><br></div><div id="_rich_text-120-25" class="oxy-rich-text" ><a href="https://www.thecrazymason.com/privacy-policy/">Privacy Policy</a></div></div></div><div id="footer-right" class="ct-div-block" ><div id="div_block-31-22" class="ct-div-block w-100" ><h4 id="headline-32-22" class="ct-headline footer-header">About Us</h4><a id="link-34-22" class="ct-link link-wrap footer-menu-item" href="https://thecrazymason.com/our-locations/"   ><div id="code_block-35-22" class="ct-code-block pink footer-icon pr-10" ><i class="fal fa-store"></i></div><div id="text_block-13-25" class="ct-text-block footer-text" >Locations &amp; Hours</div></a><a id="link-15-25" class="ct-link link-wrap footer-menu-item" href="https://thecrazymason.com/about/"   ><div id="code_block-16-25" class="ct-code-block pink footer-icon pr-10" ><i class="fal fa-fw fa-ice-cream"></i></div><div id="text_block-17-25" class="ct-text-block footer-text" >About Us</div></a><a id="link-24-25" class="ct-link link-wrap footer-menu-item" href="https://thecrazymason.com/contact/"   ><div id="code_block-25-25" class="ct-code-block pink footer-icon pr-10" ><i class="fal fa-fw fa-envelope"></i></div><div id="text_block-26-25" class="ct-text-block footer-text" >Contact Us<br></div></a><a id="link-89-25" class="ct-link link-wrap footer-menu-item" href="https://thecrazymason.com/about/#section-partners"   ><div id="code_block-90-25" class="ct-code-block pink footer-icon pr-10" ><i class="fal fa-fw fa-users"></i></div><div id="text_block-91-25" class="ct-text-block footer-text" >Our Partners<br></div></a></div></div></div></div></footer>	<!-- WP_FOOTER -->
+<script>jQuery(document).on('click','a[href*="#"]',function(t){if(jQuery(t.target).closest('.wc-tabs').length>0){return}if(jQuery(this).is('[href="#"]')||jQuery(this).is('[href="#0"]')||jQuery(this).is('[href*="replytocom"]')){return};if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var e=jQuery(this.hash);(e=e.length?e:jQuery("[name="+this.hash.slice(1)+"]")).length&&(t.preventDefault(),jQuery("html, body").animate({scrollTop:e.offset().top-0},0))}});</script><div class="wpgb-svg-icons" hidden>
+	<svg viewBox="0 0 120 24" width="0" height="0">
+	<defs>
+        <polygon id="wpgb-star-svg" points="12 2.5 15.1 8.8 22 9.8 17 14.6 18.2 21.5 12 18.3 5.8 21.5 7 14.6 2 9.8 8.9 8.8"></polygon>
+    </defs>
+    <symbol id="wpgb-rating-stars-svg">
+        <use xlink:href="#wpgb-star-svg"></use>
+        <use xlink:href="#wpgb-star-svg" x="24"></use>
+        <use xlink:href="#wpgb-star-svg" x="48"></use>
+        <use xlink:href="#wpgb-star-svg" x="72"></use>
+        <use xlink:href="#wpgb-star-svg" x="96"></use>
+    </symbol>
+</svg>
+</div>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('body').on('click', '.oxy-menu-toggle', function() {
+					jQuery(this).parent('.oxy-nav-menu').toggleClass('oxy-nav-menu-open');
+					jQuery('body').toggleClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').toggleClass('oxy-nav-menu-prevent-overflow');
+				});
+				var selector = '.oxy-nav-menu-open .menu-item a[href*="#"]';
+				jQuery('body').on('click', selector, function(){
+					jQuery('.oxy-nav-menu-open').removeClass('oxy-nav-menu-open');
+					jQuery('body').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery(this).click();
+				});
+			});
+		</script>
+
+	
+		<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		   <defs>
+		      <symbol id="oxy-social-icons-icon-linkedin" viewBox="0 0 32 32">
+		         <title>linkedin</title>
+		         <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
+		         <path d="M2 12h6v18h-6v-18z"></path>
+		         <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-facebook" viewBox="0 0 32 32">
+		         <title>facebook</title>
+		         <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-pinterest" viewBox="0 0 32 32">
+		         <title>pinterest</title>
+		         <path d="M16 2.138c-7.656 0-13.863 6.206-13.863 13.863 0 5.875 3.656 10.887 8.813 12.906-0.119-1.094-0.231-2.781 0.050-3.975 0.25-1.081 1.625-6.887 1.625-6.887s-0.412-0.831-0.412-2.056c0-1.925 1.119-3.369 2.506-3.369 1.181 0 1.756 0.887 1.756 1.95 0 1.188-0.756 2.969-1.15 4.613-0.331 1.381 0.688 2.506 2.050 2.506 2.462 0 4.356-2.6 4.356-6.35 0-3.319-2.387-5.638-5.787-5.638-3.944 0-6.256 2.956-6.256 6.019 0 1.194 0.456 2.469 1.031 3.163 0.113 0.137 0.131 0.256 0.094 0.4-0.106 0.438-0.338 1.381-0.387 1.575-0.063 0.256-0.2 0.306-0.463 0.188-1.731-0.806-2.813-3.337-2.813-5.369 0-4.375 3.175-8.387 9.156-8.387 4.806 0 8.544 3.425 8.544 8.006 0 4.775-3.012 8.625-7.194 8.625-1.406 0-2.725-0.731-3.175-1.594 0 0-0.694 2.644-0.863 3.294-0.313 1.206-1.156 2.712-1.725 3.631 1.3 0.4 2.675 0.619 4.106 0.619 7.656 0 13.863-6.206 13.863-13.863 0-7.662-6.206-13.869-13.863-13.869z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-youtube" viewBox="0 0 32 32">
+		         <title>youtube</title>
+		         <path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-rss" viewBox="0 0 32 32">
+		         <title>rss</title>
+		         <path d="M4.259 23.467c-2.35 0-4.259 1.917-4.259 4.252 0 2.349 1.909 4.244 4.259 4.244 2.358 0 4.265-1.895 4.265-4.244-0-2.336-1.907-4.252-4.265-4.252zM0.005 10.873v6.133c3.993 0 7.749 1.562 10.577 4.391 2.825 2.822 4.384 6.595 4.384 10.603h6.16c-0-11.651-9.478-21.127-21.121-21.127zM0.012 0v6.136c14.243 0 25.836 11.604 25.836 25.864h6.152c0-17.64-14.352-32-31.988-32z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-twitter" viewBox="0 0 512 512">
+		         <title>twitter</title>
+		         <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-instagram" viewBox="0 0 32 32">
+		         <title>instagram</title>
+		         <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+		         <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+		         <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-facebook-blank" viewBox="0 0 32 32">
+		         <title>facebook-blank</title>
+		         <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h13v-14h-4v-4h4v-2c0-3.306 2.694-6 6-6h4v4h-4c-1.1 0-2 0.9-2 2v2h6l-1 4h-5v14h9c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-rss-blank" viewBox="0 0 32 32">
+		         <title>rss-blank</title>
+		         <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM8.719 25.975c-1.5 0-2.719-1.206-2.719-2.706 0-1.488 1.219-2.712 2.719-2.712 1.506 0 2.719 1.225 2.719 2.712 0 1.5-1.219 2.706-2.719 2.706zM15.544 26c0-2.556-0.994-4.962-2.794-6.762-1.806-1.806-4.2-2.8-6.75-2.8v-3.912c7.425 0 13.475 6.044 13.475 13.475h-3.931zM22.488 26c0-9.094-7.394-16.5-16.481-16.5v-3.912c11.25 0 20.406 9.162 20.406 20.413h-3.925z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-linkedin-blank" viewBox="0 0 32 32">
+		         <title>linkedin-blank</title>
+		         <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 26h-4v-14h4v14zM10 10c-1.106 0-2-0.894-2-2s0.894-2 2-2c1.106 0 2 0.894 2 2s-0.894 2-2 2zM26 26h-4v-8c0-1.106-0.894-2-2-2s-2 0.894-2 2v8h-4v-14h4v2.481c0.825-1.131 2.087-2.481 3.5-2.481 2.488 0 4.5 2.238 4.5 5v9z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-pinterest-blank" viewBox="0 0 32 32">
+		         <title>pinterest</title>
+		         <path d="M16 2.138c-7.656 0-13.863 6.206-13.863 13.863 0 5.875 3.656 10.887 8.813 12.906-0.119-1.094-0.231-2.781 0.050-3.975 0.25-1.081 1.625-6.887 1.625-6.887s-0.412-0.831-0.412-2.056c0-1.925 1.119-3.369 2.506-3.369 1.181 0 1.756 0.887 1.756 1.95 0 1.188-0.756 2.969-1.15 4.613-0.331 1.381 0.688 2.506 2.050 2.506 2.462 0 4.356-2.6 4.356-6.35 0-3.319-2.387-5.638-5.787-5.638-3.944 0-6.256 2.956-6.256 6.019 0 1.194 0.456 2.469 1.031 3.163 0.113 0.137 0.131 0.256 0.094 0.4-0.106 0.438-0.338 1.381-0.387 1.575-0.063 0.256-0.2 0.306-0.463 0.188-1.731-0.806-2.813-3.337-2.813-5.369 0-4.375 3.175-8.387 9.156-8.387 4.806 0 8.544 3.425 8.544 8.006 0 4.775-3.012 8.625-7.194 8.625-1.406 0-2.725-0.731-3.175-1.594 0 0-0.694 2.644-0.863 3.294-0.313 1.206-1.156 2.712-1.725 3.631 1.3 0.4 2.675 0.619 4.106 0.619 7.656 0 13.863-6.206 13.863-13.863 0-7.662-6.206-13.869-13.863-13.869z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-youtube-blank" viewBox="0 0 32 32">
+		         <title>youtube</title>
+		         <path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-twitter-blank" viewBox="0 0 448 512">
+				<title>twitter</title>
+				<path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"></path>
+			  </symbol>
+		      <symbol id="oxy-social-icons-icon-instagram-blank" viewBox="0 0 32 32">
+		         <title>instagram</title>
+		         <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+		         <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+		         <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+		      </symbol>
+		   </defs>
+		</svg>
+	
+	<link rel='stylesheet' id='gform_basic-css' href='https://www.thecrazymason.com/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://www.thecrazymason.com/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://www.thecrazymason.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpgb-facets-css' href='https://www.thecrazymason.com/wp-content/plugins/wp-grid-builder/frontend/assets/css/facets.css?ver=1.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpgb-colors-css' href='https://www.thecrazymason.com/wp-content/wpgb/facets/colors.css?ver=1721309199' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.thecrazymason.com/wp-content/assets/js/flickity.pkgd.min.js?ver=2.2.1" id="flickity-js"></script>
+<script type="text/javascript" src="https://www.thecrazymason.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://www.thecrazymason.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.thecrazymason.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.thecrazymason.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.thecrazymason.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.5" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":0,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/www.thecrazymason.com\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/www.thecrazymason.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.thecrazymason.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"1479e9e1a493dfc2957432208a8f10d7","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.thecrazymason.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.9.5" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.thecrazymason.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.9.5" id="gform_placeholder-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.thecrazymason.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=a8f8e72876ba5bc3f797026fe4225946" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.thecrazymason.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=989ad253b7e7917a0c0a170dddfff3e5" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"1479e9e1a493dfc2957432208a8f10d7"},"ajax":{"ajaxurl":"https:\/\/www.thecrazymason.com\/wp-admin\/admin-ajax.php","ajax_submission_nonce":"c9d4d6e6f7","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again."}}}},"hmr_dev":"","public_path":"https:\/\/www.thecrazymason.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/","config_nonce":"36cc10081f"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.thecrazymason.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=29de0d6110e39c07ef4a83085c09d4f4" id="gform_gravityforms_theme-js"></script>
+<script defer type="text/javascript" src="https://www.thecrazymason.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1739605115" id="akismet-frontend-js"></script>
+<script type="text/javascript" id="wpgb-js-extra">
+/* <![CDATA[ */
+var wpgb_settings = {"lang":"","ajaxUrl":"\/?wpgb-ajax=action","history":"1","mainQuery":[],"permalink":"https:\/\/www.thecrazymason.com\/","resultMsg":{"plural":"%d results found","singular":"1 result found","none":"no results found"},"hasGrids":"","hasFacets":"1","hasLightbox":"","shadowGrids":[],"lightbox":{"plugin":"wp_grid_builder","counterMsg":"[index] \/ [total]","errorMsg":"Sorry, an error occured while loading the content...","prevLabel":"Previous slide","nextLabel":"Next slide","closeLabel":"Close lightbox"},"combobox":{"search":"Please enter 1 or more characters.","loading":"Loading...","cleared":"options cleared.","expanded":"Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to collapse the list.","noResults":"No Results Found.","collapsed":"Press Enter or Space to expand the list.","clearLabel":"Clear","selected":"option %s, selected.","deselected":"option %s, deselected."},"autocomplete":{"open":"Use Up and Down to choose suggestions and press Enter to select suggestion.","input":"Type to search or press Escape to clear the input.","clear":"Field cleared.","noResults":"No suggestions found.","loading":"Loading suggestions...","clearLabel":"Clear","select":"%s suggestion was selected."},"range":{"minLabel":"Minimum value","maxLabel":"Maximum value"},"vendors":[{"type":"js","handle":"wpgb-date","source":"https:\/\/www.thecrazymason.com\/wp-content\/plugins\/wp-grid-builder\/frontend\/assets\/js\/vendors\/date.js","version":1680781544},{"type":"css","handle":"wpgb-date-css","source":"https:\/\/www.thecrazymason.com\/wp-content\/plugins\/wp-grid-builder\/frontend\/assets\/css\/vendors\/date.css","version":1680781544},{"type":"js","handle":"wpgb-range","source":"https:\/\/www.thecrazymason.com\/wp-content\/plugins\/wp-grid-builder\/frontend\/assets\/js\/vendors\/range.js","version":1680781544},{"type":"js","handle":"wpgb-select","source":"https:\/\/www.thecrazymason.com\/wp-content\/plugins\/wp-grid-builder\/frontend\/assets\/js\/vendors\/select.js","version":1680781544},{"type":"js","handle":"wpgb-autocomplete","source":"https:\/\/www.thecrazymason.com\/wp-content\/plugins\/wp-grid-builder\/frontend\/assets\/js\/vendors\/autocomplete.js","version":1680781544}]};
+/* ]]> */
+</script>
+<script src="https://www.thecrazymason.com/wp-content/plugins/wp-grid-builder/frontend/assets/js/polyfills.js?ver=1.7.4"></script>
+<script type="text/javascript" src="https://www.thecrazymason.com/wp-content/plugins/wp-grid-builder/frontend/assets/js/facets.js?ver=1.7.4" id="wpgb-facets-js"></script>
+<script type="text/javascript" id="ct-footer-js"></script><script type="text/javascript" id="ct_code_block_js_79">//Main Navigation Menu Open & Close
+jQuery('#menu-trigger').click(function() {
+  
+  if ( jQuery('#sidebar').hasClass( 'active' ) ) {
+ 
+       jQuery(this).removeClass('active');
+       jQuery('body').removeClass('active');
+       jQuery('#sidebar').removeClass('active');
+       jQuery('#menu-main').removeClass('active');
+       jQuery('#menu-overlay').removeClass('active');
+    
+       jQuery('.menu-open').show();
+       jQuery('.menu-close').hide();
+    
+  } else {
+    
+      jQuery(this).addClass('active');
+      jQuery('body').addClass('active');
+      jQuery('#sidebar').addClass('active');
+      jQuery('#menu-main').addClass('active');
+      jQuery('#menu-overlay').addClass('active');
+      
+      jQuery('.menu-open').hide();
+      jQuery('.menu-close').show();
+
+  }
+  
+});
+
+jQuery('#main-menu-close').click(function() {
+  
+       jQuery(this).removeClass('active');
+       jQuery('body').removeClass('active');
+       jQuery('#sidebar').removeClass('active');
+       jQuery('#menu-main').removeClass('active');
+       jQuery('#menu-overlay').removeClass('active');
+    
+       jQuery('.menu-open').show();
+       jQuery('.menu-close').hide();
+    
+});
+
+jQuery('#menu-overlay').click(function() {
+  
+       jQuery(this).removeClass('active');
+       jQuery('body').removeClass('active');
+       jQuery('#sidebar').removeClass('active');
+       jQuery('#menu-main').removeClass('active');
+       jQuery('#menu-overlay').removeClass('active');
+    
+       jQuery('.menu-open').show();
+       jQuery('.menu-close').hide();
+    
+});
+
+</script>
+<style type="text/css" id="ct_code_block_css_79">@media only screen and (max-width:350px) {
+	#logo {
+		width: 130px;
+	}
+	#top-menu-wrap {
+		gap: 10px;
+		padding-top: 20px;
+	}
+	.menu-item-text {
+		font-size: 12px;
+	}
+}
+</style>
+<style type="text/css" id="ct_code_block_css_21">.orange {fill: #ffd152;}</style>
+<style type="text/css" id="ct_code_block_css_115">#code_block-115-26 svg {
+  width: 32px;
+  height: 36px;
+  fill: #ff3068;
+  padding-bottom: 4px;
+}
+@media only screen and (max-width:767px) {
+    body #code_block-115-26 svg {
+      width: 32px;
+      height: 32px;
+      padding-bottom: 0px;
+    }
+}
+@media only screen and (max-width:575px) {
+    body #code_block-115-26 svg {
+      width: 28px;
+      height: 28px;
+      padding-bottom: 0px;
+    }
+}</style>
+<style type="text/css" id="ct_code_block_css_38">.white {fill: #ffffff;}</style>
+<script type="text/javascript" id="ct_code_block_js_190">(function($) {
+  
+    var $carousel = $('.hero-carousel').flickity({
+        // options
+        cellAlign: 'center',
+        //prevNextButtons: false,
+		pageDots: false,
+        wrapAround: true,
+        lazyLoad: true,
+        autoPlay: true,
+        autoPlay: 7000,
+        scrolling: true,
+        draggable: true,
+        selectedAttraction: 0.05,
+		friction: 0.7,
+    });
+  
+    var $carousel = $('.quote-carousel').flickity({
+        // options
+        cellAlign: 'center',
+        prevNextButtons: false,
+		//pageDots: false,
+        wrapAround: true,
+        autoPlay: true,
+        autoPlay: 10000,
+        scrolling: true,
+        draggable: true,
+        selectedAttraction: 0.05,
+		friction: 0.8,
+    });
+  
+  
+   /* $('.hero-slide a').click(function() {
+        console.log('link click');
+    	var the_link = $(this).attr('href');
+        window.location.href = the_link;
+   }); */
+
+   /* var rowNum = 0;
+  
+   $.fn.test = function() {
+      return this.each(function(){
+        var new_id = rowNum++;
+        $(this).attr('id',   this.id + '_' + new_id);
+      });
+    };
+
+    $(document).ready(function() {
+        $('.carousel-cell').test();
+    }); */
+  
+})(jQuery);</script>
+<style type="text/css" id="ct_code_block_css_190">@media screen and (max-width: 767px) and (min-height: 750px) {
+	#hero-slider img.main-image-inner {
+		height: 54vh;
+	}
+}
+@media screen and (max-width: 767px) and (min-height: 850px) {
+	#hero-slider img.main-image-inner {
+		height: 60vh;
+	}
+}</style>
+<style type="text/css" id="ct_code_block_css_3">background-color: [oxygen ct_sign_sha256='ae88181dba185ae1956c875a78dcae5beb3668f6473eb0014d41e61fb3ddffdc' data='acfreparray' field='color_2' repeater='field_60a28c8d14606' ];</style>
+<style type="text/css" id="ct_code_block_css_14">.cm-social-tiktok-icon {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    color: #000000;
+    border-radius: 50%;
+    text-align: center;
+	margin-left: 10px;
+}
+.cm-social-tiktok-icon:hover {
+	background-color: #e2e2e2;
+}
+.cm-social-tiktok-icon i {
+    width: 25px;
+    height: 25px;
+}
+</style>
+<style type="text/css" id="ct_code_block_css_68">.blue {fill: #28c3fd;}</style>
+<style type="text/css" id="ct_code_block_css_136">.cm-social-icon {
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+}
+.cm-social-icon:hover {
+	background-color: #161823;
+}
+.cm-social-icon i {
+    width: 25px;
+    height: 25px;
+}
+</style>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+<!-- /WP_FOOTER --> 
+</body>
+</html>

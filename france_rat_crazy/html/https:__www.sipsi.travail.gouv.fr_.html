@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <title>Sipsi</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon_32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon_64.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" href="assets/favicon/favicon_marianne.png">
+  <link rel="icon" href="assets/favicon/favicon_marianne.svg">
+
+
+  <link rel="manifest" href="assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <style>
+    /* source-sans-pro-regular - latin */
+    /* https://google-webfonts-helper.herokuapp.com/fonts/source-sans-pro?subsets=latin */
+    @font-face {
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 400;
+      src: url('/assets/font/source-sans-pro-v11-latin-regular.eot');
+      /* IE9 Compat Modes */
+      src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+        url('/assets/font/source-sans-pro-v11-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/assets/font/source-sans-pro-v11-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/assets/font/source-sans-pro-v11-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('/assets/font/source-sans-pro-v11-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/assets/font/source-sans-pro-v11-latin-regular.svg#SourceSansPro') format('svg');
+      /* Legacy iOS */
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Roboto Bold'), local('Roboto-Bold'), url("/assets/font/roboto-latin-700.woff2") format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Roboto'), local('Roboto-Regular'), url("/assets/font/roboto-latin-400.woff2") format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    #loading {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    #loading>div {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .lds-ring {
+      display: inline-block;
+      position: relative;
+      width: 64px;
+      height: 64px;
+    }
+
+    .lds-ring div {
+      box-sizing: border-box;
+      display: block;
+      position: absolute;
+      width: 51px;
+      height: 51px;
+      margin: 6px;
+      border: 6px solid #2F4077;
+      border-radius: 50%;
+      animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+      border-color: #2F4077 transparent transparent transparent;
+    }
+
+    .lds-ring div:nth-child(1) {
+      animation-delay: -0.45s;
+    }
+
+    .lds-ring div:nth-child(2) {
+      animation-delay: -0.3s;
+    }
+
+    .lds-ring div:nth-child(3) {
+      animation-delay: -0.15s;
+    }
+
+    @keyframes lds-ring {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+<style>@charset "UTF-8";@-webkit-keyframes cdk-text-field-autofill-start{}@-webkit-keyframes cdk-text-field-autofill-end{}@media print{app-root,body{display:block!important}}html{height:100%}*,body{font-family:Source Sans Pro}body{margin:0;padding:0;-ms-flex-direction:column;flex-direction:column;height:100%;background-color:#e8e8e8}app-root,body{display:-ms-flexbox;display:flex}app-root{-ms-flex:1 0 auto;flex:1 0 auto;-ms-flex-direction:column;flex-direction:column}:not(input,textarea,mat-select,.mat-calendar-body-cell,mat-sidenav,div[mattablabelwrapper],button[mattreenodetoggle],.mat-dialog-container,mat-option,.mat-select-panel,.mat-calendar-content,.panel-header):focus{outline:2px solid #000!important}</style><link rel="stylesheet" href="styles.0b05ac443e36c0d6f188.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.0b05ac443e36c0d6f188.css"></noscript></head>
+
+<body>
+  <app-root id="app-root" style="display: none"></app-root>
+  <div id="loading">
+    <div>
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+<script src="runtime-es2015.4ff600d6f59245d82489.js" type="module"></script><script src="runtime-es5.4ff600d6f59245d82489.js" nomodule defer></script><script src="polyfills-es5.4cf34bbb6244ad7abe13.js" nomodule defer></script><script src="polyfills-es2015.2bd950218448d10e7516.js" type="module"></script><script src="main-es2015.6da40861ec445abf8b3e.js" type="module"></script><script src="main-es5.6da40861ec445abf8b3e.js" nomodule defer></script>
+
+
+</body></html>

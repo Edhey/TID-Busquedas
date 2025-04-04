@@ -1,0 +1,1642 @@
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="keywords" content="Rat Genome Database">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE, NO-STORE, MUST-REVALIDATE">
+    <meta name="author" content="RGD">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="referrer" content="origin">
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate, max-age=0, private" />
+    <meta http-equiv="Expires" content="0" />
+    
+    <meta name="description" content="The Rat Genome Database houses genomic, genetic, functional, physiological, pathway and disease data for the laboratory rat as well as comparative data for mouse and human.  The site also hosts data mining and analysis tools for rat genomics and physiology" />
+    
+
+    
+    <title>Rat Genome Database</title>
+
+    <link rel="stylesheet" href="/rgdweb/css/jquery/jquery-ui-1.8.18.custom.css">
+    <link rel="SHORTCUT ICON" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/rgdweb/common/modalDialog/subModal.css" />
+    <link rel="stylesheet" type="text/css" href="/rgdweb/common/modalDialog/style.css" />
+    <link href="/rgdweb/common/rgd_styles-3.css?v=1" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/rgdweb/OntoSolr/jquery.autocomplete.css" type="text/css" />
+    <link rel="stylesheet" href="/rgdweb/css/webFeedback.css" type="text/css"/>
+
+    <script type="text/javascript" src="/rgdweb/common/modalDialog/common.js"></script>
+    <script type="text/javascript" src="/rgdweb/common/modalDialog/subModal.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="/rgdweb/js/webFeedback.js" defer></script>
+
+    
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+    _uacct = "UA-2739107-2";
+    urchinTracker();
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BTF869XJFG"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BTF869XJFG');
+</script>
+
+
+
+    <script type="text/javascript" src="/rgdweb/js/rgdHomeFunctions-3.js"></script>
+
+
+    
+
+    <script>
+        function getLoadedObject() {
+            return "";
+        }
+        function getGeneWatchAttributes() {
+            //return ["Nomenclature Changes","New GO Annotation","New Disease Annotation","New Phenotype Annotation","New Pathway Annotation","New PubMed Reference","Altered Strains","New NCBI Transcript/Protein","New Protein Interaction","RefSeq Status Has Changed"];
+            return ["Nomenclature Changes","RefSeq Status Has Changed","New GO Annotation","New Disease Annotation","New Phenotype Annotation","New Pathway Annotation","New Strain Annotation","New PubMed Reference","New NCBI Transcript/Protein","New Protein Interaction","New External Database Link"]
+        }
+        function getTermWatchAttributes() {
+            return ["Nomenclature Changes","RefSeq Status Has Changed","New GO Annotation","New Disease Annotation","New Phenotype Annotation","New Pathway Annotation","New Strain Annotation","New PubMed Reference","New NCBI Transcript/Protein","New Protein Interaction","New External Database Link"]
+        }
+
+    </script>
+    <script>window.onunload = function () { };</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/rgdweb/css/elasticsearch/elasticsearch.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="/rgdweb/common/angular/1.4.8/angular.js"></script>
+    <script type="text/javascript" src="/rgdweb/common/angular/1.4.8/angular-sanitize.js"></script>
+    <script type="text/javascript" src="/rgdweb/my/my.js?6"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/rgdweb/common/jquery-ui/jquery-ui.css">
+    <script src="/rgdweb/common/jquery-ui/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="/rgdweb/js/elasticsearch/elasticsearchcommon.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+
+</head>
+
+<style>
+    a {
+        color:#0C1D2E;
+        olor:#073C66;
+        text-decoration:underline;
+        ont-weight:700;
+    }
+    .speciesCardOverlay {
+        position:absolute;
+        background-color:#2865a3;
+        minWidth:63px;
+        width:63px;
+        height:63px;
+        z-index:30;
+        opacity:0;
+    }
+    .speciesCardOverlay:hover {
+        opacity:.9;
+        cursor:pointer;
+        color:white;
+    }
+    .speciesIcon {
+        border:1px solid black;
+        padding:3px;
+    }
+    .g_id_signin > div > div:first-child{
+        display: none;
+    }
+</style>
+
+<link href="https://fonts.googleapis.com/css?family=Marcellus+SC|Merienda+One&display=swap" rel="stylesheet">
+
+
+<body  ng-cloak ng-app="rgdPage"  data-spy="scroll" data-target=".navbar" data-offset="10" style="position: relative;">
+
+
+<div ng-controller="RGDPageController as rgd" id="RGDPageController">
+
+
+<div class="container-fluid">
+    <!-- Modal -->
+    <div class="modal fade" id="my-modal" role="dialog">
+        <div class="modal-dialog modal-lg">
+           <div class="modal-content" id="rgd-modal" >
+
+                <!-- twitter boot strap model -->
+                <div class="modal-header">
+                    <table align="center">
+                        <tr>
+                            <td style="padding:20px;"><img src="/rgdweb/common/images/rgd_LOGO_blue_rgd.gif" border="0"/></td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="modal-body">
+
+                    <div style="padding-bottom:20px;">
+                    <div style="float:left; margin-right:10px; min-width: 600px;">Welcome <span style="font-weight:700; font-size:16px;">{{ username}}</span></div>
+                    </div>
+                    <input  type="button" class="btn btn-info btn-sm"  value="Log out" ng-click="rgd.logout($event)" style="background-color:#2B84C8;padding:1px 10px;font-size:12px;line-height:1.5;border-radius:3px"/>
+
+                    <br><br>
+
+                    <div style="text-decoration:underline;font-weight:700; background-color:#e0e2e1;min-width:690px;">Message Center</div>
+                    <div style="display:table-row;">
+                    <div style="display: table-cell; float:left; margin-right:10px; min-width: 600px;font-size:13px;padding-bottom: 10px;">{{ messageCount }} Messages</div>
+                    <div style="display: table-cell; float:left; margin-right:10px;min-width: 90px"><a href="/rgdweb/my/account.html">Go to Message Center</a></div>
+                    </div>
+
+                    <div style="text-decoration:underline;font-weight:700; background-color:#e0e2e1;">Watched Genes</div>
+                    <div ng-repeat="watchedObject in watchedObjects" style="display:table-row;">
+
+                        <div style="display: table-cell; float:left; margin-right:10px; min-width: 600px;">{{$index + 1}}. <span style="font-weight:700;">{{ watchedObject.symbol }} (RGD ID:{{watchedObject.rgdId}})</span></div>
+                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 40px;"><a href="javascript:return false;" ng-click="rgd.addWatch(watchedObject.rgdId)">Modify Subscription</a></div>
+                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 50px;" ><a href="javascript:return false;" ng-click="rgd.removeWatch(watchedObject.rgdId)">Unsubscribe</a></div>
+                    </div>
+                    <div style="margin-top:20px;text-decoration:underline;font-weight:700;background-color:#e0e2e1;">Watched Ontology Terms</div>
+                    <div ng-repeat="watchedTerm in watchedTerms" style="display:table-row;">
+
+                        <div style="display: table-cell; float:left; margin-right:10px; min-width: 600px;">{{$index + 1}}. <span style="font-weight:700;">{{ watchedTerm.term }} ({{watchedTerm.accId}})</span></div>
+                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 40px;"><a href="javascript:return false;" ng-click="rgd.addWatch(watchedTerm.accId)">Modify Subscription</a></div>
+                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 50px;" ><a href="javascript:return false;" ng-click="rgd.removeWatch(watchedTerm.accId)">Unsubscribe</a></div>
+                    </div>
+
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close Window</button>
+                </div>
+
+
+               
+
+                <div ng-repeat="gene in geneList" style="padding-left:10px;">
+                    <span style="font-weight:700; ">{{gene.symbol}}:</span> {{ gene.description }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- twitter bootstrap modal Save List to RGD-->
+
+    <div class="container-fluid" >
+
+        <!-- Modal -->
+        <div class="modal fade" id="name-desc-modal" role="dialog">
+            <div class="modal-dialog modal-small">
+                <div class="modal-content" >
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Save List to My RGD</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table align="center">
+                            <tr>
+                                <td>Create Name:&nbsp;&nbsp;</td>
+                                <td><input id="myRgdListName" size="40" type="text" value="{{listName}}" ng-model="listName"/></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Description:&nbsp;&nbsp;</td>
+                                <td><input id="myRgdListDesc" size="40" type="text" value="{{listDescription}}" ng-model="listDescription"/></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" ng-click="rgd.saveList($event)" class="btn btn-default" data-dismiss="modal">Save List</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--  Login box -------------->
+    <div class="ontainer-fluid" >
+
+        <!-- Modal -->
+        <div class="modal fade" id="login-modal" role="dialog">
+            <div class="modal-dialog modal-small">
+                <div class="modal-content" >
+    <div class="modal-header">
+        <table align="center">
+            <tr>
+                <td style="padding:20px;"><img src="/rgdweb/common/images/rgd_LOGO_blue_rgd.gif" border="0"/></td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="modal-body">
+
+        <table align="center" style="padding-bottom:20px;">
+            <tr>
+                <td align="center" style="font-size:30px;color:#55556D;">You must be logged in to use this feature</td>
+            </tr>
+            <tr>
+                <td style="color:red;font-weight:700; font-size:18px;">{{ loginError }}</td>
+            </tr>
+        </table>
+
+<!--
+        <div style="display:none;" id="g_id_onload"
+             data-client_id="833037398765-po85dgcbuttu1b1lco2tivl6eaid3471.apps.googleusercontent.com"
+             data-login_uri="http://localhost:8080/rgdweb/my/account.html?page=/rgdweb/homepage/"
+             data-auto_prompt="false"
+             data-auto_select="true"
+        >
+        </div>
+-->
+        <br><br><br>
+        <table align="center">
+            <tr>
+                <td>
+                    <div class="g_id_signin"
+                         data-type="standard"
+                         data-shape="rectangular"
+                         data-theme="outline"
+                         data-text="signin"
+                         data-size="large"
+                         data-logo_alignment="left">
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+
+
+
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- watch object select window-->
+
+<div class="container-fluid" >
+
+    <!-- Modal -->
+    <div class="modal fade" id="watch-modal" role="dialog">
+        <div class="modal-dialog modal-small">
+            <div class="modal-content" >
+                <div class="modal-header">
+ <!--                   <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                    <h4 class="modal-title">{{ watchLinkText }}</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div style="padding-bottom:10px;">Select categories you would like to watch.  Updates to this gene will be sent to {{ username }}</div>
+
+
+
+                         <table>
+                        <tr ng-repeat="geneWatchAttr in geneWatchAttributes">
+                            <td><input
+                                    type="checkbox"
+                                    name="geneWatchSelection[]"
+                                    value="{{geneWatchAttr}}"
+                                    ng-checked="geneWatchSelection.indexOf(geneWatchAttr) > -1"
+                                    ng-click="toggleGeneWatchSelection(geneWatchAttr)"
+                            > </td>
+                            <td>{{geneWatchAttr}}</td>
+                        </tr>
+                         </table>
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+
+                    <span ng-if="watchLinkText == 'Modify Subscription'">
+                        <button type="button" ng-click="rgd.removeWatch(activeObject)" class="btn btn-default" data-dismiss="modal">Unsubscribe from this Object</button>
+                    </span>
+                    <button type="button" ng-click="rgd.saveWatch(activeObject)" class="btn btn-default" data-dismiss="modal">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--  tool navigation -->
+        <!-- twitter bootstrap modal Save List to RGD-->
+
+        <div class="container-fluid" >
+
+            <!-- Modal -->
+            <div class="modal fade" id="tools-modal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content" >
+                        <div class="modal-header">
+                            <table width="100%">
+                                <tr>
+                                    <td>&nbsp;&nbsp;&nbsp;</td>
+                                    <td><h4 style="font-size:16px;" class="modal-title">Analyze <span ng-if="oKey==1">Gene</span><span ng-if="oKey==5">Strain</span><span ng-if="oKey==6">QTL</span>  List</h4></td>
+                                    <td align="right"><button type="button" class="close" data-dismiss="modal">&times;</button></td>
+                                    <td>&nbsp;&nbsp;&nbsp;</td>
+                                </tr>
+                            </table>
+
+
+
+                        </div>
+                        <div class="modal-body">
+
+                            <table width="90%" align="center" border="0">
+                                <tr>
+                                    <td align="center"><div ng-if="oKey==1"><img src="/rgdweb/common/images/functionalAnnotation.png" border="0"  style="cursor:pointer;padding:5px; margin-right:0px;margin-bottom:5px; border:1px solid black;" ng-click="rgd.toolSubmit('ga')"/></div><div ng-if="oKey!=1">Gene Annotator (Functional Annotation)<br>unavailable</div></td>
+                                    <td align="center"><div ng-if="oKey==1"> <img src="/rgdweb/common/images/annotDist.PNG" border="0" style="cursor:pointer;padding:5px; margin-bottom:5px; border:1px solid black;" ng-click="rgd.toolSubmit('distribution')"/></div><div ng-if="oKey!=1">Gene Annotator (Annotation Distribution)<br>unavailable</div></td>
+                                    <td align="center"><div ng-if="oKey==1"><div ng-if="speciesTypeKey==1 || speciesTypeKey==3 || speciesTypeKey==6" ><img src="/rgdweb/common/images/variantVisualizer.png" border="0"  style="cursor:pointer;padding:5px; margin-right:0px;margin-bottom:5px; border:1px solid black;"  ng-click="rgd.toolSubmit('vv')"/></div><div ng-if="speciesTypeKey!=1 && speciesTypeKey!=3 && speciesTypeKey !=6">Variant Visualizer (Genomic Variants)<br> unavailble</div></div><div ng-if="oKey!=1">Variant Visualizer (Genomic Variants)<br>unavailable</div></td>
+                                </tr>
+                                <tr>
+                                    <td align="center"  style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('ga')"><div ng-if="oKey==1">Gene Annotator (Functional Annotation)</div></td>
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('distribution')"><div ng-if="oKey==1">Gene Annotator (Annotation Distribution)</div></td>
+
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('vv')"><div ng-if="speciesTypeKey==1 || speciesTypeKey==3 || speciesTypeKey==6" ><div ng-if="oKey==1">Variant Visualizer (Genomic Variants)</div></div></td>
+
+                                </tr>
+                                <tr><td>&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center"><div ng-if="oKey==1"><img src="/rgdweb/common/images/interviewer.png" border="0" style="cursor:pointer;padding:5px; margin-right:0px; border:1px solid black;" ng-click="rgd.toolSubmit('interviewer')"/></div><div ng-if="oKey!=1">InterViewer (Protein-Protein Interactions)<br>unavailable</div></td>
+                                    <td align="center"><div ng-if="speciesTypeKey==1 || speciesTypeKey==3 || speciesTypeKey==2 || speciesTypeKey==5 || speciesTypeKey==6 || speciesTypeKey==9" ><div ng-if="oKey==1"> <img src="/rgdweb/common/images/gviewer.png" border="0" style="cursor:pointer;padding:5px; margin-bottom:5px; border:1px solid black;" ng-click="rgd.toolSubmit('gviewer')"/></div></div><div ng-if="oKey!=1 || speciesTypeKey == 4 || speciesTypeKey==7 || speciesTypeKey==8">Gviewer (Genome Viewer)<br>unavailable</div></td>
+                                    <td align="center"><div ng-if="oKey==1"><div ng-if="speciesTypeKey==1 || speciesTypeKey==3 || speciesTypeKey==6" > <img src="/rgdweb/common/images/damaging.png" border="0" style="cursor:pointer;padding:5px; margin-right:0px; border:1px solid black;" ng-click="rgd.toolSubmit('damage')"/></div><div ng-if="speciesTypeKey!=1 && speciesTypeKey!=3 && speciesTypeKey!=6">Variant Visualizer (Damaging Variants) unavailble</div></div><div ng-if="oKey!=1">Variant Visualizer (Damaging Variants)<br>unavailable</div></td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('interviewer')"><div ng-if="oKey==1">InterViewer (Protein-Protein Interactions)</div></td>
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('gviewer')"><div ng-if="speciesTypeKey==1 || speciesTypeKey==3 || speciesTypeKey==2 || speciesTypeKey==5 || speciesTypeKey==6 || speciesTypeKey==9" ><div ng-if="oKey==1">GViewer (Genome Viewer)</div></div></td>
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('excel')"><div ng-if="speciesTypeKey==1 || speciesTypeKey==3 || speciesTypeKey==6" ><div ng-if="oKey==1">Variant Visualizer (Damaging Variants)</div></div></td>
+                                </tr>
+                                <tr><td>&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center"><div ng-if="oKey==1"> <img src="/rgdweb/common/images/annotCompare.png" border="0" style="cursor:pointer;padding:5px; margin-right:0px; border:1px solid black;" ng-click="rgd.toolSubmit('annotCompare')"/></div><div ng-if="oKey!=1">Gene Annotator (Annotation Comparison)<br>unavailable</div></td>
+                                    <td align="center"><div ng-if="oKey==1"> <img src="/rgdweb/common/images/olga.png" border="0" style="cursor:pointer;padding:5px; margin-bottom:5px; border:1px solid black;" ng-click="rgd.toolSubmit('olga')"/></div><div ng-if="oKey!=1">OLGA (Gene List Generator)<br>unavailable</div></td>
+                                    <td align="center"> <img src="/rgdweb/common/images/excel.png" border="0" style="cursor:pointer;padding:5px; margin-right:0px; border:1px solid black;" ng-click="rgd.toolSubmit('excel')"/></td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('annotCompare')"><div ng-if="oKey==1">Gene Annotator (Annotation Comparison)</div></td>
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('olga')"><div ng-if="oKey==1">OLGA (Gene List Generator)</div></td>
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('excel')">Excel (Download)</td>
+                                </tr>
+                                <tr><td>&nbsp;</td></tr>
+                                <tr>
+                                   <td align="center"><div ng-if="oKey==1"> <img src="/rgdweb/images/MOET.png" border="0" style="cursor:pointer;padding:5px; margin-bottom:5px; border:1px solid black;" ng-click="rgd.toolSubmit('enrichment')"/></div><div ng-if="oKey!=1">MOET (Multi-Ontology Enrichement)<br>unavailable</div></td>
+                                    <td align="center"><div ng-if="oKey==1"> <img src="/rgdweb/images/GOLF.png" border="0" style="cursor:pointer;padding:5px; margin-bottom:5px; border:1px solid black;" ng-click="rgd.toolSubmit('golf')"/></div><div ng-if="oKey!=1">GOLF (Gene-Ortholog Location Finder)<br>unavailable</div></td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('enrichment')"><div ng-if="oKey==1">MOET (Multi-Ontology Enrichement)</div></td>
+                                    <td align="center" style="cursor:pointer;font-size:16px;font-weight:400;" ng-click="rgd.toolSubmit('golf')"><div ng-if="oKey==1">GOLF (Gene-Ortholog Location Finder)</div></td>
+
+                                </tr>
+                            </table>
+
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- end tool navigation -->
+
+
+
+
+
+
+
+
+
+        <!--
+                            <div style="font-weight:700;text-decoration: underline;">Saved Lists</div>
+
+                                            <div ng-repeat="list in myLists" style="display:table-row;">
+
+                                             <div style="display: table-cell; float:left; margin-right:10px; min-width: 50px; font-weight:700;">{{ list.name }}:</div> <div style="width:100%;"> {{ list.desc }}</div>
+                                             <div style="display: table-cell; float:left; margin-right:10px; min-width: 50px;"><a href="javascript:void(0)" ng-click="rgd.loadGeneList(list.id)">Preview</a></div>
+                                             <div style="display: table-cell; float:left;  margin-right:10px; min-width: 40px;"><a href="{{ list.link }}&lid={{list.id}}">Edit</a></div>
+                                             <div style="display: table-cell; float:left;  margin-right:10px; min-width: 50px;" ><a href="javascript:void(0)" ng-click="rgd.removeList(list.id)">Remove</a></div>
+                                             <div style="display: table-cell; float:left;  margin-right:10px; min-width: 50px; padding-bottom:10px;" ><input type="button" value="Import" ng-click="rgd.import(list.id)" data-dismiss="modal"/></div>
+
+
+
+                                            </div>
+                            </div>
+                            -->
+<html>
+<script src="/rgdweb/js/webFeedback.js"></script>
+
+<body>
+    <div id="divButtons" class="btnDiv" style="display: none">
+        <button type="button" class="hideMe" id="hideDiv" onclick="hideButtons()">x</button>
+        <button class="thumbsDown" v-on:click="dislikedPage"></button>
+        <button class="open-button" onclick="openForm()">Send Message</button>
+        <button class="thumbsUp" v-on:click="likedPage"></button>
+    </div>
+    <div id="hiddenBtns" class="hiddenBtns">
+        <button type="button" class="openLikeBtn" onclick="hideButtons()"></button>
+    </div>
+
+<div class="chat-popup" id="messageVue">
+    <form class="form-container">
+        <button type="button" id="close" onclick="closeForm()" class="closeForm">x</button>
+        <h2 id="headMsg">Send us a Message</h2>
+        <input type="hidden" name="subject" value="Help and Feedback Form">
+        <input type="hidden" name="found" value="0">
+
+        <label><b>Your email</b></label>
+        <br><input type="email" name="email" v-model="email">
+        <br><label><b>Message</b></label>
+        <textarea placeholder="Type message.." name="comment" v-model="message"></textarea>
+
+        <button type="button" id="sendEmail" class="btn" v-on:click="sendMail">Send</button>
+
+    </form>
+</div>
+</body>
+</html>
+
+
+
+<script>
+    function googleSignIn(creds) {
+        var resp = fetch("/rgdweb/my/account.html", {
+            method: "POST",
+            body: JSON.stringify({
+                credential: creds.credential
+            }),
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
+            }
+        }).then((response) => response.json())
+            .then((json) => {
+                document.getElementById("setUser").click();
+            });
+
+
+
+    }
+</script>
+
+<input style="display:none;" id="setUser" type="button" ng-click="rgd.setUser()" value="click"/>
+
+<table class="wrapperTable" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td>
+
+            <div id="headWrapper">
+
+                <div class="top-bar">
+                    <table width="100%" border="0" class="headerTable" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td align="left" style="color:white;" rowspan="3" width="10">
+
+                                <div ><a class="homeLink" href="/wg/home"><img style="border:3px solid #2865A3;" border="0" src="/rgdweb//common/images/rgd_logo.jpg"></a></div>
+
+                            </td>
+
+
+                            <td align="right" style="color:white;" valign="center" colspan="3">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a href="/wg/registration-entry/">Submit Data</a>&nbsp;|&nbsp;
+                                            <a href="/wg/help3">Help</a>&nbsp;|&nbsp;
+                                            <a href="/wg/home/rgd_rat_community_videos/">Video Tutorials</a>&nbsp;|&nbsp;
+                                            <a href="/wg/news2/">News</a>&nbsp;|&nbsp;
+                                            <a href="/wg/home/rat-genome-database-publications">Publications</a>&nbsp;|&nbsp;
+
+                                            <a href="https://download.rgd.mcw.edu">Download</a>&nbsp;|&nbsp;
+                                            <a href="https://rest.rgd.mcw.edu/rgdws/swagger-ui/index.html">REST API</a>&nbsp;|&nbsp;
+                                            <a href="/wg/citing-rgd">Citing RGD</a>&nbsp;|&nbsp;
+                                            <a href="/rgdweb/contact/contactus.html">Contact</a>&nbsp;&nbsp;&nbsp;
+
+                                        </td>
+                                        <td>
+                                        <div class="GoogleLoginButtonContainer">
+
+                                            <div id="signIn">
+                                            <div style="display:none;" id="g_id_onload"
+                                                 data-client_id="833037398765-po85dgcbuttu1b1lco2tivl6eaid3471.apps.googleusercontent.com"
+                                                 data-auto_prompt="false"
+                                                 data-auto_select="true"
+                                                 data-callback="googleSignIn"
+                                            >
+                                            </div>
+
+                                            <div class="g_id_signin"
+                                                 data-type="standard"
+                                                 data-shape="rectangular"
+                                                 data-theme="outline"
+                                                 data-text="signin_with"
+                                                 data-size="small"
+                                                 data-logo_alignment="left">
+                                            </div>
+                                            </div>
+                                            <div id="manageSubs" style="display:none;">
+                                                <input  type="button" class="btn btn-info btn-sm"  value="Manage Subscriptions" ng-click="rgd.loadMyRgd($event)" style="background-color:#2B84C8;padding:1px 10px;font-size:12px;line-height:1.5;border-radius:3px"/>
+                                            </div>
+                                        </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="rgd-navbar">
+                                    <div class="rgd-dropdown">
+                                        <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/wg'">Home
+                                            <i class="fa fa-caret-down"></i>
+                                        </button>
+
+                                        <div class="rgd-dropdown-content">
+                                            <a href="/rgdweb/search/searchByPosition.html">Search RGD</a><!---RGDD-1856 New Search By Position added -->
+                                            <a href="/wg/grants/">Grant Resources</a>
+                                            <a href="/wg/citing-rgd/">Citing RGD</a>
+                                            <a href="/wg/about-us/">About Us</a>
+                                            <a href="/rgdweb/contact/contactus.html">Contact Us</a>
+                                        </div>
+                                    </div>
+                                    <div class="rgd-dropdown">
+                                        <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/wg/data-menu/'">Data
+                                            <i class="fa fa-caret-down"></i>
+                                        </button>
+
+                                        <div class="rgd-dropdown-content">
+                                            <a href="/rgdweb/search/genes.html?100">Genes</a>
+                                            <a href="/rgdweb/search/variants.html">Variants</a>
+                                            <a href="/rgdweb/projects/project.html">Community Projects</a>
+                                            <a href="/rgdweb/search/qtls.html?100">QTLs</a>
+                                            <a href="/rgdweb/search/strains.html?100">Strains</a>
+                                            <a href="/rgdweb/search/markers.html?100">Markers</a>
+                                            <a href="/rgdweb/report/genomeInformation/genomeInformation.html">Genome Information</a>
+                                            <a href="/rgdweb/ontology/search.html">Ontologies</a>
+                                            <a href="/rgdweb/search/cellLines.html">Cell Lines</a>
+                                            <a href="/rgdweb/search/references.html?100">References</a>
+                                            <a href="https://download.rgd.mcw.edu">Download</a>
+                                            <a href="/wg/registration-entry/">Submit Data</a>
+                                        </div>
+                                    </div>
+                                    <div class="rgd-dropdown">
+                                        <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/wg/tool-menu/'">Analysis & Visualization
+                                            <i class="fa fa-caret-down"></i>
+                                        </button>
+
+                                        <div class="rgd-dropdown-content">
+                                            <a href="https://ontomate.rgd.mcw.edu/QueryBuilder" >OntoMate (Literature Search)</a>
+                                            <a href="/rgdweb/jbrowse2/listing.jsp">JBrowse (Genome Browser)</a>
+                                            <a href="/vcmap">Synteny Browser (VCMap)</a>
+                                            <a href="/rgdweb/front/config.html">Variant Visualizer</a>
+
+                                            <a href="/rgdweb/enrichment/start.html">Multi-Ontology Enrichment (MOET)</a>
+                                            <a href="/rgdweb/ortholog/start.html">Gene-Ortholog Location Finder (GOLF)</a>
+                                            <a href="/rgdweb/cytoscape/query.html">InterViewer (Protein-Protein Interactions)</a>
+                                            <a href="/rgdweb/phenominer/ontChoices.html?species=3">PhenoMiner (Quatitative Phenotypes)</a>
+                                            <a href="/rgdweb/ga/start.jsp">Gene Annotator</a>
+                                            <a href="/rgdweb/generator/list.html">OLGA (Gene List Generator)</a>
+                                            <a href="https://www.alliancegenome.org/bluegenes/alliancemine">AllianceMine</a>
+                                            <a href="/rgdweb/gTool/Gviewer.jsp">GViewer (Genome Viewer)</a>
+                                        </div>
+                                    </div>
+                                    <div class="rgd-dropdown">
+                                        <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/rgdweb/portal/index.jsp'">Diseases
+                                            <i class="fa fa-caret-down"></i>
+                                        </button>
+                                        <div class="rgd-dropdown-content">
+                                            <a href="/rgdweb/portal/home.jsp?p=1">Aging & Age-Related Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=2">Cancer & Neoplastic Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=3">Cardiovascular Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=14">Coronavirus Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=12">Developmental Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=4">Diabetes</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=5">Hematologic Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=6">Immune & Inflammatory Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=15">Infectious Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=13">Liver Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=7">Neurological Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=8">Obesity & Metabolic Syndrome</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=9">Renal Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=10">Respiratory Disease</a>
+                                            <a href="/rgdweb/portal/home.jsp?p=11">Sensory Organ Disease</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="rgd-dropdown">
+                                        <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/wg/physiology/'">Phenotypes & Models
+                                            <i class="fa fa-caret-down"></i>
+                                        </button>
+
+                                        <div class="rgd-dropdown-content">
+                                            <a href="/rgdweb/models/findModels.html">Find Models</a>
+                                            <a href="/rgdweb/models/allModels.html">Genetic Models</a>
+                                            <a href="/wg/autism-rat-model-resource/">Autism Models</a>
+                                            <a href="/rgdweb/phenominer/ontChoices.html?species=3">Rat PhenoMiner (Quantitative Phenotypes)</a>
+                                            <a href="/rgdweb/phenominer/ontChoices.html?species=4">Chinchilla PhenoMiner</a>
+                                            <a href="/rgdweb/phenominer/phenominerExpectedRanges/views/home.html">Expected Ranges (Quantitative Phenotype)</a>
+                                            <a href="/rgdweb/pa/termCompare.html?term1=RS%3A0000457&term2=CMO%3A0000000&countType=rec&species=3">PhenoMiner Term Comparison</a>
+                                            <a href="/rgdweb/hrdp_panel.html">Hybrid Rat Diversity Panel</a>
+                                            <a href="/wg/phenotype-data13/">Phenotypes</a>
+                                            <a href="/wg/physiology/additionalmodels/">Phenotypes in Other Animal Models</a>
+                                            <a href="/wg/strain-maintenance/">Animal Husbandry</a>
+                                            <a href="/wg/physiology/strain-medical-records/">Strain Medical Records</a>
+                                            <a href="/wg/phylogenetics/">Phylogenetics</a>
+                                            <a href="/wg/strain-availability/">Strain Availability</a>
+                                            <a href="https://download.rgd.mcw.edu/pub/data_release/Hi-res_Rat_Calendars/">Calendar</a>
+                                            <a href="/wg/physiology/rats101/">Rats 101</a>
+                                            <a href="/wg/photos-and-images/community-submissions/">Submissions</a>
+                                            <a href="/wg/photos-and-images/physgen-photo-archive2/">Photo Archive</a>
+                                        </div>
+                                    </div>
+
+                                    <a href="/wg/home/pathway2/">Pathways</a>
+
+                                    <div class="rgd-dropdown">
+                                        <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/wg/com-menu/'">Community
+                                            <i class="fa fa-caret-down"></i>
+                                        </button>
+
+                                        <div class="rgd-dropdown-content">
+                                            <a href="https://rgd.mcw.edu/wg/rat_forum_invite/">Rat Community Forum</a>
+                                            <a href="/wg/com-menu/directory-of-rat-laboratories2/">Directory of Rat Laboratories</a>
+                                            <a href="/wg/home/rgd_rat_community_videos/">Video Tutorials</a>
+                                            <a href="/wg/news2/">News</a>
+                                            <a href="/wg/home/rat-genome-database-publications/">RGD Publications</a>
+                                            <a href="/wg/com-menu/poster_archive/">RGD Presentations Archive</a>
+                                            <a href="/wg/nomenclature-guidelines/">Nomenclature Guidelines</a>
+                                            <a href="/wg/resource-links/">Resource Links</a>
+                                            <a href="/wg/resource-links/laboratory-resources/">Laboratory Resources</a>
+                                            <a href="/wg/resource-links/employment-resources/">Employment Resources</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                
+   <div class="row" style="width: 100%;float: right">
+       <div class="col-9">
+       <form name="elasticSearchForm"  action="/rgdweb/elasticResults.html" id="elasticSearchForm" role="search" method="post">
+           <input type="hidden" name="log" value="true"/>
+          <input type="hidden" name="category" id="category" value="General"/>
+    <div class="input-group">
+
+        <input class="form-control border-end-0 border searchgroup" type="text"  id="term" name="term" value="">
+        <span class="input-group-append">
+                <button class="btn btn-outline-secondary bg-light border-start-0 border  ms-n3" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </span>
+
+    </div>
+       </form>
+       </div>
+       <div class="col-3">
+
+               <small class="form-text text-muted"><a href="/rgdweb/generator/list.html" >Advanced Search (OLGA)</a></small>
+
+
+       </div>
+   </div>
+
+
+
+
+
+                            </td>
+                            <td>
+                                            <a href="https://www.facebook.com/pg/RatGenomeDatabase/posts/"><img src="/rgdweb/common/images/social/facebook-20.png"/></a>
+                                            <a href="https://twitter.com/ratgenome"><img src="/rgdweb/common/images/social/twitter-20.png"/></a>
+                                            <a href="https://www.linkedin.com/company/rat-genome-database"><img src="/rgdweb/common/images/social/linkedin-20.png"/></a>
+                                            <a href="https://www.youtube.com/channel/UCMpex8AfXd_JSTH3DIxMGFw?view_as=subscriber"><img src="/rgdweb/common/images/social/youtube-20.png"/></a>
+                                            <a href="https://github.com/rat-genome-database"><img src="/rgdweb/common/images/GitHub_Logo_White-20.png"/></a>
+                                            <a href="https://bsky.app/profile/ratgenome.bsky.social"><img src="/rgdweb/common/images/blueSky.png"/></a>
+                                            <a href="https://genomic.social/@ratgenome"><img src="/rgdweb/common/images/mastadon.png"/></a>
+
+                                <!--
+-->
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </div>
+
+                <input type="hidden" id="speciesType" value="">
+
+
+
+
+            </div>
+
+
+
+
+
+            </DIV>
+            <!--end headwrapper -->
+            </div>
+
+            <script>
+                if (location.href.indexOf("") == -1 &&
+                    location.href.indexOf("https://www.rgd.mcw.edu") == -1 &&
+                    location.href.indexOf("osler") == -1 &&
+                    location.href.indexOf("horan") == -1 &&
+                    location.href.indexOf("owen") == -1 &&
+                    location.href.indexOf("hancock") == -1 &&
+                    location.href.indexOf("preview.rgd.mcw.edu") == -1) {
+                    document.getElementById("curation-top").style.visibility='visible';
+                }
+            </script>
+
+        </td>
+    </tr>
+    <tr>
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <td colspan=1 align="right" width="100%">
+
+        </td>
+    </tr>
+</table>
+
+    
+
+
+<div id="mainBody">
+    <div id="contentArea" class="content-area">
+        <table cellpadding="5" border=0 align="center" width="100%">
+            <tr>
+                <td colspan="3" align="left" valign="top">
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<style>
+   #rgd-news a{
+       text-decoration: none;
+   }
+    #rgd-conf a{
+        text-decoration: none;
+    }
+    h5{
+        color:#24609c;
+        font-weight: bold;
+        font-size: 20px;
+    }
+   .hp-video-tut{
+       background-color: transparent;
+       border-color: transparent;
+   }
+   .carousel-inner h5{
+        color:white;
+   }
+   .carousel-inner p{
+       color:white;
+       font-size: 20px;
+       font-weight: bold;
+   }
+
+   .carousel-inner{
+       width:100%;
+       max-height: 400px !important;
+   }
+
+    .speciesIcon {
+        border:1px solid black;
+        padding:3px;
+
+    }
+    .speciesIconList {
+        padding-bottom:3px;
+    }
+
+</style>
+
+<style>
+    .searchCard {
+        line-height:63px;
+        text-align: center;
+        height:63px;
+        z-index:30;
+        opacity:1;
+        font-size:14px;
+        text-decoration:none;
+        padding-left:11px;
+        padding-right:11px;
+    }
+
+    .searchCard p {
+        line-height: 1.3;
+        display: inline-block;
+        font-size:14px;
+        ertical-align: middle;
+    }
+
+    .searchCard:hover p {
+        color:white;
+    }
+
+    .searchCard:hover {
+        opacity:.5;
+        cursor:pointer;
+        background-color:#2865a3;
+        color:white;
+
+    }
+
+     a {
+         color:#0C1D2E;
+         olor:#073C66;
+         text-decoration:underline;
+         ont-weight:700;
+     }
+
+    .speciesCardOverlay {
+        position:absolute;
+        background-color:#2865a3;
+        minWidth:63px;
+        width:63px;
+        height:63px;
+        z-index:30;
+        opacity:0;
+    }
+
+    .speciesCardOverlay:hover {
+        opacity:.9;
+        cursor:pointer;
+        color:white;
+
+    }
+
+</style>
+
+
+<link href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap" rel="stylesheet">
+<style>
+    .card-body {
+        font-family: Alatsi;
+    }
+</style>
+
+<style>
+    @font-face {
+        font-family: 'freshbotregular';
+        src: url('http://localhost:8080/rgdweb/common/font/freshbot/freshbot-webfont.eot');
+        src: url('http://localhost:8080/rgdweb/common/font/freshbot/freshbot-webfont.eot?#iefix') format('embedded-opentype'),
+        url('http://localhost:8080/rgdweb/common/font/freshbot/freshbot-webfont.woff2') format('woff2'),
+        url('http://localhost:8080/rgdweb/common/font/freshbot/freshbot-webfont.woff') format('woff'),
+        url('http://localhost:8080/rgdweb/common/font/freshbot/freshbot-webfont.ttf') format('truetype'),
+        url('http://localhost:8080/rgdweb/common/font/freshbot/freshbot-webfont.svg#freshbotregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+</style>
+
+
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+
+<style>
+    .rgdContainer {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+</style>
+<!--
+<table align=center ><tr><td style="color:red;"> NOTICE: Due to a systems upgrade, portions of RGD may be unavailable Sunday October 3rd</td></tr></table>
+<br><br>
+-->
+<script>
+    function covidPortal() {
+        //location.href="https://rgd.mcw.edu/wg/portals/covid-19-disease-portal-related-links/";
+    }
+</script>
+<table style="border:2px; background-color:#f9dede; solid: #8A0000;margin-bottom:10px;" align="center" width="80%">
+    <tr>
+    <td style="padding:8px;">
+        <table align="center">
+            <tr>
+            <td ><span style="font-size:14px;color:#8A0000;">&nbsp;RGD is the Global Core Biodata Resource of the week!</span>&nbsp;(<a href="https://www.linkedin.com/pulse/rat-genome-database-global-biodata-coalition-wy1he/">View details at LinkedIn</a>)</td></tr>
+        </table>
+    </td>
+    </tr>
+    </table>
+
+<table align="center">
+    <tr>
+
+        
+        <td>
+            <img style="margin-right:10px;" src="/rgdweb/common/images/species/ratI.png"   border="0"  class="speciesIcon"/>
+        </td>
+
+        <td valign="center">
+            <table border="0">
+                <tr>
+                    <!--<td><span style="font-family: 'Marcellus SC', serif;font-size:14px;">Species Specific Portals</span></td>-->
+                    <td><span style="font-family: 'Source Code Pro', monospace;font-size:14px; margin-right:8px;">Other Species Portals</span></td>
+                </tr>
+                <tr>
+                    <td><img src="/rgdweb/common/images/blueArrow.png" border=0 ></td>
+                </tr>
+            </table>
+        </td>
+
+        <td>
+            <a class="speciesCardOverlay" href="/wg/species/human/">
+                <div style="margin:5px; font-weight:700;">Human</div>
+            </a>
+            <img src="/rgdweb/common/images/species/humanI.png"  border="0"  class="speciesIcon"/>
+        </td>
+                <td>
+                    <a class="speciesCardOverlay" href="/wg/species/mouse">
+                        <div style="margin:5px; font-weight:700;">Mouse</div>
+                    </a>
+                    <img src="/rgdweb/common/images/species/mouseI.jpg"  border="0"  class="speciesIcon"/></td>
+        <td>
+            <a class="speciesCardOverlay" href="/wg/species/chinchilla">
+                <div style="margin:3px; font-weight:700;">Chinchilla</div>
+            </a>
+            <img src="/rgdweb/common/images/species/chinchillaI.jpg"   border="0"  class="speciesIcon"/></td>
+        <td>
+            <a class="speciesCardOverlay" href="/wg/species/dog">
+                <div style="margin:5px; font-weight:700;">Domestic Dog</div>
+            </a>
+            <img src="/rgdweb/common/images/species/dogI.jpg"   border="0"  class="speciesIcon"/>
+
+        </td>
+        <td>
+            <a class="speciesCardOverlay" href="/wg/species/squirrel">
+                <div style="margin:5px; font-weight:700;font-size:11px;">Thirteen Lined Ground Squirrel</div>
+            </a>
+            <img src="/rgdweb/common/images/species/squirrelI.jpg"  border="0"  class="speciesIcon"/>
+        </td>
+        <td>
+            <a class="speciesCardOverlay" href="/wg/species/bonobo">
+                <div style="margin:5px; font-weight:700;">Bonobo</div>
+            </a>
+            <img src="/rgdweb/common/images/species/bonoboI.jpg"  border="0"  class="speciesIcon"/></td>
+        <td>
+            <a class="speciesCardOverlay" href="/wg/species/pig">
+                <div style="margin:5px; font-weight:700;">Domestic Pig</div>
+            </a>
+            <img src="/rgdweb/common/images/species/pigI.png"  border="0"  class="speciesIcon"/></td>
+
+        <td>
+            <a class="speciesCardOverlay" href="/wg/species/mole-rat">
+                <div style="margin:5px; font-weight:700;">Naked Mole Rat</div>
+            </a>
+            <img src="/rgdweb/common/images/species/mole-ratI.png"  border="0" class="speciesIcon" /></td>
+        <td>
+            <a class="speciesCardOverlay" href="/wg/species/green-monkey">
+                <div style="margin:5px; font-weight:700;">African Green Monkey</div>
+            </a>
+            <img src="/rgdweb/common/images/species/green-monkeyI.png"  border="0"  class="speciesIcon"/></td>
+     </tr>
+</table>
+
+<table align="center" cellspacing="5" cellpadding="5">
+    <tr>
+        <td width="780">
+            
+
+<div class="" style="border-color: transparent;">
+    <h5 class="card-title">Search</h5>
+</div>
+
+
+
+<div style="background-color:#eaf2f8;margin-left:14px;margin-right:22px;"  >
+    <table align="center" border="0" width="650">
+        <tr>
+            <td>
+                <div class="searchCard" onclick="location.href='/rgdweb/search/genes.html'">Genes</div>
+            </td>
+            <td><img src="/rgdweb/common/images/dnaSeperator.png" border="0"  /></td>
+            <td>
+                <div class="searchCard" onclick="location.href='/rgdweb/search/strains.html'">Strains</div>
+            </td>
+            <td><img src="/rgdweb/common/images/dnaSeperator.png" border="0" /></td>
+            <td>
+                <div class="searchCard" onclick="location.href='/rgdweb/ontology/search.html'"><p style="margin-top:5px;">Ontology<br>&<br> Annotation</p></div>
+            </td>
+            <td><img src="/rgdweb/common/images/dnaSeperator.png" border="0" /></td>
+            <td>
+                <div class="searchCard" onclick="location.href='https://ontomate.rgd.mcw.edu'">
+                    <p style="margin-top:15px;">Ontomate<br> (Literature)</p>
+                </div>
+            </td>
+            <td><img src="/rgdweb/common/images/dnaSeperator.png" border="0" /></td>
+            <td>
+                <div class="searchCard" onclick="location.href='/rgdweb/search/qtls.html'">QTL</div>
+            </td>
+            <td><img src="/rgdweb/common/images/dnaSeperator.png" border="0" /></td>
+            <td>
+                <div class="searchCard" onclick="location.href='/rgdweb/ortholog/start.html'">Orthologs</div>
+            </td>
+            <td><img src="/rgdweb/common/images/dnaSeperator.png" border="0" /></td>
+            <td>
+                <div class="searchCard" onclick="location.href='/rgdweb/search/searchByPosition.html'"><p style="margin-top:15px;">Genomic<br>Region</p></div>
+            </td>
+            <td><img src="/rgdweb/common/images/dnaSeperator.png" border="0" /></td>
+            <td>
+                <div class="searchCard" onclick="location.href='/wg/data-menu/'">All...</div>
+            </td>
+        </tr>
+    </table>
+</div>
+<!--/plf/plfRGD/?module=searchByPosition&func=form-->
+            
+
+<style>
+    .headerCardTitle {
+        text-align:left;
+        position:absolute;
+        top:0; left:0; 
+        margin:0px; 
+        padding:5px; 
+        order-radius:10px;
+        opacity:1; 
+        font-weight: bold;
+        background-color:#eff3fc; 
+        color: #24609c;
+        font-size: 16px;
+        order-right:1px solid black;
+        order:1px solid black;
+        z-index:20;
+    }
+
+    .headerSubTitle {
+        font-size:12px;
+    }
+
+
+    .headerCardOverlay {
+        position:absolute;
+        background-color:#2865a3;
+        minWidth:230px;
+        width:230px;
+        height:145px;
+        z-index:30;
+        opacity:0;
+    }
+
+    .headerCardOverlay:hover {
+        opacity:.5;
+        cursor:pointer;
+
+    }
+
+    .headerCardImage {
+        margin:10px;
+        border:1px solid black;
+        z-index:15;
+    }
+    .headerCard {
+        position:relative;
+        width:250px;
+        min-width:230px;
+        border: 1px solid black;
+        border: 1px solid rgba(0,0,0,.125);
+        margin:5px;
+    }
+
+    .eaderCard {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        padding:20px;
+
+    }
+
+    .headerRow {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+</style>
+
+
+
+
+<div class="" style="border-color: transparent;margin-top:25px;">
+    <h5 class="card-title">Analysis and Visualization</h5>
+</div>
+
+<table border="0" cellpadding="7">
+    <tr>
+        <td>
+            <div class="headerCard" style="width: 200px;;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='/rgdweb/jbrowse2/listing.jsp'">.</div>
+                <div class="headerCardTitle">JBrowse<br><span class="headerSubTitle">Genome Browser</span></div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/jbrowseScreen.png" border="0" /></span>
+            </div>
+        </td>
+        <td>
+            <div class="headerCard" style="width: 200px;height:auto;margin-right: 2%;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='/rgdweb/front/config.html'">.</div>
+                <div class="headerCardTitle">Variant Visualizer</div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/vvScreen.png"  border="0" /></span>
+            </div>
+
+        </td>
+        <td>
+            <div class="headerCard" style="width: 200px;height:auto;margin-right: 2%;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='/vcmap'">.</div>
+                <div class="headerCardTitle">VCMap<br><span class="headerSubTitle">Synteny Browser</span></div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/vcmap.png?"  border="0" /></span>
+            </div>
+
+        </td>
+
+
+    </tr>
+    <tr>
+        <td>
+            <div class="headerCard" style="width: 200px;height:auto;margin-right: 2%;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='/rgdweb/generator/list.html'">.</div>
+                <div class="headerCardTitle">OLGA<br><span class="headerSubTitle">Gene List Generator</span></div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/olgaScreen.png"  border="0" /></span>
+            </div>
+
+        </td>
+        <td>
+            <div class="headerCard" style="width: 200px;margin-right: 2%;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='/rgdweb/portal/index.jsp'">.</div>
+                <div class="headerCardTitle">Disease Portals</div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/diseasePortalScreen.png"  border="0" /></span>
+            </div>
+
+        </td>
+        <td>
+            <div class="headerCard" style="width: 200px;;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='/wg/physiology/'">.</div>
+                <div class="headerCardTitle">Phenotypes and Models</div>
+                <img class="headerCardImage" src="/rgdweb/common/images/expected.png"  border="0" />
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="headerCard"  style="width: 200px;;margin-right: 2%;;text-align: center;padding-top:1%;">
+                <div class="headerCardOverlay" onclick="location.href='/rgdweb/enrichment/start.html'">.</div>
+                <div class="headerCardTitle">MOET</span><br><span class="headerSubTitle">Multi-Ontology Enrichment</span></div>
+                <img class="headerCardImage" src="/rgdweb/common/images/moetScreen.png" border="0" style="border:1px solid black;" />
+            </div>
+        </td>
+
+        <td>
+            <div class="headerCard" style="width: 200px;height:auto;;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='https://ontomate.rgd.mcw.edu/QueryBuilder'">.</div>
+                <div class="headerCardTitle">OntoMate<br><span class="headerSubTitle">Advanced Literature Search</span></div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/ontomateScreen.png"border="0" /></span>
+            </div>
+
+        </td>
+        <td>
+            <div class="headerCard" style="width: 200px;height:auto;margin-right: 2%;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='/rgdweb/ga/start.jsp'">.</div>
+                <div class="headerCardTitle">GA Tool<br><span class="headerSubTitle">Gene Annotator</span></div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/gaTool.png"  border="0" /></span>
+            </div>
+
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>
+            <div class="headerCard"  style="width: 200px;;margin-right: 2%;;text-align: center;padding-top:1%;" >
+                <div class="headerCardOverlay" onclick="location.href='/wg/home/pathway2/'">.</div>
+                <div class="headerCardTitle">Pathway Explorer<br><span class="headerSubTitle">Interactive Diagrams</span></div>
+                <img class="headerCardImage" src="/rgdweb/common/images/pathwayScreen.png" style="border:1px solid black;" border="0" />
+            </div>
+
+        </td>
+        <td>
+            <div class="headerCard" style="width: 200px;;margin-right: 2%;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='/rgdweb/cytoscape/query.html'">.</div>
+                <div class="headerCardTitle">Interviewer<br><span class="headerSubTitle">Protein-Protein Interactions</span></div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/interviewerScreen.png"  border="0" /></span>
+            </div>
+        </td>
+        <td>
+            <div class="headerCard" style="width: 200px;height:auto;margin-right: 2%;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='/rgdweb/report/genomeInformation/genomeInformation.html'">.</div>
+                <div class="headerCardTitle">Genome Information</div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/genomeInformationScreen.png"   border="0" /></span>
+            </div>
+
+        </td>
+
+    </tr>
+    <!--
+    <tr>
+        <td>
+            <div class="headerCard" style="width: 200px;height:auto;margin-right: 2%;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='https://www.google.com'">.</div>
+                <p style="font-weight: bold;color: #24609c;font-size: 14px">GOLF<br></p>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/vvScreen.png"  height="70%" width="70%" border="0" /></span>
+            </div>
+
+        </td>
+        <td>
+            <div class="headerCard" style="width: 200px;height:auto;margin-right: 2%;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='https://www.google.com'">.</div>
+                <div class="headerCardTitle">Ratmine</div>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/ratmineScreen.png"  border="0" /></span>
+            </div>
+
+        </td>
+        <td>
+            <div class="headerCard" style="width: 200px;height:auto;;text-align: center;padding-top:1%">
+                <div class="headerCardOverlay" onclick="location.href='https://www.google.com'">.</div>
+                <p style="font-weight: bold;color: #24609c;font-size: 14px">GViewer</p>
+                <span style="text-align: center"><img class="headerCardImage" src="/rgdweb/common/images/ontomateScreen.png"border="0" /></span>
+            </div>
+
+        </td>
+    </tr>
+    -->
+</table>
+
+
+
+            
+
+
+
+
+
+<hr>
+<table border="0" width="700">
+        <tr>
+                <td>
+                        <div class="" style="border-color: transparent;margin-top:20px;">
+                                <h5 class="card-title">RGD News</h5>
+                        </div>
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <p><a href="https://rgd.mcw.edu/wg/agr-webinars/">02/20/2025 - ICYMI: The Alliance of Genome Resources hosted a webinar on Exploring Variants</p><p><a href="https://rgd.mcw.edu/wg/pipelines/">01/23/2025 - New RGD paper alert, published in Database</p><p><a href="https://rgd.mcw.edu/wg/mo/">01/14/2025 - Multi Omics NETwork Analysis Workshop June 8-14, 2025</p><p><a href="https://rgd.mcw.edu/wg/2025-calendar-avail/">01/03/2025 - Request your RGD rat desktop calendar for 2025</p><p><a href="https://rgd.mcw.edu/wg/grcr8-published/">11/14/2024 - Exciting update! The new rat reference assembly GRCr8 is published</p><p><a href="https://rgd.mcw.edu/wg/ctc-rg-post2/">10/30/2024 - Complex Trait Community – Rat Genomics Meeting Oct2024 recordings and slides available</p><p><a href="https://rgd.mcw.edu/wg/rgd_gcbr/">10/22/2024 - RGD featured as Global Core Biodata Resource of the week!</p><p><a href="https://rgd.mcw.edu/wg/vcmapnews/">01/31/2024 - RGD announces the Virtual Comparative Mapping tool full release</p><p><a href="https://rgd.mcw.edu/wg/rgd-office-appointment/">02/11/2022 - RGD announces office hours by appointment only</p><p><a href="https://rgd.mcw.edu/wg/news2/">01/28/2022 - Additional  News notices can be found on the News page in the upper menu, or click HERE</p>
+
+
+                </td>
+        </tr>
+</table>
+<hr>
+
+
+            
+
+
+
+
+<div class="" style="border-color: transparent;margin-top:20px;">
+        <h5 class="card-title">Conferences, Courses and Workshops</h5>
+</div>
+<table style="width: 690px" class="conference">
+
+ 
+        <tr>
+                <td><a href="https://meetings.cshl.edu/courses.aspx?course=C-ECG">02/28/2025 - 2025 Computational Genomics course - Cold Spring Harbor, NY, USA - December 2 - 10, 2025 ; Application Deadline: August 15, 2025</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://meetings.cshl.edu/meetings.aspx?meet=probgen">03/05/2025 - Probabilistic Modeling in Genomics, Cold Spring Harbor, NY, USA - March 5-8, 2025; Abstract deadline: January 10, 2025</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.toxicology.org/events/am/AM2025/index.asp">03/16/2025 - Society of Toxicology 64th Annual Meeting, Orange County Convention Center, Orlando, FL, USA - March 16-20, 2025; Abstract submission deadline: November 13, 2024</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.grc.org/developmental-biology-conference/2025/">03/30/2025 - Gordon Research Conference - Developmental Biology: Emergence of Shapes and Patterns in Development, Sheraton Fairplex Hotel & Conference Center, Pomona, CA, USA - March 30-April 4, 2025; Application deadline: March 2, 2025</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.grc.org/developmental-biology-conference/2025/">03/30/2025 - Gordon Research Conference - Developmental Biology: Emergence of Shapes and Patterns in Development, Sheraton Fairplex Hotel</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.stowers.org/events/biocuration2025">04/05/2025 - 18th Annual International Society for Biocuration Conference, Stowers Institute, Kansas City, MO, USA - April 5-9, 2025; Registration deadline: February 28,2025</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.imgs.org/2025-38th-imgc-glasgow">04/06/2025 - 38th International Mammalian Genome Conference, Radison Blu, Glasgow, Scotland, UK - April 6-9, 2025; Abstract deadline: January 24, 2025</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.scitechseries.com/infectious-disease">04/10/2025 - 2nd International Conference on Infectious Diseases, Rome, Italy - April 10-11, 2025; Abstract deadline: September 14, 2024</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.asbmb.org/annual-meeting">04/12/2025 - Annual Meeting of the American Society for Biochemistry and Molecular Biology, Lakeside Center of the McCormick Place Convention Center, Chicago, IL, USA - April 12-15, 2025; Abstract deadline: December 9, 2024</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://meetings.cshl.edu/meetings.aspx?meet=GENOME">05/06/2025 - Biology of Genomes, Cold Spring Harbor, NY, USA - May 6-10, 2025; Abstract deadline: February 14, 2025</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.iscb.org/glbio2025/home">05/12/2025 - Great Lakes Bioinformatics Conference, University of Minnesota, Minneapolis, MN, USA - May 12-15, 2025; Abstract deadline: March 3, 2025</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.grc.org/cancer-genetics-and-epigenetics-conference/2025/">05/18/2025 - Gordon Research Conference - Cancer Genetics and Epigenetics: Decoding the Cancer Genome and Epigenome, Renaissance Tuscany Il Ciocco, Lucca, Italy - May 18-23, 2025; Application deadline: April 20, 2025</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.ibangs.org/genes-brain-and-behavior-2025-fiji">05/19/2025 - Genes, Brain and Behavior (IBANGS), Shangri-La Resort, Yanuca Island, Fiji - May 19-22, 2025; Abstract deadline: January 17, 2024</td>
+                </tr>
+                
+        <tr>
+                <td><a href="https://www.isag.us/2025/">07/20/2025 - 40th International Society for Animal Genetics Conference, Daejon, South Korea - July 20-25, 2025; Abstract deadline: March 6, 2025</td>
+                </tr>
+                
+        </tr>
+</table>
+
+<style>
+        .conference td {
+                padding-bottom: 1em;
+        }
+</style>
+
+        </td>
+        <td valign="top">
+            <br>
+            
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0" nonce="rOA49rcj"></script>
+<div class="fb-page" data-href="https://www.facebook.com/RatGenomeDatabase/" data-show-posts=true ata-tabs="timeline" data-width="300" data-height="800" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/RatGenomeDatabase/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RatGenomeDatabase/">Rat Genome Database</a></blockquote></div>
+
+<!--<div style="width:270px; border:1px solid #dfdfdf;margin-top:5px;">
+        <a class="twitter-timeline" data-width="99%" data-height="750" data-theme="light" ata-border-color="#cc0000" href="https://twitter.com/ratgenome?ref_src=twsrc%5Etfw">Tweets by ratgenome</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+</div>
+-->
+
+            
+
+
+<div class="" style="border-color: transparent;">
+    <div class="" style="border-color: transparent;margin-top:20px;">
+        <h5 class="card-title">RGD Video Tutorials</h5>
+    </div>
+    <hr>
+<table class="videoTutorials" style="width: 270px">
+    
+        <tr>
+    
+            <td> <a href="https://youtu.be/rBsq4d9GZac"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://youtu.be/rBsq4d9GZac" style="font-weight: bold;color: #24609c;text-decoration:none;">Comparison of Genomic Variants in HRDP Inbred Strains With Two Rat Genome Reference</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://youtu.be/EUkNnoBUVyc"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://youtu.be/EUkNnoBUVyc" style="font-weight: bold;color: #24609c;text-decoration:none;">PhenoMiner Tool</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://youtu.be/RJ4n8nlVnpI"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://youtu.be/RJ4n8nlVnpI" style="font-weight: bold;color: #24609c;text-decoration:none;">Rat Strain Updates at the Rat Genome Database</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://youtu.be/RK-ZfgjeQMs"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://youtu.be/RK-ZfgjeQMs" style="font-weight: bold;color: #24609c;text-decoration:none;">Rat Reference Genome mRatBN7.2 Curation</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://youtu.be/k8kh_iLHv34"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://youtu.be/k8kh_iLHv34" style="font-weight: bold;color: #24609c;text-decoration:none;">Quantitative phenotype data for HRDP strains at the RGD</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://youtu.be/cCtgDdlgfRs"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://youtu.be/cCtgDdlgfRs" style="font-weight: bold;color: #24609c;text-decoration:none;">Multi-Ontology Enrichment Tool (MOET): a web-based tool for ontology analysis at RGD</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://youtu.be/JgKf5OjCW_w"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://youtu.be/JgKf5OjCW_w" style="font-weight: bold;color: #24609c;text-decoration:none;">RGD: A multispecies resource to explore complex diseases</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://www.youtube.com/watch?v=I7XhEk72xSU"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://www.youtube.com/watch?v=I7XhEk72xSU" style="font-weight: bold;color: #24609c;text-decoration:none;">Molecular Pathways</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://www.youtube.com/watch?v=xgxngwiLNko"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://www.youtube.com/watch?v=xgxngwiLNko" style="font-weight: bold;color: #24609c;text-decoration:none;">GA Tool (Gene Annotator)</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://www.youtube.com/watch?v=jGhW0VJR6Us"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://www.youtube.com/watch?v=jGhW0VJR6Us" style="font-weight: bold;color: #24609c;text-decoration:none;">OLGA (Gene list builder and analyzer)</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://www.youtube.com/watch?v=_VhEsfqf1JA"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://www.youtube.com/watch?v=_VhEsfqf1JA" style="font-weight: bold;color: #24609c;text-decoration:none;">Variant Visualizer</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://www.youtube.com/watch?v=0hY9EVYa1eo"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://www.youtube.com/watch?v=0hY9EVYa1eo" style="font-weight: bold;color: #24609c;text-decoration:none;">Gene Report Pages</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://www.youtube.com/watch?v=Pn7BM5rSsN4"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://www.youtube.com/watch?v=Pn7BM5rSsN4" style="font-weight: bold;color: #24609c;text-decoration:none;">Introduction to Biomedical Nomenclature</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://www.youtube.com/watch?v=3EUaurjK7u8"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://www.youtube.com/watch?v=3EUaurjK7u8" style="font-weight: bold;color: #24609c;text-decoration:none;">Introduction to Biomedical Ontologies</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://www.youtube.com/watch?v=cONcdQr4OmY"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://www.youtube.com/watch?v=cONcdQr4OmY" style="font-weight: bold;color: #24609c;text-decoration:none;">JBrowse Genome Browser</a></td>
+            
+            </tr>
+            
+        <tr>
+    
+            <td> <a href="https://youtu.be/ptgqaoqP780"><img src="/rgdweb/common/images/social/youtube-20.png" /></a></td><td>&nbsp;</td>
+                <td><a href="https://youtu.be/ptgqaoqP780" style="font-weight: bold;color: #24609c;text-decoration:none;">Introduction to RGD Disease Portals</a></td>
+            
+            </tr>
+            
+</table>
+</div>
+<style>
+    .videoTutorials td{
+        padding-bottom: .5em;
+    }
+</style>
+
+
+
+
+
+
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+    </td>
+</tr>
+</table>
+
+</div>
+<br>
+<footer id="footer">
+    <div class="bottom-bar" >
+        <table align=center class="headerTable"> <tr><td align="left" style="color:white;">
+            <a href="/rgdweb/contact/contactus.html">Contact Us</a>&nbsp;|&nbsp;
+            <a href="/wg/about-us">About Us</a>&nbsp;|&nbsp;
+            <a href="https://creativecommons.org/licenses/by/4.0/">License CC BY 4.0</a>&nbsp;|&nbsp;
+            <a href="/wg/home/disclaimer">Legal Disclaimer</a>&nbsp;|&nbsp;
+            <a href="http://www.mcw.edu/">&copy; Medical College of Wisconsin</a>
+        </td></tr></table>
+    </div>
+    
+
+    <table align="center">
+        <tr>
+            <td width=100 align="center"><a href="https://www.nhlbi.nih.gov/"><img src="/rgdweb/common/images/nhlbilogo.gif" alt="NHLBI Logo" title="National Heart Lung and Blood Institute"></a><br><br></td>
+            <td width=100 align="center"><a href="https://www.nih.gov/"><img src="/rgdweb/common/images/nih.png" alt="NHLBI Logo" title="National Institue of Health"></a><br><br></td>
+            <td width=100 align="center"><a href="http://alliancegenome.org"><img src="/rgdweb/common/images/alliance_logo.png" height="80" width="133" border=0/></a></td>
+            <td width=100 align="center"><a href="https://globalbiodata.org/scientific-activities/global-core-biodata-resources"><img src="/rgdweb/common/images/gbc-main.svg" height="80" width="133" border=0/></a></td>
+        </tr>
+    </table>
+
+    <p align="center"><a href="/wg/wp-admin/post.php?post=15&action=edit">RGD</a> is funded by grant HL64541 from the National Heart, Lung, and Blood Institute on behalf of the NIH.<br>
+
+
+    <div id="copyright">
+
+    </div>
+</footer>
+<script language="javascript" src="/common/js/killerZebraStripes.js" type="text/javascript"></script>
+<script>
+    var arr = document.getElementsByTagName("table");
+    for (i=0; i< arr.length; i++) {
+        if (arr[i].className == "striped-table") {
+            if (!arr[i].id) {
+                arr[i].id = "striped-table-" + i;
+            }
+            stripeTables(arr[i].id);
+        }
+    }
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+
+
+

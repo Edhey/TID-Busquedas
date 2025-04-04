@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="Content-Type" content="text/html;" />
+<title>Teaching Assistant Program in France - United States</title>
+<link rel="stylesheet" href="/css/tapif.css" type="text/css" />
+<link rel="stylesheet" href="/css/animated.css" type="text/css" />
+<link rel="stylesheet" href="/js/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="/js/jquery-1.12.4.js"></script>
+<script src="/js/ui/1.12.1/jquery-ui.js"></script>
+<script src="/js/materialize.js"></script>
+<script src="/js/md5.js"></script>
+<script src="/js/scroll.js"></script>
+<script type="text/javascript">
+	function login(){
+		if (document.getElementById("EMAIL1").value.trim() == "") {
+			M.toast({html: "Please enter your email"});
+			return false;
+		}             
+		if (document.getElementById("PASSWORD1").value.trim() == "") {
+			M.toast({html: "Please enter your password"});
+			return false;                  
+		}                
+		var loginForm = document.getElementById("loginForm");
+		loginForm.EMAIL1.value = document.getElementById("EMAIL1").value;
+		loginForm.PASSWORD1.value = hex_md5("020b375d4ed411098fac15c74e7bcb82951dcc2508db097b23c5f784a7d41b000f144056a90a6700" + hex_md5(document.getElementById("PASSWORD1").value));
+		loginForm.submit();
+	}	
+	function create(){
+		if (document.getElementById("EMAIL2").value.trim() == "") {
+			M.toast({html: "Please enter your email"});
+			return false;
+		} 
+		if(!validateEmail(document.getElementById("EMAIL2").value.toLowerCase())){
+			M.toast({html: "You must enter a valid email"});
+			return false;
+		}
+		if(document.getElementById("EMAIL2").value.substr(document.getElementById("EMAIL2").value.length - 4) == ".edu"){
+			M.toast({html: "Emails from educational institutions ending in .edu are not accepted"});
+			return false;
+		   }
+		if (document.getElementById("EMAIL3").value.trim() == "") {
+			M.toast({html: "Please verify your email"});
+			return false;
+		} 
+		if(!validateEmail(document.getElementById("EMAIL3").value.toLowerCase())){
+			M.toast({html: "You must enter a valid email"});
+			return false;
+		}
+		if(document.getElementById("EMAIL3").value.substr(document.getElementById("EMAIL3").value.length - 4) == ".edu"){
+			M.toast({html: "Emails from educational institutions ending in .edu are not accepted"});
+			return false;
+		   }
+		if (document.getElementById("PASSWORD2").value.trim() == "") {
+			M.toast({html: "Please enter your password"});
+			return false;                  
+		}                
+		if (document.getElementById("PASSWORD3").value.trim() == "") {
+			M.toast({html: "Please verify your password"});
+			return false;                  
+		}
+		if (document.getElementById("EMAIL2").value != document.getElementById("EMAIL3").value) {
+			M.toast({html: "Please verify your email"});
+			return false;
+		}             
+		if (document.getElementById("PASSWORD2").value != document.getElementById("PASSWORD3").value) {
+			M.toast({html: "Please verify your password"});
+			return false;
+		}             
+		var createForm = document.getElementById("createForm");
+		createForm.EMAIL2.value = document.getElementById("EMAIL2").value;
+		createForm.PASSWORD2.value = hex_md5(document.getElementById("PASSWORD2").value);
+		createForm.submit();
+}	
+	
+function openTab(evt, TabName) {
+    	var i, tabcontent, tablinks;
+    	tabcontent = document.getElementsByClassName("tabcontent");
+    	for (i = 0; i < tabcontent.length; i++) {
+        	tabcontent[i].style.display = "none";
+    	}
+    	tablinks = document.getElementsByClassName("tablinks");
+    	for (i = 0; i < tablinks.length; i++) {
+        	tablinks[i].className = tablinks[i].className.replace(" active", "");
+    	}
+    	document.getElementById(TabName).style.display = "block";
+    	evt.currentTarget.className += " active";
+}
+
+function validateEmail(email) {
+  		var re = /^(?:[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])$/;
+  		return re.test(email);
+}
+
+function validateRestrictedEmail(email) {
+		if(email.substr(-3) == "edu"){
+		   return false;
+		   }
+  		var re = /^(?:[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])$/;
+  		return re.test(email);
+}
+
+</script>
+<script language="javascript" src="/js/script.js"></script>
+</head>
+<body>
+<header>
+<table width="100%" cellpadding="0" cellspacing="0" style="padding-left:5%; padding-right:5%;">
+	<tr> 
+  		<td colspan="5" style="vertical-align:middle; padding-bottom:20px;" nowrap="nowrap">
+			<div>
+  			<a href="https://villa-albertine.org" target="_blank"><img style="vertical-align:middle; float: left; clear: both;" src="/images/2025_new_va_logo_black.svg" alt="Cultural Services French Embassy in the United States" width="260" /></a>
+  			<img style="vertical-align:middle; float: left; clear: both;" src="/images/Assistants-logo.jpg" alt="Assistants de Langue" width="260" />
+			</div>
+			<div class="global_header" style="padding-top: 30px; padding-left: 300px">
+  			<h1><strong>Teaching Assistant Program in France</strong></h1>
+			</div>
+  		</td>
+  	</tr>
+  	<tr>
+  <td class="menu_bar_elements">
+  <span>
+    <a href="/index.php">HOME</a>
+    </span>
+  </td>
+  <td class="menu_bar_elements">
+  <span>
+  <a href="https://frenchculture.org/frenchcultures/teach-english-in-france/prospective-applicants/?cid"  target="_blank">ABOUT US</a>
+  </span>
+  </td>
+  <td class="menu_bar_elements">
+	<span>
+	<a href="/faq.php" target="_blank">FAQ</a>
+	  </span>
+  </td>
+  <td class="menu_bar_elements">
+  	  <span>
+  <a href="/contactus.php" target="_blank">CONTACT US</a>
+  </span>
+  	  </td>
+  <td class="menu_bar_elements">
+  	  </td>
+  </tr>
+	<tr>
+		<td colspan="5">
+			<!-- manual public_message override, possible conflicts on profil.php-->
+			<!--p style="color:red;">Beginning this year, we are requiring a Criminal History Check in order to apply. <b>This is different from a full FBI Background Check, which is only requested if a candidate is accepted.</b> You may request a Criminal History Check from a local or state police department, or from an online Criminal History Check service. More information about Criminal History Checks can be found on the <a href="https://travel.state.gov/content/travel/en/international-travel/while-abroad/criminal-record-checks.html" target="_blank" style="text-decoration:underline;">US Department of State website</a>.<br/>Online Criminal History Check providers include Checkr, BeenVerified, ClearChecks, Intelius, and others. Your background check must be uploaded as a single PDF file. <i>The French Embassy does not accept responsibility for the use of these external platforms. Candidates are encouraged to check the Privacy Policy and Terms of Service for each of these platforms prior to use.</i><br/>
+Please note: If accepted into the program, the documents you submit for your Criminal History Check will <b>NOT</b> be valid as a full Background Check, this must be done separately through the FBI <b>after your acceptance</b>. Instructions on this will be provided to accepted candidates at a later date.</p>
+			<h3>In light of numerous technical issues, the 2025 application deadline has been moved to <b>Sunday, March 9th, 2025 at 11:59PM Pacific US Time</b></h3-->
+			<br/>		</td>
+	</tr>
+  </table>
+</header>
+<main>	
+
+<div class="container">
+	
+<div class="row">
+</div>
+
+<div class="card hoverable animated fadeIn">
+	
+<div class="card-image">
+	<img class="responsive-img" src="/images/blue_banner.png">
+	<span class="card-title">
+	</span>
+</div>
+	
+<div class="card-content">
+	
+<div class="row">
+	<div class="col s12">
+		<h2 style="font-family: 'Akkurat Regular', 'Times New Roman', Times, serif;">
+            <b>Welcome to the Application for the 2025-2026 Teaching Assistant Program in France</b>
+        </h2>
+	</div>
+</div>
+
+	
+<div class="row">
+	<div class="col s12">
+		<p class="response flow-text">
+            <b>The Application for the 2025-2026 Teaching Assistant Program in France is closed.</b>
+        </p>
+		<p class="response flow-text">
+            <b>The Application for the 2026-2027 Teaching Assistant Program in France will open on October 15th. Please only begin your application from this start date.</b>
+        </p>
+	</div>
+</div>
+	
+	
+		
+<div class="row">
+	<div class="col s12">
+	</div>
+</div>
+	
+<div class="row">
+	<div class="col s12">
+		<span id="response" class="response flow-text"></span>
+	</div>
+</div>
+
+	
+<div class="row">
+	<div class="col s6">
+		<img src="/images/paris.jpg" alt="Paris" class="responsive-img animated fadeIn" />
+	</div>
+	<div class="col s6">
+		<div class="tab">
+  			<button class="tablinks" onclick="openTab(event, 'SignIn')" id="defaultOpen">SIGN IN</button>
+  			<button class="tablinks" onclick="openTab(event, 'SignUp')">SIGN UP</button>
+		</div>
+        <form id="signinForm" name="signinForm" method="post" action="">
+		<div id="SignIn" class="tabcontent animated fadeIn">
+		<div class="row">
+		<div class="col s6 input-field">
+		<i class="material-icons prefix">account_circle</i>
+        <input type="text" id="EMAIL1" name="EMAIL1" tabindex="1"/>
+		<label for="EMAIL1">Email</label>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col s6 input-field">
+		<i class="material-icons prefix">lock</i>
+        <input type="password" id="PASSWORD1" name="PASSWORD1" tabindex="2" />
+        <label for="PASSWORD1">Password</label>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col s6">
+		<button class="btn-large waves-effect waves-light" type="button" name="LOGIN" id="LOGIN" value="LOGIN" onclick="login();">LOGIN<i class="material-icons right">send</i>
+  		</button>
+		</div>	
+		</div>	
+		<div class="row">
+        <div class="col s6">       
+		</div>		
+		</div>		
+		<div class="row">
+        <div class="col s6">       
+        <span class="form_label">Forgot <a onmouseover="this.style.cursor='pointer';" onclick="window.location='/authentication/resetpassword.php?challenge=020b375d4ed411098fac15c74e7bcb82951dcc2508db097b23c5f784a7d41b000f144056a90a6700'"><b>password</b></a>?</span>
+		</div>		
+		</div>		
+		</div>		
+		<div id="SignUp" class="tabcontent animated fadeIn">
+		<div class="row">
+		<div class="col s6 input-field">
+		<i class="material-icons prefix">account_circle</i>
+        <input type="email" id="EMAIL2" name="EMAIL2" tabindex="1" class="validate restricted_email" />
+		<label for="EMAIL2">Email</label>
+		<span class="helper-text" data-error="Invalid e-mail format" data-success="Email format valid">.edu not accepted</span>
+		</div>
+		<div class="col s6 input-field">
+		<i class="material-icons prefix">account_circle</i>
+        <input type="email" id="EMAIL3" name="EMAIL3" tabindex="2" class="validate restricted_email" />
+		<label for="EMAIL3">Verify Email</label>
+		<span class="helper-text" data-error="Invalid e-mail format" data-success="Email format valid">.edu not accepted</span>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col s6 input-field">
+		<i class="material-icons prefix">lock</i>
+        <input type="password" id="PASSWORD2" name="PASSWORD2" tabindex="3" />
+        <label for="PASSWORD2">Password</label>
+		</div>
+		<div class="col s6 input-field">
+		<i class="material-icons prefix">lock</i>
+        <input type="password" id="PASSWORD3" name="PASSWORD3" tabindex="4" />
+        <label for="PASSWORD3">Verify Password</label>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col s6">
+		<button class="btn-large waves-effect waves-light" type="button" name="CREATE" id="CREATE" value="CREATE" onclick="create();" >CREATE<i class="material-icons right">send</i>
+  		</button>
+		</div>	
+		</div>	
+		<div class="row">
+		<div class="col s12">
+			<span>NOTE: We do not allow the use of university emails (addresses ending in .edu) in applying to TAPIF as access to these emails is often lost once applicants no longer hold student status. In the past, this has caused communication breakdowns that have resulted in selected assistants not receiving their work contracts on time. In the interest of avoiding these issues, we require for application and participation purposes the use of a personal email that will remain valid through the duration of the TAPIF program in the event that your candidacy is accepted. If accepted, we also highly discourage changing emails during your time as a TAPIF assistant as this can also engender communication issues between assistants and program staff.</span>
+		</div>	
+		</div>	
+		</div>
+        </form>
+		<script>document.getElementById("defaultOpen").click();</script>
+	</div>
+</div>
+	
+<form action="/authentication/login.php" method="post" name="loginForm" id="loginForm">
+	<input name="EMAIL1" type="hidden" value="" />
+	<input name="PASSWORD1" type="hidden" value="" />
+	<input name="COUNTRY" type="hidden" value="USA" />
+	<input name="challenge" type="hidden" value="020b375d4ed411098fac15c74e7bcb82951dcc2508db097b23c5f784a7d41b000f144056a90a6700" />
+	<input name="sequence" type="hidden" value="4e5ec7b1e4365132c6292e6cfc334098" />
+</form>
+
+<form action="/authentication/verify-email.php" method="post" name="createForm" id="createForm">
+	<input name="EMAIL2" type="hidden" value="" />
+	<input name="PASSWORD2" type="hidden" value="" />
+	<input name="COUNTRY" type="hidden" value="USA" />
+	<input name="challenge" type="hidden" value="020b375d4ed411098fac15c74e7bcb82951dcc2508db097b23c5f784a7d41b000f144056a90a6700" />
+	<input name="sequence" type="hidden" value="c890116ecb4b17f96fff88150e301454" />
+</form>
+</div>
+</div>
+</main>
+<footer>
+  <div style=" vertical-align:bottom;">
+  <table cellpadding="0" cellspacing="0" style="padding-left:5%; padding-right:5%; padding-top:5%; width: 100%;">
+  <tr>
+  <td class="footer_logo">
+	  <div style="display:flex; align-items: center;">
+	  <div>
+			<img src="/images/France_education_international.png" style="float:left; padding-right: 20px;" width="100px">
+		</div>
+		<div>
+			    <p><b>CULTURAL SERVICES</b></p>
+  				<p><b>FRENCH EMBASSY</b></p>
+  				<p><b>IN THE UNITED STATES</b></p>
+		</div>
+	  </div>
+  </td>
+  <td class="footer_menu_bar_elements">
+  <span>
+    <a href="/index.php">HOME</a>
+    </span>
+  </td>
+  <td class="footer_menu_bar_elements">
+  <span>
+  <a href="https://frenchculture.org/frenchcultures/teach-english-in-france/?cid=" target="_blank">ABOUT US</a>
+  </span>
+  </td>
+  <td class="footer_menu_bar_elements">
+  <span>
+  <a href="/privacypolicy.php" target="_blank">PRIVACY POLICY</a>
+  </span>
+  </td>
+  <td class="footer_menu_bar_elements">
+  <span>
+  <a href="mailto:webmaster@tapif.org">WEBMASTER</a></span>
+  </td>
+  </tr>
+  </table>
+  <button onclick="topFunction()" id="scrollBackToTop" title="Go to top">&and;</button>
+  </div></footer>
+</body>
+</html>

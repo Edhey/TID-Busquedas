@@ -1,0 +1,1844 @@
+--2025-04-04 12:46:03--  https://es.wikipedia.org/wiki/Brasil
+Resolving es.wikipedia.org (es.wikipedia.org)... 185.15.58.224, 2a02:ec80:600:ed1a::1
+Connecting to es.wikipedia.org (es.wikipedia.org)|185.15.58.224|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1112662 (1.1M) [text/html]
+Saving to: ‘./html3/https:__es.wikipedia.org_wiki_Brasil.html’
+
+     0K .......... .......... .......... .......... ..........  4%  605K 2s
+    50K .......... .......... .......... .......... ..........  9% 1.33M 1s
+   100K .......... .......... .......... .......... .......... 13% 2.52M 1s
+   150K .......... .......... .......... .......... .......... 18% 2.97M 1s
+   200K .......... .......... .......... .......... .......... 23% 3.62M 1s
+   250K .......... .......... .......... .......... .......... 27% 4.83M 0s
+   300K .......... .......... .......... .......... .......... 32% 4.78M 0s
+   350K .......... .......... .......... .......... .......... 36% 6.19M 0s
+   400K .......... .......... .......... .......... .......... 41% 7.10M 0s
+   450K .......... .......... .......... .......... .......... 46% 8.53M 0s
+   500K .......... .......... .......... .......... .......... 50% 8.13M 0s
+   550K .......... .......... .......... .......... .......... 55% 5.18M 0s
+   600K .......... .......... .......... .......... .......... 59% 7.73M 0s
+   650K .......... .......... .......... .......... .......... 64% 10.8M 0s
+   700K .......... .......... .......... .......... .......... 69% 10.2M 0s
+   750K .......... .......... .......... .......... .......... 73% 20.3M 0s
+   800K .......... .......... .......... .......... .......... 78% 15.6M 0s
+   850K .......... .......... .......... .......... .......... 82% 8.13M 0s
+   900K .......... .......... .......... .......... .......... 87% 22.6M 0s
+   950K .......... .......... .......... .......... .......... 92% 10.2M 0s
+  1000K .......... .......... .......... .......... .......... 96% 18.7M 0s
+  1050K .......... .......... .......... ......               100%  407M=0.3s
+
+2025-04-04 12:46:03 (4.05 MB/s) - ‘./html3/https:__es.wikipedia.org_wiki_Brasil.html’ saved [1112662/1112662]
+
+--2025-04-04 12:46:03--  https://www.realmadrid.com/
+Resolving www.realmadrid.com (www.realmadrid.com)... 23.223.97.59
+Connecting to www.realmadrid.com (www.realmadrid.com)|23.223.97.59|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.realmadrid.com_.html’
+
+     0K .......... .......... .......... .......... .......... 1.10M
+    50K .......... .......... .......... .......... .......... 1.68M
+   100K .......... .......... .......... .......... .......... 3.35M
+   150K .......... .......... ......                           5.80M=0.09s
+
+2025-04-04 12:46:04 (1.86 MB/s) - ‘./html3/https:__www.realmadrid.com_.html’ saved [180697]
+
+--2025-04-04 12:46:04--  https://www.tudn.com/futbol/mundial-qatar-2022/seleccion-brasil/por-que-le-dicen-scratch-du-oro-seleccion-de-brasil-origen-historia-apodo
+Resolving www.tudn.com (www.tudn.com)... 2.17.112.75, 2.17.112.91, 2a02:26f0:e0::211:2550, ...
+Connecting to www.tudn.com (www.tudn.com)|2.17.112.75|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.tudn.com_futbol_mundial-qatar-2022_seleccion-brasil_por-que-le-dicen-scratch-du-oro-seleccion-de-brasil-origen-historia-apodo.html’
+
+     0K .......... .......... .......... .......... .......... 1.09M
+    50K .......... .......... .......... .......... .......... 1.81M
+   100K .......... .......... .......... .......... .......... 3.22M
+   150K .......... .......... .......... .......... .......... 5.67M
+   200K .......... .......... .......... .......... .......... 5.44M
+   250K .......... .......... .......... .......... .......... 3.08M
+   300K .......... .......... .......... .......... .......... 9.53M
+   350K .......... .......... .......... .......... .......... 4.93M
+   400K .......... .......... .......... .......... ..........  288M
+   450K .......... .......... .......... .......... .......... 10.5M
+   500K .......... .......... .......... .......... .......... 7.93M
+   550K .......... .......... .......... .......... .......... 22.9M
+   600K .......... .......... .......... .......... .......... 9.07M
+   650K .......... .......... .......... .......... .......... 9.94M
+   700K .......... .......... .......... .......... .......... 4.91M
+   750K .......... .......... .......... .......... .......... 21.0M
+   800K .......... .......... .......... .......... .......... 19.6M
+   850K .......... .......... .......... .......... .......... 6.35M
+   900K .......... ..                                           264M=0.2s
+
+2025-04-04 12:46:05 (4.91 MB/s) - ‘./html3/https:__www.tudn.com_futbol_mundial-qatar-2022_seleccion-brasil_por-que-le-dicen-scratch-du-oro-seleccion-de-brasil-origen-historia-apodo.html’ saved [934382]
+
+--2025-04-04 12:46:05--  https://wise.com/mx/currency-converter/brl-to-mxn-rate
+Resolving wise.com (wise.com)... 104.18.39.116, 172.64.148.140
+Connecting to wise.com (wise.com)|104.18.39.116|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__wise.com_mx_currency-converter_brl-to-mxn-rate.html’
+
+     0K .......... .......... .......... .......... ..........  682K
+    50K .......... .......... .......... .......... ..........  427K
+   100K .......... .......... .......... .......... ..........  801K
+   150K .......... .......... .......... .......... .......... 2.28M
+   200K .......... .......... .......... .......... ..........  808K
+   250K .......... .......... .......... ........              2.67M=0.4s
+
+2025-04-04 12:46:06 (824 KB/s) - ‘./html3/https:__wise.com_mx_currency-converter_brl-to-mxn-rate.html’ saved [295726]
+
+--2025-04-04 12:46:06--  https://wise.com/mx/currency-converter/brl-to-mxn-rate
+Resolving wise.com (wise.com)... 172.64.148.140, 104.18.39.116
+Connecting to wise.com (wise.com)|172.64.148.140|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__wise.com_mx_currency-converter_brl-to-mxn-rate.html’
+
+     0K .......... .......... .......... .......... .......... 1.28M
+    50K .......... .......... .......... .......... .......... 2.09M
+   100K .......... .......... .......... .......... .......... 3.37M
+   150K .......... .......... .......... .......... .......... 3.88M
+   200K .......... .......... .......... .......... .......... 5.59M
+   250K .......... .......... .......... ........              12.3M=0.1s
+
+2025-04-04 12:46:07 (2.81 MB/s) - ‘./html3/https:__wise.com_mx_currency-converter_brl-to-mxn-rate.html’ saved [295722]
+
+--2025-04-04 12:46:07--  https://www.rtve.es/deportes/20250328/dorival-junior-destituido-seleccionador-brasil/16512258.shtml
+Resolving www.rtve.es (www.rtve.es)... 199.232.198.137, 199.232.194.137, 2a04:4e42:4d::649, ...
+Connecting to www.rtve.es (www.rtve.es)|199.232.198.137|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 52967 (52K) [text/html]
+Saving to: ‘./html3/https:__www.rtve.es_deportes_20250328_dorival-junior-destituido-seleccionador-brasil_16512258.shtml.html’
+
+     0K .......... .......... .......... .......... .......... 96% 1.66M 0s
+    50K .                                                     100%  703K=0.03s
+
+2025-04-04 12:46:07 (1.58 MB/s) - ‘./html3/https:__www.rtve.es_deportes_20250328_dorival-junior-destituido-seleccionador-brasil_16512258.shtml.html’ saved [52967/52967]
+
+--2025-04-04 12:46:07--  https://www.exoticca.com/mx/america/america-del-sur/brasil/eventos
+Resolving www.exoticca.com (www.exoticca.com)... 151.101.129.91, 151.101.65.91, 151.101.1.91, ...
+Connecting to www.exoticca.com (www.exoticca.com)|151.101.129.91|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1134960 (1.1M) [text/html]
+Saving to: ‘./html3/https:__www.exoticca.com_mx_america_america-del-sur_brasil_eventos.html’
+
+     0K .......... .......... .......... .......... ..........  4% 1.41M 1s
+    50K .......... .......... .......... .......... ..........  9% 2.00M 1s
+   100K .......... .......... .......... .......... .......... 13% 5.75M 0s
+   150K .......... .......... .......... .......... .......... 18% 11.2M 0s
+   200K .......... .......... .......... .......... .......... 22% 2.64M 0s
+   250K .......... .......... .......... .......... .......... 27% 13.3M 0s
+   300K .......... .......... .......... .......... .......... 31% 7.54M 0s
+   350K .......... .......... .......... .......... .......... 36% 24.4M 0s
+   400K .......... .......... .......... .......... .......... 40% 10.4M 0s
+   450K .......... .......... .......... .......... .......... 45% 4.26M 0s
+   500K .......... .......... .......... .......... .......... 49% 21.2M 0s
+   550K .......... .......... .......... .......... .......... 54% 21.9M 0s
+   600K .......... .......... .......... .......... .......... 58% 9.85M 0s
+   650K .......... .......... .......... .......... .......... 63% 57.9M 0s
+   700K .......... .......... .......... .......... .......... 67% 13.2M 0s
+   750K .......... .......... .......... .......... .......... 72% 56.0M 0s
+   800K .......... .......... .......... .......... .......... 76% 16.0M 0s
+   850K .......... .......... .......... .......... .......... 81% 24.0M 0s
+   900K .......... .......... .......... .......... .......... 85% 20.6M 0s
+   950K .......... .......... .......... .......... .......... 90% 21.5M 0s
+  1000K .......... .......... .......... .......... .......... 94% 7.00M 0s
+  1050K .......... .......... .......... .......... .......... 99% 92.0M 0s
+  1100K ........                                              100%  250M=0.2s
+
+2025-04-04 12:46:09 (7.17 MB/s) - ‘./html3/https:__www.exoticca.com_mx_america_america-del-sur_brasil_eventos.html’ saved [1134960/1134960]
+
+--2025-04-04 12:46:09--  https://es.wikipedia.org/wiki/Real_brasile%C3%B1o
+Resolving es.wikipedia.org (es.wikipedia.org)... 185.15.58.224, 2a02:ec80:600:ed1a::1
+Connecting to es.wikipedia.org (es.wikipedia.org)|185.15.58.224|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__es.wikipedia.org_wiki_Real_brasile%C3%B1o.html’
+
+     0K .......... .......... .......... .......... ..........  500K
+    50K .......... .......... .......... .......... .......... 1.25M
+   100K .......... .......... .......... .......... .......... 2.40M
+   150K                                                        1024G=0.2s
+
+2025-04-04 12:46:09 (944 KB/s) - ‘./html3/https:__es.wikipedia.org_wiki_Real_brasile%C3%B1o.html’ saved [154150]
+
+--2025-04-04 12:46:09--  https://visitbrasil.com/es/
+Resolving visitbrasil.com (visitbrasil.com)... 104.26.3.56, 172.67.71.24, 104.26.2.56, ...
+Connecting to visitbrasil.com (visitbrasil.com)|104.26.3.56|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:10 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:10--  https://visitbrasil.com/es/home/about-brazil/marca-brasil/
+Resolving visitbrasil.com (visitbrasil.com)... 104.26.3.56, 104.26.2.56, 172.67.71.24, ...
+Connecting to visitbrasil.com (visitbrasil.com)|104.26.3.56|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:10 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:10--  https://visitbrasil.com/es/home/experiences/
+Resolving visitbrasil.com (visitbrasil.com)... 104.26.2.56, 172.67.71.24, 104.26.3.56, ...
+Connecting to visitbrasil.com (visitbrasil.com)|104.26.2.56|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:10 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:10--  https://visitbrasil.com/es/home/about-brazil/impuestos-y-propinas/
+Resolving visitbrasil.com (visitbrasil.com)... 104.26.3.56, 104.26.2.56, 172.67.71.24, ...
+Connecting to visitbrasil.com (visitbrasil.com)|104.26.3.56|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:10 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:10--  https://visitbrasil.com/es/home/about-brazil/clima-y-temperatura/
+Resolving visitbrasil.com (visitbrasil.com)... 104.26.2.56, 172.67.71.24, 104.26.3.56, ...
+Connecting to visitbrasil.com (visitbrasil.com)|104.26.2.56|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:11 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:11--  https://www.realmadrid.com/es-ES/entradas
+Resolving www.realmadrid.com (www.realmadrid.com)... 23.223.97.59
+Connecting to www.realmadrid.com (www.realmadrid.com)|23.223.97.59|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 22670 (22K) [text/html]
+Saving to: ‘./html3/https:__www.realmadrid.com_es-ES_entradas.html’
+
+     0K .......... .......... ..                              100% 5.49M=0.004s
+
+2025-04-04 12:46:11 (5.49 MB/s) - ‘./html3/https:__www.realmadrid.com_es-ES_entradas.html’ saved [22670/22670]
+
+--2025-04-04 12:46:11--  https://www.boe.es/buscar/doc.php?id=BOE-A-2025-6600
+Resolving www.boe.es (www.boe.es)... 81.89.32.200
+Connecting to www.boe.es (www.boe.es)|81.89.32.200|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 40701 (40K) [text/html]
+Saving to: ‘./html3/https:__www.boe.es_buscar_doc.php?id=BOE-A-2025-6600.html’
+
+     0K .......... .......... .......... .........            100% 15.7M=0.002s
+
+2025-04-04 12:46:11 (15.7 MB/s) - ‘./html3/https:__www.boe.es_buscar_doc.php?id=BOE-A-2025-6600.html’ saved [40701/40701]
+
+--2025-04-04 12:46:11--  https://wise.com/es/currency-converter/currencies/brl-brazilian-real
+Resolving wise.com (wise.com)... 104.18.39.116, 172.64.148.140
+Connecting to wise.com (wise.com)|104.18.39.116|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__wise.com_es_currency-converter_currencies_brl-brazilian-real.html’
+
+     0K .......... .......... .......... .......... .......... 1.57M
+    50K .......... .......... .......... .......... .......... 2.00M
+   100K .......... .......... .......... .......... .......... 4.03M
+   150K .......... .......... .......... .......... .......... 2.40M
+   200K .......... .......... .......... .......... .......... 26.1M
+   250K .......... .......... .......... .......... .......... 12.1M
+   300K .......... .......... .......... .....                 3.84M=0.1s
+
+2025-04-04 12:46:12 (3.18 MB/s) - ‘./html3/https:__wise.com_es_currency-converter_currencies_brl-brazilian-real.html’ saved [343977]
+
+--2025-04-04 12:46:12--  https://wise.com/es/currency-converter/real-brasileno-hoy
+Resolving wise.com (wise.com)... 172.64.148.140, 104.18.39.116
+Connecting to wise.com (wise.com)|172.64.148.140|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__wise.com_es_currency-converter_real-brasileno-hoy.html’
+
+     0K .......... .......... .......... .......... .......... 1.46M
+    50K .......... .......... .......... .......... .......... 1.74M
+   100K .......... .......... .......... .......... .......... 4.30M
+   150K .......... .......... .......... .......... .......... 4.88M
+   200K .......... .......... .......... .......... .......... 3.54M
+   250K .......... .......... .......... .......... .......... 1.56M
+   300K .......... .......... .......... .......... .......... 2.79M
+   350K .......... .                                            367M=0.1s
+
+2025-04-04 12:46:12 (2.42 MB/s) - ‘./html3/https:__wise.com_es_currency-converter_real-brasileno-hoy.html’ saved [369808]
+
+--2025-04-04 12:46:12--  https://wise.com/es/currency-converter/brl-to-cop-rate
+Resolving wise.com (wise.com)... 172.64.148.140, 104.18.39.116
+Connecting to wise.com (wise.com)|172.64.148.140|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__wise.com_es_currency-converter_brl-to-cop-rate.html’
+
+     0K .......... .......... .......... .......... .......... 1.57M
+    50K .......... .......... .......... .......... .......... 1.46M
+   100K .......... .......... .......... .......... .......... 13.9M
+   150K .......... .......... .......... .......... .......... 3.16M
+   200K .......... .......... .......... .......... .......... 3.04M
+   250K .......... .......... .......... .......... ...        2.21M=0.1s
+
+2025-04-04 12:46:13 (2.41 MB/s) - ‘./html3/https:__wise.com_es_currency-converter_brl-to-cop-rate.html’ saved [300127]
+
+--2025-04-04 12:46:13--  https://wise.com/es/currency-converter/brl-to-ars-rate
+Resolving wise.com (wise.com)... 172.64.148.140, 104.18.39.116
+Connecting to wise.com (wise.com)|172.64.148.140|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__wise.com_es_currency-converter_brl-to-ars-rate.html’
+
+     0K .......... .......... .......... .......... .......... 1.58M
+    50K .......... .......... .......... .......... .......... 1.77M
+   100K .......... .......... .......... .......... .......... 4.92M
+   150K .......... .......... .......... .......... .......... 3.88M
+   200K .......... .......... .......... .......... .......... 7.91M
+   250K .......... .......... .......... .......... ..         5.59M=0.09s
+
+2025-04-04 12:46:13 (3.02 MB/s) - ‘./html3/https:__wise.com_es_currency-converter_brl-to-ars-rate.html’ saved [299118]
+
+--2025-04-04 12:46:13--  https://wise.com/mx/currency-converter/brl-to-mxn-rate
+Resolving wise.com (wise.com)... 172.64.148.140, 104.18.39.116
+Connecting to wise.com (wise.com)|172.64.148.140|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__wise.com_mx_currency-converter_brl-to-mxn-rate.html’
+
+     0K .......... .......... .......... .......... .......... 1.70M
+    50K .......... .......... .......... .......... .......... 1.93M
+   100K .......... .......... .......... .......... .......... 4.38M
+   150K .......... .......... .......... .......... .......... 2.94M
+   200K .......... .......... .......... .......... .......... 8.36M
+   250K .......... .......... .......... ........               812K=0.1s
+
+2025-04-04 12:46:14 (2.08 MB/s) - ‘./html3/https:__wise.com_mx_currency-converter_brl-to-mxn-rate.html’ saved [295726]
+
+--2025-04-04 12:46:14--  https://www.gov.br/mre/es
+Resolving www.gov.br (www.gov.br)... 161.148.164.31
+Connecting to www.gov.br (www.gov.br)|161.148.164.31|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:15 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:15--  https://www.gov.br/mre/es/acceso-a-la-informacion/preguntas-frecuentes/asistencia-a-brasilenos-el-el-exterior
+Resolving www.gov.br (www.gov.br)... 161.148.164.31
+Connecting to www.gov.br (www.gov.br)|161.148.164.31|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:16 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:16--  https://www.gov.br/mre/es/composicion/gabinete-del-ministro-de-relaciones-exteriores
+Resolving www.gov.br (www.gov.br)... 161.148.164.31
+Connecting to www.gov.br (www.gov.br)|161.148.164.31|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:17 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:17--  https://www.gov.br/mre/es/temas/cooperacion-internacional/agencia-brasilena-de-cooperacion
+Resolving www.gov.br (www.gov.br)... 161.148.164.31
+Connecting to www.gov.br (www.gov.br)|161.148.164.31|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:18 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:18--  https://x.com/realmadrid?lang=es
+Resolving x.com (x.com)... 172.66.0.227
+Connecting to x.com (x.com)|172.66.0.227|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2025-04-04 12:46:19 ERROR 400: Bad Request.
+
+--2025-04-04 12:46:19--  https://www.rae.es/dpd/Brasil
+Resolving www.rae.es (www.rae.es)... 172.67.69.61, 104.26.0.151, 104.26.1.151, ...
+Connecting to www.rae.es (www.rae.es)|172.67.69.61|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:19 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:19--  https://www.rpdiscapacidad.gob.es/
+Resolving www.rpdiscapacidad.gob.es (www.rpdiscapacidad.gob.es)... 195.64.187.151
+Connecting to www.rpdiscapacidad.gob.es (www.rpdiscapacidad.gob.es)|195.64.187.151|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 66416 (65K) [text/html]
+Saving to: ‘./html3/https:__www.rpdiscapacidad.gob.es_.html’
+
+     0K .......... .......... .......... .......... .......... 77%  509K 0s
+    50K .......... ....                                       100%  163M=0.1s
+
+2025-04-04 12:46:19 (660 KB/s) - ‘./html3/https:__www.rpdiscapacidad.gob.es_.html’ saved [66416/66416]
+
+--2025-04-04 12:46:19--  https://rjb.csic.es/
+Resolving rjb.csic.es (rjb.csic.es)... 161.111.70.134
+Connecting to rjb.csic.es (rjb.csic.es)|161.111.70.134|:443... connected.
+HTTP request sent, awaiting response... 500 Internal Server Error
+2025-04-04 12:46:27 ERROR 500: Internal Server Error.
+
+--2025-04-04 12:46:27--  https://alcazarsevilla.org/
+Resolving alcazarsevilla.org (alcazarsevilla.org)... 217.160.0.155
+Connecting to alcazarsevilla.org (alcazarsevilla.org)|217.160.0.155|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__alcazarsevilla.org_.html’
+
+     0K .......... .......... .......... .......... ..........  458K
+    50K .......... .......... .......... .......... ..........  965K
+   100K .......... .......... .......... .......... .......... 1.70M
+   150K .......... .......... .......... .......... .......... 2.17M
+   200K ....                                                   9025G=0.2s
+
+2025-04-04 12:46:28 (964 KB/s) - ‘./html3/https:__alcazarsevilla.org_.html’ saved [209645]
+
+--2025-04-04 12:46:28--  https://www.boe.es/buscar/doc.php?id=BOE-A-2025-6601
+Resolving www.boe.es (www.boe.es)... 81.89.32.200
+Connecting to www.boe.es (www.boe.es)|81.89.32.200|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 71230 (70K) [text/html]
+Saving to: ‘./html3/https:__www.boe.es_buscar_doc.php?id=BOE-A-2025-6601.html’
+
+     0K .......... .......... .......... .......... .......... 71%  830K 0s
+    50K .......... .........                                  100% 8.71M=0.06s
+
+2025-04-04 12:46:28 (1.09 MB/s) - ‘./html3/https:__www.boe.es_buscar_doc.php?id=BOE-A-2025-6601.html’ saved [71230/71230]
+
+--2025-04-04 12:46:28--  https://esim.holafly.com/es/esim-brasil/
+Resolving esim.holafly.com (esim.holafly.com)... 34.160.249.15
+Connecting to esim.holafly.com (esim.holafly.com)|34.160.249.15|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:28 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:28--  https://www.rsme.es/
+Resolving www.rsme.es (www.rsme.es)... 54.38.85.87
+Connecting to www.rsme.es (www.rsme.es)|54.38.85.87|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.rsme.es_.html’
+
+     0K .......... .......... .......... .......... ..........  518K
+    50K .......... .......... .......... .......... .......... 1.04M
+   100K ..........                                             49.1M=0.1s
+
+2025-04-04 12:46:34 (765 KB/s) - ‘./html3/https:__www.rsme.es_.html’ saved [112723]
+
+--2025-04-04 12:46:34--  https://as.com/baloncesto/videos/resumen-del-real-madrid-basket-vs-paris-basketball-de-la-euroliga-v/
+Resolving as.com (as.com)... 2.18.188.89, 2.18.188.86, 2a02:26f0:1380:27::5f64:6d65, ...
+Connecting to as.com (as.com)|2.18.188.89|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__as.com_baloncesto_videos_resumen-del-real-madrid-basket-vs-paris-basketball-de-la-euroliga-v_.html’
+
+     0K .......... .......... .......... .......... .......... 1.61M
+    50K .......... .......... .......... .......... .......... 4.80M
+   100K .......... .......... .......... .......... .......... 1.13M
+   150K .......... .......... .......... .......... .......... 7.55M
+   200K .......... .......... .......... .......... .......... 5.61M
+   250K .......... ........                                    30.6M=0.1s
+
+2025-04-04 12:46:34 (2.64 MB/s) - ‘./html3/https:__as.com_baloncesto_videos_resumen-del-real-madrid-basket-vs-paris-basketball-de-la-euroliga-v_.html’ saved [275446]
+
+--2025-04-04 12:46:34--  https://as.com/baloncesto/videos/resumen-del-real-madrid-basket-vs-paris-basketball-de-la-euroliga-v/
+Resolving as.com (as.com)... 2.18.188.86, 2.18.188.89, 2a02:26f0:1380:27::5f64:6d4c, ...
+Connecting to as.com (as.com)|2.18.188.86|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__as.com_baloncesto_videos_resumen-del-real-madrid-basket-vs-paris-basketball-de-la-euroliga-v_.html’
+
+     0K .......... .......... .......... .......... .......... 2.01M
+    50K .......... .......... .......... .......... .......... 4.50M
+   100K .......... .......... .......... .......... .......... 1.91M
+   150K .......... .......... .......... .......... .......... 7.22M
+   200K .......... .......... .......... .......... .......... 2.11M
+   250K .......... ........                                     468M=0.09s
+
+2025-04-04 12:46:34 (2.90 MB/s) - ‘./html3/https:__as.com_baloncesto_videos_resumen-del-real-madrid-basket-vs-paris-basketball-de-la-euroliga-v_.html’ saved [275446]
+
+--2025-04-04 12:46:34--  https://rfef.es/es
+Resolving rfef.es (rfef.es)... 104.26.6.62, 104.26.7.62, 172.67.69.146, ...
+Connecting to rfef.es (rfef.es)|104.26.6.62|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:34 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:34--  https://www.eurosport.es/baloncesto/euroliga/2024-2025/real-madrid-paris-resultado-resumen-highlights-mejores-jugadas-105-104_vid2349980/video.shtml
+Resolving www.eurosport.es (www.eurosport.es)... 2.17.112.92, 2.17.112.74, 2a02:26f0:e0::211:2583, ...
+Connecting to www.eurosport.es (www.eurosport.es)|2.17.112.92|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.eurosport.es_baloncesto_euroliga_2024-2025_real-madrid-paris-resultado-resumen-highlights-mejores-jugadas-105-104_vid2349980_video.shtml.html’
+
+     0K .......... .......... .......... .......... .......... 1.12M
+    50K .......... .......... .......... .......... .......... 1.68M
+   100K .......... .......... .......... .......... .......... 3.99M
+   150K .......... .......... .......... .......... .......... 4.38M
+   200K .......... .......... .......... .......... .......... 4.34M
+   250K .......... .......... .......... .......... .......... 9.45M
+   300K .......... .......... .......... .......... .......... 6.96M
+   350K .......... .......... .......... .......... .......... 10.1M
+   400K .......... .......... .......... .......... .......... 12.2M
+   450K .......... .......... .......... .......... .......... 10.7M
+   500K .......... .......... .......... .......... .......... 13.8M
+   550K .......... .......... .......... .......... ...        14.8M=0.1s
+
+2025-04-04 12:46:38 (4.16 MB/s) - ‘./html3/https:__www.eurosport.es_baloncesto_euroliga_2024-2025_real-madrid-paris-resultado-resumen-highlights-mejores-jugadas-105-104_vid2349980_video.shtml.html’ saved [608197]
+
+--2025-04-04 12:46:38--  https://www.eurosport.es/baloncesto/euroliga/2024-2025/real-madrid-paris-resultado-resumen-highlights-mejores-jugadas-105-104_vid2349980/video.shtml
+Resolving www.eurosport.es (www.eurosport.es)... 2.17.112.74, 2.17.112.92, 2a02:26f0:e0::211:2583, ...
+Connecting to www.eurosport.es (www.eurosport.es)|2.17.112.74|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.eurosport.es_baloncesto_euroliga_2024-2025_real-madrid-paris-resultado-resumen-highlights-mejores-jugadas-105-104_vid2349980_video.shtml.html’
+
+     0K .......... .......... .......... .......... .......... 1.11M
+    50K .......... .......... .......... .......... .......... 1.83M
+   100K .......... .......... .......... .......... .......... 3.71M
+   150K .......... .......... .......... .......... .......... 4.25M
+   200K .......... .......... .......... .......... .......... 4.44M
+   250K .......... .......... .......... .......... .......... 3.45M
+   300K .......... .......... .......... .......... .......... 2.79M
+   350K .......... .......... .......... .......... .......... 1.82M
+   400K .......... .......... .......... .......... .......... 10.1M
+   450K .......... .......... .......... .......... .......... 9.38M
+   500K .......... .......... .......... .......... .......... 10.4M
+   550K .......... .......... .......... .......... ...        11.0M=0.2s
+
+2025-04-04 12:46:38 (3.16 MB/s) - ‘./html3/https:__www.eurosport.es_baloncesto_euroliga_2024-2025_real-madrid-paris-resultado-resumen-highlights-mejores-jugadas-105-104_vid2349980_video.shtml.html’ saved [608197]
+
+--2025-04-04 12:46:38--  https://www.realacademiabellasartessanfernando.com/
+Resolving www.realacademiabellasartessanfernando.com (www.realacademiabellasartessanfernando.com)... 51.89.20.77
+Connecting to www.realacademiabellasartessanfernando.com (www.realacademiabellasartessanfernando.com)|51.89.20.77|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 743739 (726K) [text/html]
+Saving to: ‘./html3/https:__www.realacademiabellasartessanfernando.com_.html’
+
+     0K .......... .......... .......... .......... ..........  6%  453K 1s
+    50K .......... .......... .......... .......... .......... 13% 1.05M 1s
+   100K .......... .......... .......... .......... .......... 20% 4.02M 1s
+   150K .......... .......... .......... .......... .......... 27% 1.18M 1s
+   200K .......... .......... .......... .......... .......... 34% 4.73M 0s
+   250K .......... .......... .......... .......... .......... 41% 17.8M 0s
+   300K .......... .......... .......... .......... .......... 48% 17.9M 0s
+   350K .......... .......... .......... .......... .......... 55% 1.29M 0s
+   400K .......... .......... .......... .......... .......... 61% 6.87M 0s
+   450K .......... .......... .......... .......... .......... 68% 6.91M 0s
+   500K .......... .......... .......... .......... .......... 75% 25.5M 0s
+   550K .......... .......... .......... .......... .......... 82% 15.2M 0s
+   600K .......... .......... .......... .......... .......... 89% 15.1M 0s
+   650K .......... .......... .......... .......... .......... 96% 18.8M 0s
+   700K .......... .......... ......                          100%  702M=0.3s
+
+2025-04-04 12:46:39 (2.45 MB/s) - ‘./html3/https:__www.realacademiabellasartessanfernando.com_.html’ saved [743739/743739]
+
+--2025-04-04 12:46:39--  https://www.realescuela.org/en/main/
+Resolving www.realescuela.org (www.realescuela.org)... 185.11.117.67
+Connecting to www.realescuela.org (www.realescuela.org)|185.11.117.67|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.realescuela.org_en_main_.html’
+
+     0K .......... .......... .......... .......... .......... 1.17M
+    50K .......... .......... .......... .......... .......... 1.25M
+   100K .......... .......... .......... .......... .......... 22.3M
+   150K .......... .......... .......... .......... .......... 1.36M
+   200K .......... .......... .......... .......... .......... 4.52M
+   250K .......... .......... .......... .......... .......... 21.3M
+   300K .......... .......... .......... .......... .......... 11.1M
+   350K .......... .......... .......... .......... .......... 1.29M
+   400K .......... .....                                       84.2M=0.2s
+
+2025-04-04 12:46:40 (2.33 MB/s) - ‘./html3/https:__www.realescuela.org_en_main_.html’ saved [425619]
+
+--2025-04-04 12:46:40--  https://en.realbetisbalompie.es/
+Resolving en.realbetisbalompie.es (en.realbetisbalompie.es)... 51.255.76.196
+Connecting to en.realbetisbalompie.es (en.realbetisbalompie.es)|51.255.76.196|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__en.realbetisbalompie.es_.html’
+
+     0K .......... .......... .......... .......... ..........  988K
+    50K .......... .......... .......... .......... .......... 1014K
+   100K .......... ........                                     389M=0.1s
+
+2025-04-04 12:46:40 (1.15 MB/s) - ‘./html3/https:__en.realbetisbalompie.es_.html’ saved [121052]
+
+--2025-04-04 12:46:40--  https://www.monkeyweek.org/es/
+Resolving www.monkeyweek.org (www.monkeyweek.org)... 213.192.239.180
+Connecting to www.monkeyweek.org (www.monkeyweek.org)|213.192.239.180|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://www.monkeyweek.org/ [following]
+--2025-04-04 12:46:42--  https://www.monkeyweek.org/
+Reusing existing connection to www.monkeyweek.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 157382 (154K) [text/html]
+Saving to: ‘./html3/https:__www.monkeyweek.org_es_.html’
+
+     0K .......... .......... .......... .......... .......... 32% 1.14M 0s
+    50K .......... .......... .......... .......... .......... 65% 1.21M 0s
+   100K .......... .......... .......... .......... .......... 97% 14.3M 0s
+   150K ...                                                   100%  301M=0.09s
+
+2025-04-04 12:46:43 (1.73 MB/s) - ‘./html3/https:__www.monkeyweek.org_es_.html’ saved [157382/157382]
+
+--2025-04-04 12:46:43--  https://www.ayto-sotodelreal.es/
+Resolving www.ayto-sotodelreal.es (www.ayto-sotodelreal.es)... 217.160.0.106, 2001:8d8:100f:f000::277
+Connecting to www.ayto-sotodelreal.es (www.ayto-sotodelreal.es)|217.160.0.106|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.ayto-sotodelreal.es_.html’
+
+     0K .......... .......... .......... .......... ..........  473K
+    50K .......... .......... .......... .......... ..........  930K
+   100K .......... .......... .......... .......... .......... 1.75M
+   150K .......... .......... ......                           3.37M=0.2s
+
+2025-04-04 12:46:44 (905 KB/s) - ‘./html3/https:__www.ayto-sotodelreal.es_.html’ saved [180737]
+
+--2025-04-04 12:46:44--  https://www.realinstitutoelcano.org/
+Resolving www.realinstitutoelcano.org (www.realinstitutoelcano.org)... 3.33.186.224, 15.197.176.104
+Connecting to www.realinstitutoelcano.org (www.realinstitutoelcano.org)|3.33.186.224|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.realinstitutoelcano.org_.html’
+
+     0K .......... .......... .......... .......... .......... 1.66M
+    50K .......... .......... .......... .......... .......... 1.63M
+   100K .......... .......... .......... .......               28.7M=0.06s
+
+2025-04-04 12:46:45 (2.22 MB/s) - ‘./html3/https:__www.realinstitutoelcano.org_.html’ saved [141248]
+
+--2025-04-04 12:46:45--  https://santamarialareal.org/
+Resolving santamarialareal.org (santamarialareal.org)... 82.98.176.50
+Connecting to santamarialareal.org (santamarialareal.org)|82.98.176.50|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__santamarialareal.org_.html’
+
+     0K .......... .......... .......... .......... .......... 1.49M
+    50K .......... .......... .......... .......... .......... 1.60M
+   100K .......... .......... .......... .......... .......... 1.69M
+   150K .......... .......... .......... .......... .......... 1.68M
+   200K .......... .......... .......... .......... .......... 39.0M
+   250K .......... .......... .......... .......... .......... 1.47M
+   300K ......                                                  293M=0.2s
+
+2025-04-04 12:46:47 (1.92 MB/s) - ‘./html3/https:__santamarialareal.org_.html’ saved [313346]
+
+--2025-04-04 12:46:47--  https://www.teatroreal.es/es/historia-del-teatro
+Resolving www.teatroreal.es (www.teatroreal.es)... 188.165.135.124
+Connecting to www.teatroreal.es (www.teatroreal.es)|188.165.135.124|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.teatroreal.es_es_historia-del-teatro.html’
+
+     0K .......... .......... .......... .......... .......... 1008K
+    50K .......... ..........                                   585M=0.05s
+
+2025-04-04 12:46:48 (1.39 MB/s) - ‘./html3/https:__www.teatroreal.es_es_historia-del-teatro.html’ saved [72508]
+
+--2025-04-04 12:46:48--  https://en.realbetisbalompie.es/
+Resolving en.realbetisbalompie.es (en.realbetisbalompie.es)... 51.255.76.196
+Connecting to en.realbetisbalompie.es (en.realbetisbalompie.es)|51.255.76.196|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__en.realbetisbalompie.es_.html’
+
+     0K .......... .......... .......... .......... ..........  908K
+    50K .......... .......... .......... .......... .......... 1.08M
+   100K .......... ........                                    21.8M=0.1s
+
+2025-04-04 12:46:48 (1.14 MB/s) - ‘./html3/https:__en.realbetisbalompie.es_.html’ saved [121052]
+
+--2025-04-04 12:46:48--  https://www.monkeyweek.org/es/
+Resolving www.monkeyweek.org (www.monkeyweek.org)... 213.192.239.180
+Connecting to www.monkeyweek.org (www.monkeyweek.org)|213.192.239.180|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://www.monkeyweek.org/ [following]
+--2025-04-04 12:46:49--  https://www.monkeyweek.org/
+Reusing existing connection to www.monkeyweek.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 157382 (154K) [text/html]
+Saving to: ‘./html3/https:__www.monkeyweek.org_es_.html’
+
+     0K .......... .......... .......... .......... .......... 32%  909K 0s
+    50K .......... .......... .......... .......... .......... 65% 1.16M 0s
+   100K .......... .......... .......... .......... .......... 97% 21.1M 0s
+   150K ...                                                   100%  238M=0.1s
+
+2025-04-04 12:46:50 (1.51 MB/s) - ‘./html3/https:__www.monkeyweek.org_es_.html’ saved [157382/157382]
+
+--2025-04-04 12:46:50--  https://www.ayto-sotodelreal.es/
+Resolving www.ayto-sotodelreal.es (www.ayto-sotodelreal.es)... 217.160.0.106, 2001:8d8:100f:f000::277
+Connecting to www.ayto-sotodelreal.es (www.ayto-sotodelreal.es)|217.160.0.106|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.ayto-sotodelreal.es_.html’
+
+     0K .......... .......... .......... .......... ..........  443K
+    50K .......... .......... .......... .......... ..........  934K
+   100K .......... .......... .......... .......... .......... 1.70M
+   150K .......... .......... ......                           3.13M=0.2s
+
+2025-04-04 12:46:51 (868 KB/s) - ‘./html3/https:__www.ayto-sotodelreal.es_.html’ saved [180737]
+
+--2025-04-04 12:46:51--  https://www.realzaragoza.com/
+Resolving www.realzaragoza.com (www.realzaragoza.com)... 13.107.246.77, 2620:1ec:bdf::77
+Connecting to www.realzaragoza.com (www.realzaragoza.com)|13.107.246.77|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 570002 (557K) [text/html]
+Saving to: ‘./html3/https:__www.realzaragoza.com_.html’
+
+     0K .......... .......... .......... .......... ..........  8% 1.34M 0s
+    50K .......... .......... .......... .......... .......... 17% 1.72M 0s
+   100K .......... .......... .......... .......... .......... 26% 1.05M 0s
+   150K .......... .......... .......... .......... .......... 35% 1.26M 0s
+   200K .......... .......... .......... .......... .......... 44% 1.64M 0s
+   250K .......... .......... .......... .......... .......... 53% 1.50M 0s
+   300K .......... .......... .......... .......... .......... 62% 1.44M 0s
+   350K .......... .......... .......... .......... .......... 71% 1.73M 0s
+   400K .......... .......... .......... .......... .......... 80% 2.69M 0s
+   450K .......... .......... .......... .......... .......... 89% 1.55M 0s
+   500K .......... .......... .......... .......... .......... 98% 3.10M 0s
+   550K ......                                                100% 36.9M=0.3s
+
+2025-04-04 12:46:52 (1.60 MB/s) - ‘./html3/https:__www.realzaragoza.com_.html’ saved [570002/570002]
+
+--2025-04-04 12:46:52--  https://www.realinstitutoelcano.org/
+Resolving www.realinstitutoelcano.org (www.realinstitutoelcano.org)... 15.197.176.104, 3.33.186.224
+Connecting to www.realinstitutoelcano.org (www.realinstitutoelcano.org)|15.197.176.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.realinstitutoelcano.org_.html’
+
+     0K .......... .......... .......... .......... .......... 1.64M
+    50K .......... .......... .......... .......... .......... 1.72M
+   100K .......... .......... .......... .......               13.1M=0.06s
+
+2025-04-04 12:46:52 (2.21 MB/s) - ‘./html3/https:__www.realinstitutoelcano.org_.html’ saved [141248]
+
+--2025-04-04 12:46:52--  https://santamarialareal.org/
+Resolving santamarialareal.org (santamarialareal.org)... 82.98.176.50
+Connecting to santamarialareal.org (santamarialareal.org)|82.98.176.50|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__santamarialareal.org_.html’
+
+     0K .......... .......... .......... .......... .......... 1.46M
+    50K .......... .......... .......... .......... .......... 1.91M
+   100K .......... .......... .......... .......... .......... 5.21M
+   150K .......... .......... .......... .......... ..........  570M
+   200K .......... .......... .......... .......... .......... 2.24M
+   250K .......... .......... .......... .......... .......... 6.86M
+   300K ......                                                  202M=0.1s
+
+2025-04-04 12:46:54 (3.07 MB/s) - ‘./html3/https:__santamarialareal.org_.html’ saved [313346]
+
+--2025-04-04 12:46:54--  https://esim.holafly.com/es/esim-brasil/
+Resolving esim.holafly.com (esim.holafly.com)... 34.160.249.15
+Connecting to esim.holafly.com (esim.holafly.com)|34.160.249.15|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:46:55 ERROR 403: Forbidden.
+
+--2025-04-04 12:46:55--  https://www.teatroreal.es/es/historia-del-teatro
+Resolving www.teatroreal.es (www.teatroreal.es)... 188.165.135.124
+Connecting to www.teatroreal.es (www.teatroreal.es)|188.165.135.124|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.teatroreal.es_es_historia-del-teatro.html’
+
+     0K .......... .......... .......... .......... .......... 1.02M
+    50K .......... ..........                                   480M=0.05s
+
+2025-04-04 12:46:55 (1.45 MB/s) - ‘./html3/https:__www.teatroreal.es_es_historia-del-teatro.html’ saved [72508]
+
+--2025-04-04 12:46:55--  https://www.patrimonionacional.es/visita/real-monasterio-de-san-lorenzo-de-el-escorial
+Resolving www.patrimonionacional.es (www.patrimonionacional.es)... 185.73.174.194
+Connecting to www.patrimonionacional.es (www.patrimonionacional.es)|185.73.174.194|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 347053 (339K) [text/html]
+Saving to: ‘./html3/https:__www.patrimonionacional.es_visita_real-monasterio-de-san-lorenzo-de-el-escorial.html’
+
+     0K .......... .......... .......... .......... .......... 14%  806K 0s
+    50K .......... .......... .......... .......... .......... 29% 1.54M 0s
+   100K .......... .......... .......... .......... .......... 44% 8.46M 0s
+   150K .......... .......... .......... .......... .......... 59%  445M 0s
+   200K .......... .......... .......... .......... .......... 73% 1.49M 0s
+   250K .......... .......... .......... .......... .......... 88% 28.7M 0s
+   300K .......... .......... .......... ........             100%  354M=0.1s
+
+2025-04-04 12:46:55 (2.46 MB/s) - ‘./html3/https:__www.patrimonionacional.es_visita_real-monasterio-de-san-lorenzo-de-el-escorial.html’ saved [347053/347053]
+
+--2025-04-04 12:46:55--  https://rcsmm.eu/
+Resolving rcsmm.eu (rcsmm.eu)... 62.97.84.197
+Connecting to rcsmm.eu (rcsmm.eu)|62.97.84.197|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__rcsmm.eu_.html’
+
+     0K .......... .......... .......... .......... ..........  841K
+    50K .......... .......... .......... .......... .......... 1.75M
+   100K .......... .......... .......... .......... .......... 9.27M
+   150K .......... .......... .......... .......... .......... 21.2M
+   200K .......... ...                                          634K=0.1s
+
+2025-04-04 12:46:56 (1.80 MB/s) - ‘./html3/https:__rcsmm.eu_.html’ saved [218276]
+
+--2025-04-04 12:46:56--  https://rfess.es/
+Resolving rfess.es (rfess.es)... 116.203.191.196
+Connecting to rfess.es (rfess.es)|116.203.191.196|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 555982 (543K) [text/html]
+Saving to: ‘./html3/https:__rfess.es_.html’
+
+     0K .......... .......... .......... .......... ..........  9%  764K 1s
+    50K .......... .......... .......... .......... .......... 18%  731K 1s
+   100K .......... .......... .......... .......... .......... 27% 15.3M 0s
+   150K .......... .......... .......... .......... .......... 36%  325M 0s
+   200K .......... .......... .......... .......... .......... 46%  782K 0s
+   250K .......... .......... .......... .......... .......... 55% 50.8M 0s
+   300K .......... .......... .......... .......... .......... 64% 7.46M 0s
+   350K .......... .......... .......... .......... .......... 73%  132M 0s
+   400K .......... .......... .......... .......... .......... 82%  852K 0s
+   450K .......... .......... .......... .......... .......... 92% 17.1M 0s
+   500K .......... .......... .......... .......... ..        100%  387M=0.3s
+
+2025-04-04 12:46:57 (1.96 MB/s) - ‘./html3/https:__rfess.es_.html’ saved [555982/555982]
+
+--2025-04-04 12:46:57--  https://www.facebook.com/RealMadrid/?locale=es_ES
+Resolving www.facebook.com (www.facebook.com)... 31.13.83.36, 2a03:2880:f104:83:face:b00c:0:25de
+Connecting to www.facebook.com (www.facebook.com)|31.13.83.36|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://www.facebook.com/unsupportedbrowser [following]
+--2025-04-04 12:46:57--  https://www.facebook.com/unsupportedbrowser
+Reusing existing connection to www.facebook.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.facebook.com_RealMadrid_?locale=es_ES.html’
+
+     0K .......... .......... .......... .......... .....       758K=0.06s
+
+2025-04-04 12:46:57 (758 KB/s) - ‘./html3/https:__www.facebook.com_RealMadrid_?locale=es_ES.html’ saved [46529]
+
+--2025-04-04 12:46:57--  https://ranm.es/
+Resolving ranm.es (ranm.es)... 87.98.231.4, 2001:41d0:1:1b00:87:98:231:4
+Connecting to ranm.es (ranm.es)|87.98.231.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__ranm.es_.html’
+
+     0K .......... .......... .......... .......... ..........  486K
+    50K .......... .......... .......... .......... .......... 1.13M
+   100K .......... .......... .......... .......... .......... 6.64M
+   150K .......... .......... .......... .......... .......... 1.58M
+   200K .......... .......... .......... .......... .......... 3.15M
+   250K .......... ..........                                   435M=0.2s
+
+2025-04-04 12:46:59 (1.32 MB/s) - ‘./html3/https:__ranm.es_.html’ saved [277390]
+
+--2025-04-04 12:46:59--  https://www.realvalladolid.es/
+Resolving www.realvalladolid.es (www.realvalladolid.es)... 13.107.246.77, 2620:1ec:bdf::77
+Connecting to www.realvalladolid.es (www.realvalladolid.es)|13.107.246.77|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 541678 (529K) [text/html]
+Saving to: ‘./html3/https:__www.realvalladolid.es_.html’
+
+     0K .......... .......... .......... .......... ..........  9% 1.48M 0s
+    50K .......... .......... .......... .......... .......... 18% 2.06M 0s
+   100K .......... .......... .......... .......... .......... 28% 4.47M 0s
+   150K .......... .......... .......... .......... .......... 37% 3.68M 0s
+   200K .......... .......... .......... .......... .......... 47% 6.76M 0s
+   250K .......... .......... .......... .......... .......... 56% 9.34M 0s
+   300K .......... .......... .......... .......... .......... 66% 4.71M 0s
+   350K .......... .......... .......... .......... .......... 75% 2.88M 0s
+   400K .......... .......... .......... .......... .......... 85% 17.9M 0s
+   450K .......... .......... .......... .......... .......... 94% 7.77M 0s
+   500K .......... .......... ........                        100% 22.8M=0.1s
+
+2025-04-04 12:46:59 (3.95 MB/s) - ‘./html3/https:__www.realvalladolid.es_.html’ saved [541678/541678]
+
+--2025-04-04 12:46:59--  https://www.dipucr.es/
+Resolving www.dipucr.es (www.dipucr.es)... 185.191.65.149
+Connecting to www.dipucr.es (www.dipucr.es)|185.191.65.149|:443... connected.
+ERROR: cannot verify www.dipucr.es's certificate, issued by ‘CN=GlobalSign GCC R6 AlphaSSL CA 2023,O=GlobalSign nv-sa,C=BE’:
+  Unable to locally verify the issuer's authority.
+To connect to www.dipucr.es insecurely, use `--no-check-certificate'.
+--2025-04-04 12:47:00--  https://cnnespanol.cnn.com/latinoamerica/brasil
+Resolving cnnespanol.cnn.com (cnnespanol.cnn.com)... 151.101.3.5, 151.101.131.5, 151.101.195.5, ...
+Connecting to cnnespanol.cnn.com (cnnespanol.cnn.com)|151.101.3.5|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2467158 (2.4M) [text/html]
+Saving to: ‘./html3/https:__cnnespanol.cnn.com_latinoamerica_brasil.html’
+
+     0K .......... .......... .......... .......... ..........  2% 1.16M 2s
+    50K .......... .......... .......... .......... ..........  4% 1.68M 2s
+   100K .......... .......... .......... .......... ..........  6% 9.53M 1s
+   150K .......... .......... .......... .......... ..........  8% 3.82M 1s
+   200K .......... .......... .......... .......... .......... 10% 10.6M 1s
+   250K .......... .......... .......... .......... .......... 12% 3.59M 1s
+   300K .......... .......... .......... .......... .......... 14% 10.2M 1s
+   350K .......... .......... .......... .......... .......... 16% 9.11M 1s
+   400K .......... .......... .......... .......... .......... 18% 3.36M 1s
+   450K .......... .......... .......... .......... .......... 20% 3.62M 1s
+   500K .......... .......... .......... .......... .......... 22%  387M 0s
+   550K .......... .......... .......... .......... .......... 24% 18.0M 0s
+   600K .......... .......... .......... .......... .......... 26%  362M 0s
+   650K .......... .......... .......... .......... .......... 29% 16.3M 0s
+   700K .......... .......... .......... .......... .......... 31%  585M 0s
+   750K .......... .......... .......... .......... .......... 33% 18.0M 0s
+   800K .......... .......... .......... .......... .......... 35% 37.5M 0s
+   850K .......... .......... .......... .......... .......... 37% 6.06M 0s
+   900K .......... .......... .......... .......... .......... 39% 10.3M 0s
+   950K .......... .......... .......... .......... .......... 41% 22.8M 0s
+  1000K .......... .......... .......... .......... .......... 43% 4.21M 0s
+  1050K .......... .......... .......... .......... .......... 45% 16.3M 0s
+  1100K .......... .......... .......... .......... .......... 47% 20.6M 0s
+  1150K .......... .......... .......... .......... .......... 49% 11.0M 0s
+  1200K .......... .......... .......... .......... .......... 51% 84.1M 0s
+  1250K .......... .......... .......... .......... .......... 53% 14.6M 0s
+  1300K .......... .......... .......... .......... .......... 56% 15.0M 0s
+  1350K .......... .......... .......... .......... .......... 58% 24.8M 0s
+  1400K .......... .......... .......... .......... .......... 60% 40.4M 0s
+  1450K .......... .......... .......... .......... .......... 62% 14.5M 0s
+  1500K .......... .......... .......... .......... .......... 64% 35.8M 0s
+  1550K .......... .......... .......... .......... .......... 66% 5.49M 0s
+  1600K .......... .......... .......... .......... .......... 68% 29.2M 0s
+  1650K .......... .......... .......... .......... .......... 70% 21.8M 0s
+  1700K .......... .......... .......... .......... .......... 72%  103M 0s
+  1750K .......... .......... .......... .......... .......... 74% 22.0M 0s
+  1800K .......... .......... .......... .......... .......... 76% 8.99M 0s
+  1850K .......... .......... .......... .......... .......... 78% 12.1M 0s
+  1900K .......... .......... .......... .......... .......... 80% 20.0M 0s
+  1950K .......... .......... .......... .......... .......... 83%  330M 0s
+  2000K .......... .......... .......... .......... .......... 85% 13.0M 0s
+  2050K .......... .......... .......... .......... .......... 87%  232M 0s
+  2100K .......... .......... .......... .......... .......... 89% 18.3M 0s
+  2150K .......... .......... .......... .......... .......... 91% 24.0M 0s
+  2200K .......... .......... .......... .......... .......... 93% 9.75M 0s
+  2250K .......... .......... .......... .......... .......... 95% 32.6M 0s
+  2300K .......... .......... .......... .......... .......... 97% 16.1M 0s
+  2350K .......... .......... .......... .......... .......... 99%  196M 0s
+  2400K .........                                             100%  287M=0.3s
+
+2025-04-04 12:47:00 (9.30 MB/s) - ‘./html3/https:__cnnespanol.cnn.com_latinoamerica_brasil.html’ saved [2467158/2467158]
+
+--2025-04-04 12:47:00--  https://www.defensa.gob.es/guardiareal/
+Resolving www.defensa.gob.es (www.defensa.gob.es)... 193.33.2.132
+Connecting to www.defensa.gob.es (www.defensa.gob.es)|193.33.2.132|:443... connected.
+ERROR: cannot verify www.defensa.gob.es's certificate, issued by ‘CN=GEANT OV ECC CA 4,O=GEANT Vereniging,C=NL’:
+  Unable to locally verify the issuer's authority.
+To connect to www.defensa.gob.es insecurely, use `--no-check-certificate'.
+--2025-04-04 12:47:00--  http://www.resad.es/index.html
+Resolving www.resad.es (www.resad.es)... 82.98.168.23
+Connecting to www.resad.es (www.resad.es)|82.98.168.23|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/http:__www.resad.es_index.html.html’
+
+     0K .......... .......... .......... .......... ..........  755K
+    50K .......... .......... .......... .......... .......... 1.62M
+   100K .......... .......... .......... .......... ........   7.50M=0.1s
+
+2025-04-04 12:47:01 (1.41 MB/s) - ‘./html3/http:__www.resad.es_index.html.html’ saved [151578]
+
+--2025-04-04 12:47:01--  https://www.marca.com/futbol/champions-league/2025/04/03/real-madrid-teme-ruediger-enfrentarse-arsenal.html
+Resolving www.marca.com (www.marca.com)... 199.232.197.50, 199.232.193.50
+Connecting to www.marca.com (www.marca.com)|199.232.197.50|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 235742 (230K) [text/html]
+Saving to: ‘./html3/https:__www.marca.com_futbol_champions-league_2025_04_03_real-madrid-teme-ruediger-enfrentarse-arsenal.html.html’
+
+     0K .......... .......... .......... .......... .......... 21% 1.41M 0s
+    50K .......... .......... .......... .......... .......... 43% 2.06M 0s
+   100K .......... .......... .......... .......... .......... 65% 7.50M 0s
+   150K .......... .......... .......... .......... .......... 86% 8.22M 0s
+   200K .......... .......... ..........                      100% 14.3M=0.07s
+
+2025-04-04 12:47:01 (3.09 MB/s) - ‘./html3/https:__www.marca.com_futbol_champions-league_2025_04_03_real-madrid-teme-ruediger-enfrentarse-arsenal.html.html’ saved [235742/235742]
+
+--2025-04-04 12:47:01--  https://espndeportes.espn.com/futbol/espana/nota/_/id/14996196/barcelona-vs-real-madrid-copa-del-rey-todas-las-finales
+Resolving espndeportes.espn.com (espndeportes.espn.com)... 54.192.95.79, 54.192.95.71, 54.192.95.48, ...
+Connecting to espndeportes.espn.com (espndeportes.espn.com)|54.192.95.79|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 126108 (123K) [text/html]
+Saving to: ‘./html3/https:__espndeportes.espn.com_futbol_espana_nota___id_14996196_barcelona-vs-real-madrid-copa-del-rey-todas-las-finales.html’
+
+     0K .......... .......... .......... .......... .......... 40%  318K 0s
+    50K .......... .......... .......... .......... .......... 81%  644K 0s
+   100K .......... .......... ...                             100% 4.08M=0.2s
+
+2025-04-04 12:47:02 (513 KB/s) - ‘./html3/https:__espndeportes.espn.com_futbol_espana_nota___id_14996196_barcelona-vs-real-madrid-copa-del-rey-todas-las-finales.html’ saved [126108/126108]
+
+--2025-04-04 12:47:02--  https://www.realfabricadetapices.com/
+Resolving www.realfabricadetapices.com (www.realfabricadetapices.com)... 217.76.130.41
+Connecting to www.realfabricadetapices.com (www.realfabricadetapices.com)|217.76.130.41|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.realfabricadetapices.com_.html’
+
+     0K .......... .......... .......... .......... ..........  686K
+    50K .......... .......... .......... .......... .......... 2.08M
+   100K .......... .......... .......... .......... .......... 3.21M
+   150K .......... .......... .......... .......... .......... 2.33M
+   200K .......... .......... .......... .......... .......... 2.77M
+   250K .......... .......... .......... ..                     155M=0.2s
+
+2025-04-04 12:47:02 (1.83 MB/s) - ‘./html3/https:__www.realfabricadetapices.com_.html’ saved [289097]
+
+--2025-04-04 12:47:02--  https://www.ciudadreal.es/
+Resolving www.ciudadreal.es (www.ciudadreal.es)... 185.2.151.134
+Connecting to www.ciudadreal.es (www.ciudadreal.es)|185.2.151.134|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.ciudadreal.es_.html’
+
+     0K .......... .......... .......... .......... ..........  593K
+    50K .......... .......... .......... .......... ..........  593K
+   100K .......... .......... .......... .......... .......... 1.77M
+   150K .......... .......... .......... ..                     596K=0.3s
+
+2025-04-04 12:47:04 (728 KB/s) - ‘./html3/https:__www.ciudadreal.es_.html’ saved [187129]
+
+--2025-04-04 12:47:04--  https://www.raing.es/
+Resolving www.raing.es (www.raing.es)... 82.98.178.163
+Connecting to www.raing.es (www.raing.es)|82.98.178.163|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.raing.es_.html’
+
+     0K .......... .......... .......... .......... .......... 1.50M
+    50K .......... .......... .......... .......... .......... 2.06M
+   100K .......... .......... .......... .......... .......... 7.13M
+   150K .......... .......... .......... .......... .......... 24.7M
+   200K .......... .......... .......... .......... .......... 2.33M
+   250K .......... .......... .......... .......... .......... 6.74M
+   300K .......... .......... .......... .......... .......... 19.4M
+   350K .......... .......... .......... .......... .......... 14.1M
+   400K .......... .......... .......... .......... .......... 3.56M
+   450K .......... .......... .......... .......... .......... 17.2M
+   500K .......... .......... .......... .......... .......... 5.93M
+   550K .......... .......... .......... .......... .......... 14.2M
+   600K .......... .......... .......... .......... .......... 16.4M
+   650K .......... .......... .......... .......... .......... 24.8M
+   700K .......... .......... .......... .......... .......... 15.2M
+   750K .......... .......... .......... .......... ..........  328M
+   800K .......... .......... .......... .......... .......... 34.2M
+   850K .......... .......... .......... .......... .......... 6.57M
+   900K .......... .......... .......... .......... .......... 48.7M
+   950K .......... .......... .........                         316M=0.1s
+
+2025-04-04 12:47:06 (6.56 MB/s) - ‘./html3/https:__www.raing.es_.html’ saved [1002647]
+
+--2025-04-04 12:47:06--  https://www.realbetisbalompie.es/
+Resolving www.realbetisbalompie.es (www.realbetisbalompie.es)... 51.255.76.196
+Connecting to www.realbetisbalompie.es (www.realbetisbalompie.es)|51.255.76.196|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.realbetisbalompie.es_.html’
+
+     0K .......... .......... .......... .......... ..........  966K
+    50K .......... .......... .......... .......... .......... 1.01M
+   100K .......... .......... .......... .                      661M=0.1s
+
+2025-04-04 12:47:06 (1.28 MB/s) - ‘./html3/https:__www.realbetisbalompie.es_.html’ saved [134697]
+
+--2025-04-04 12:47:06--  https://sevillagolf.com/
+Resolving sevillagolf.com (sevillagolf.com)... 91.192.111.47, 2a00:1d70:c01c::111:47
+Connecting to sevillagolf.com (sevillagolf.com)|91.192.111.47|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__sevillagolf.com_.html’
+
+     0K .......... .......... .......... .......... ..........  669K
+    50K .......... .......... .......... .......... .......... 1.54M
+   100K .......... .......... .......... .......... .......... 8.79M
+   150K .......... .......... .......... .......... .......... 1.68M
+   200K .........                                               415M=0.1s
+
+2025-04-04 12:47:08 (1.45 MB/s) - ‘./html3/https:__sevillagolf.com_.html’ saved [215030]
+
+--2025-04-04 12:47:08--  https://vinicolareal.com/?srsltid=AfmBOooMsUjEbREFfKFTCUAPICcDQohnt3jJfkW9nGXuX8SJPU7AubYO
+Resolving vinicolareal.com (vinicolareal.com)... 23.227.38.65
+Connecting to vinicolareal.com (vinicolareal.com)|23.227.38.65|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__vinicolareal.com_?srsltid=AfmBOooMsUjEbREFfKFTCUAPICcDQohnt3jJfkW9nGXuX8SJPU7AubYO.html’
+
+     0K .......... .......... .......... .......... .......... 9.41M
+    50K .......... .......... .......... .......... ..........  998K
+   100K .......... .......... .......... .......... .......... 16.5M
+   150K .                                                      3532G=0.06s
+
+2025-04-04 12:47:08 (2.55 MB/s) - ‘./html3/https:__vinicolareal.com_?srsltid=AfmBOooMsUjEbREFfKFTCUAPICcDQohnt3jJfkW9nGXuX8SJPU7AubYO.html’ saved [155496]
+
+--2025-04-04 12:47:08--  https://x.com/rmbaloncesto?lang=es
+Resolving x.com (x.com)... 162.159.140.229
+Connecting to x.com (x.com)|162.159.140.229|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2025-04-04 12:47:08 ERROR 400: Bad Request.
+
+--2025-04-04 12:47:08--  https://universidadeuropea.com/conocenos/real-madrid/
+Resolving universidadeuropea.com (universidadeuropea.com)... 34.98.96.131
+Connecting to universidadeuropea.com (universidadeuropea.com)|34.98.96.131|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 182721 (178K) [text/html]
+Saving to: ‘./html3/https:__universidadeuropea.com_conocenos_real-madrid_.html’
+
+     0K .......... .......... .......... .......... .......... 28%  987K 0s
+    50K .......... .......... .......... .......... .......... 56% 1.29M 0s
+   100K .......... .......... .......... .......... .......... 84% 5.79M 0s
+   150K .......... .......... ........                        100% 4.10M=0.1s
+
+2025-04-04 12:47:09 (1.68 MB/s) - ‘./html3/https:__universidadeuropea.com_conocenos_real-madrid_.html’ saved [182721/182721]
+
+--2025-04-04 12:47:09--  https://rseq.org/
+Resolving rseq.org (rseq.org)... 185.125.78.117
+Connecting to rseq.org (rseq.org)|185.125.78.117|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__rseq.org_.html’
+
+     0K .......... .......... .......... .......... ..........  763K
+    50K .......... .......... .......... .......... .......... 1.43M
+   100K .......... .......... .......... .......... .......... 11.2M
+   150K .......... .......... .......... .......... .......... 13.3M
+   200K .......... .......... .......... .........             1.41M=0.1s
+
+2025-04-04 12:47:09 (1.73 MB/s) - ‘./html3/https:__rseq.org_.html’ saved [245665]
+
+--2025-04-04 12:47:09--  https://www.rfeda.es/
+Resolving www.rfeda.es (www.rfeda.es)... 154.56.81.111
+Connecting to www.rfeda.es (www.rfeda.es)|154.56.81.111|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.rfeda.es_.html’
+
+     0K .......... .......... .......... .......... ..........  975K
+    50K .......... .......... .......... .......... .......... 1005K
+   100K .......... .......... .......... .......... .......... 64.0M
+   150K .......... .......... .......... .......... .......... 1.02M
+   200K .......... .......... .......... .......... ..........  457M
+   250K .......... .......... .......... .......... .......... 1022K
+   300K .......... .......... .......... .......... ..........  363M
+   350K .......... .......... .......... .......... .......... 1.09M
+   400K .......... .....                                       74.1M=0.2s
+
+2025-04-04 12:47:10 (1.66 MB/s) - ‘./html3/https:__www.rfeda.es_.html’ saved [425971]
+
+--2025-04-04 12:47:10--  https://www.realescuela.org/
+Resolving www.realescuela.org (www.realescuela.org)... 185.11.117.67
+Connecting to www.realescuela.org (www.realescuela.org)|185.11.117.67|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 429321 (419K) [text/html]
+Saving to: ‘./html3/https:__www.realescuela.org_.html’
+
+     0K .......... .......... .......... .......... .......... 11% 1.13M 0s
+    50K .......... .......... .......... .......... .......... 23% 1.17M 0s
+   100K .......... .......... .......... .......... .......... 35%  611K 0s
+   150K .......... .......... .......... .......... .......... 47% 1.23M 0s
+   200K .......... .......... .......... .......... .......... 59% 22.5M 0s
+   250K .......... .......... .......... .......... .......... 71% 8.64M 0s
+   300K .......... .......... .......... .......... .......... 83% 1.36M 0s
+   350K .......... .......... .......... .......... .......... 95% 60.9M 0s
+   400K .......... .........                                  100%  772M=0.3s
+
+2025-04-04 12:47:13 (1.63 MB/s) - ‘./html3/https:__www.realescuela.org_.html’ saved [429321/429321]
+
+--2025-04-04 12:47:13--  https://www.realteatroderetiro.es/
+Resolving www.realteatroderetiro.es (www.realteatroderetiro.es)... 51.178.79.52
+Connecting to www.realteatroderetiro.es (www.realteatroderetiro.es)|51.178.79.52|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 81007 (79K) [text/html]
+Saving to: ‘./html3/https:__www.realteatroderetiro.es_.html’
+
+     0K .......... .......... .......... .......... .......... 63% 1014K 0s
+    50K .......... .......... .........                       100%  540M=0.05s
+
+2025-04-04 12:47:13 (1.57 MB/s) - ‘./html3/https:__www.realteatroderetiro.es_.html’ saved [81007/81007]
+
+--2025-04-04 12:47:13--  https://conservatoriosuperiorgranada.com/
+Resolving conservatoriosuperiorgranada.com (conservatoriosuperiorgranada.com)... 217.18.166.210
+Connecting to conservatoriosuperiorgranada.com (conservatoriosuperiorgranada.com)|217.18.166.210|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__conservatoriosuperiorgranada.com_.html’
+
+     0K .......... .......... .......... .......... .......... 15.9K
+    50K .......... .......... .......... .......... .......... 15.1K
+   100K .......... .......... ..........                       24.3K=7.7s
+
+2025-04-04 12:47:21 (16.9 KB/s) - ‘./html3/https:__conservatoriosuperiorgranada.com_.html’ saved [133576]
+
+--2025-04-04 12:47:21--  https://www.casareal.es/
+Resolving www.casareal.es (www.casareal.es)... 212.128.109.8
+Connecting to www.casareal.es (www.casareal.es)|212.128.109.8|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:47:22 ERROR 403: Forbidden.
+
+--2025-04-04 12:47:22--  https://www.gov.br/mre/pt-br/embaixada-madri
+Resolving www.gov.br (www.gov.br)... 161.148.164.31
+Connecting to www.gov.br (www.gov.br)|161.148.164.31|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:47:23 ERROR 403: Forbidden.
+
+--2025-04-04 12:47:23--  https://www.teatroreal.es/es/espectaculo/mitridate-re-di-ponto
+Resolving www.teatroreal.es (www.teatroreal.es)... 188.165.135.124
+Connecting to www.teatroreal.es (www.teatroreal.es)|188.165.135.124|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.teatroreal.es_es_espectaculo_mitridate-re-di-ponto.html’
+
+     0K .......... .......... .......... .......... .......... 1001K
+    50K .......... .......... .......... .......... ..........  930K
+   100K .......... .......... .......... .......... ..........  794K
+   150K .......... .......... .......... .......... ..........  261M
+   200K .......... .......... .......... ....                  16.4M=0.2s
+
+2025-04-04 12:47:23 (1.35 MB/s) - ‘./html3/https:__www.teatroreal.es_es_espectaculo_mitridate-re-di-ponto.html’ saved [239746]
+
+--2025-04-04 12:47:23--  https://alcalalareal.es/
+Resolving alcalalareal.es (alcalalareal.es)... 185.255.22.15
+Connecting to alcalalareal.es (alcalalareal.es)|185.255.22.15|:443... connected.
+ERROR: cannot verify alcalalareal.es's certificate, issued by ‘CN=Sectigo RSA Domain Validation Secure Server CA,O=Sectigo Limited,L=Salford,ST=Greater Manchester,C=GB’:
+  Unable to locally verify the issuer's authority.
+To connect to alcalalareal.es insecurely, use `--no-check-certificate'.
+--2025-04-04 12:47:23--  https://monkey-forest.com/
+Resolving monkey-forest.com (monkey-forest.com)... 172.66.0.125
+Connecting to monkey-forest.com (monkey-forest.com)|172.66.0.125|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__monkey-forest.com_.html’
+
+     0K .......... .......... .......... .......... ..........  196M
+    50K .......... .......... .......... .......... ..........  962K
+   100K .......... .......... .......... .......... .......... 1.59M
+   150K .......... .......... ........                         1005K=0.1s
+
+2025-04-04 12:47:25 (1.57 MB/s) - ‘./html3/https:__monkey-forest.com_.html’ saved [182919]
+
+--2025-04-04 12:47:25--  https://www.realbalneario.com/es/
+Resolving www.realbalneario.com (www.realbalneario.com)... 212.63.109.19
+Connecting to www.realbalneario.com (www.realbalneario.com)|212.63.109.19|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.realbalneario.com_es_.html’
+
+     0K .......... .......... .......... .......... ..........  688K
+    50K .......... .......... .......... .......... .......... 1.60M
+   100K .......... .......... ......                           11.3M=0.1s
+
+2025-04-04 12:47:26 (1.17 MB/s) - ‘./html3/https:__www.realbalneario.com_es_.html’ saved [129874]
+
+--2025-04-04 12:47:26--  https://twitter.com/realmadridfem
+Resolving twitter.com (twitter.com)... 162.159.140.229
+Connecting to twitter.com (twitter.com)|162.159.140.229|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://x.com/realmadridfem [following]
+--2025-04-04 12:47:26--  https://x.com/realmadridfem
+Resolving x.com (x.com)... 162.159.140.229
+Connecting to x.com (x.com)|162.159.140.229|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2025-04-04 12:47:26 ERROR 400: Bad Request.
+
+--2025-04-04 12:47:26--  https://mobile.pf.gov.br/sti-mobile/
+Resolving mobile.pf.gov.br (mobile.pf.gov.br)... 104.18.11.113, 104.18.10.113
+Connecting to mobile.pf.gov.br (mobile.pf.gov.br)|104.18.11.113|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Syntax error in Set-Cookie: cookieName=cookieValue; expires=1743767541; path=/; domain=; SameSite=Lax at position 60.
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__mobile.pf.gov.br_sti-mobile_.html’
+
+     0K .......... .......... .......... ......                 146M=0s
+
+2025-04-04 12:47:27 (146 MB/s) - ‘./html3/https:__mobile.pf.gov.br_sti-mobile_.html’ saved [36985]
+
+--2025-04-04 12:47:27--  https://www.ign.es/web/visitas-al-real-observatorio-de-madrid
+Resolving www.ign.es (www.ign.es)... 3.160.231.78, 3.160.231.4, 3.160.231.26, ...
+Connecting to www.ign.es (www.ign.es)|3.160.231.78|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.ign.es_web_visitas-al-real-observatorio-de-madrid.html’
+
+     0K .......... .......... .......... .......... ..........  493K
+    50K .......... .......... .......... ........               767K=0.2s
+
+2025-04-04 12:47:28 (584 KB/s) - ‘./html3/https:__www.ign.es_web_visitas-al-real-observatorio-de-madrid.html’ saved [90759]
+
+--2025-04-04 12:47:28--  https://www.fnmt.es/
+Resolving www.fnmt.es (www.fnmt.es)... 193.104.0.100
+Connecting to www.fnmt.es (www.fnmt.es)|193.104.0.100|:443... connected.
+ERROR: cannot verify www.fnmt.es's certificate, issued by ‘OU=AC Componentes Inform\\C3\\A1ticos,O=FNMT-RCM,C=ES’:
+  Unable to locally verify the issuer's authority.
+To connect to www.fnmt.es insecurely, use `--no-check-certificate'.
+--2025-04-04 12:47:28--  https://es.surveymonkey.com/
+Resolving es.surveymonkey.com (es.surveymonkey.com)... 54.192.95.21, 54.192.95.9, 54.192.95.20, ...
+Connecting to es.surveymonkey.com (es.surveymonkey.com)|54.192.95.21|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1083380 (1.0M) [text/html]
+Saving to: ‘./html3/https:__es.surveymonkey.com_.html’
+
+     0K .......... .......... .......... .......... ..........  4% 1.46M 1s
+    50K .......... .......... .......... .......... ..........  9% 1.84M 1s
+   100K .......... .......... .......... .......... .......... 14% 4.90M 0s
+   150K .......... .......... .......... .......... .......... 18%  860K 1s
+   200K .......... .......... .......... .......... .......... 23% 13.1M 0s
+   250K .......... .......... .......... .......... .......... 28%  212M 0s
+   300K .......... .......... .......... .......... .......... 33% 1.75M 0s
+   350K .......... .......... .......... .......... .......... 37% 14.5M 0s
+   400K .......... .......... .......... .......... .......... 42% 4.78M 0s
+   450K .......... .......... .......... .......... .......... 47% 12.2M 0s
+   500K .......... .......... .......... .......... .......... 51% 7.88M 0s
+   550K .......... .......... .......... .......... .......... 56% 10.7M 0s
+   600K .......... .......... .......... .......... .......... 61% 7.66M 0s
+   650K .......... .......... .......... .......... .......... 66% 7.49M 0s
+   700K .......... .......... .......... .......... .......... 70% 10.1M 0s
+   750K .......... .......... .......... .......... .......... 75% 7.89M 0s
+   800K .......... .......... .......... .......... .......... 80% 7.42M 0s
+   850K .......... .......... .......... .......... .......... 85% 8.16M 0s
+   900K .......... .......... .......... .......... .......... 89% 28.4M 0s
+   950K .......... .......... .......... .......... .......... 94%  464M 0s
+  1000K .......... .......... .......... .......... .......... 99% 13.4M 0s
+  1050K .......                                               100%  527M=0.2s
+
+2025-04-04 12:47:29 (4.49 MB/s) - ‘./html3/https:__es.surveymonkey.com_.html’ saved [1083380/1083380]
+
+--2025-04-04 12:47:29--  https://www.patrimonionacional.es/
+Resolving www.patrimonionacional.es (www.patrimonionacional.es)... 185.73.174.194
+Connecting to www.patrimonionacional.es (www.patrimonionacional.es)|185.73.174.194|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 134131 (131K) [text/html]
+Saving to: ‘./html3/https:__www.patrimonionacional.es_.html’
+
+     0K .......... .......... .......... .......... .......... 38%  827K 0s
+    50K .......... .......... .......... .......... .......... 76% 6.22M 0s
+   100K .......... .......... ..........                      100%  524K=0.1s
+
+2025-04-04 12:47:29 (1.00 MB/s) - ‘./html3/https:__www.patrimonionacional.es_.html’ saved [134131/134131]
+
+--2025-04-04 12:47:29--  https://embamex.sre.gob.mx/brasil/index.php/inicio
+Resolving embamex.sre.gob.mx (embamex.sre.gob.mx)... 45.60.198.160, 2a02:e981:2d::a0
+Connecting to embamex.sre.gob.mx (embamex.sre.gob.mx)|45.60.198.160|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__embamex.sre.gob.mx_brasil_index.php_inicio.html’
+
+     0K .......... .......... .......... .......... ..........  207K
+    50K .......... .........                                    180M=0.2s
+
+2025-04-04 12:47:31 (286 KB/s) - ‘./html3/https:__embamex.sre.gob.mx_brasil_index.php_inicio.html’ saved [70867]
+
+--2025-04-04 12:47:31--  https://www.rah.es/
+Resolving www.rah.es (www.rah.es)... 82.223.151.136
+Connecting to www.rah.es (www.rah.es)|82.223.151.136|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 221275 (216K) [text/html]
+Saving to: ‘./html3/https:__www.rah.es_.html’
+
+     0K .......... .......... .......... .......... .......... 23% 1.23M 0s
+    50K .......... .......... .......... .......... .......... 46% 1.29M 0s
+   100K .......... .......... .......... .......... .......... 69% 1.31M 0s
+   150K .......... .......... .......... .......... .......... 92% 1.34M 0s
+   200K .......... ......                                     100%  275M=0.2s
+
+2025-04-04 12:47:32 (1.39 MB/s) - ‘./html3/https:__www.rah.es_.html’ saved [221275/221275]
+
+--2025-04-04 12:47:32--  https://www.imdb.com/title/tt27714946/
+Resolving www.imdb.com (www.imdb.com)... 54.192.106.40
+Connecting to www.imdb.com (www.imdb.com)|54.192.106.40|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:47:32 ERROR 403: Forbidden.
+
+--2025-04-04 12:47:32--  https://monkeyworld.org/
+Resolving monkeyworld.org (monkeyworld.org)... 136.244.70.136
+Connecting to monkeyworld.org (monkeyworld.org)|136.244.70.136|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__monkeyworld.org_.html’
+
+     0K .......... .......... .......... .......... ..........  522K
+    50K .......... .......... .......... .......... .......... 1.08M
+   100K .......... .......... .......... .......... .......... 2.42M
+   150K .......... .......... .......... .......... .......... 2.69M
+   200K .......... .......... .......... .......... .......... 2.76M
+   250K .......... .......... .......... .......... .......... 3.89M
+   300K .......... .....                                       4.11M=0.2s
+
+2025-04-04 12:47:33 (1.45 MB/s) - ‘./html3/https:__monkeyworld.org_.html’ saved [323175]
+
+--2025-04-04 12:47:33--  https://www.royalacademy.org.uk/exhibition/brasil-brasil
+Resolving www.royalacademy.org.uk (www.royalacademy.org.uk)... 172.67.70.156, 104.26.14.100, 104.26.15.100, ...
+Connecting to www.royalacademy.org.uk (www.royalacademy.org.uk)|172.67.70.156|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:47:33 ERROR 403: Forbidden.
+
+--2025-04-04 12:47:33--  https://atletismorfea.es/
+Resolving atletismorfea.es (atletismorfea.es)... 172.67.11.17, 104.22.28.233, 104.22.29.233, ...
+Connecting to atletismorfea.es (atletismorfea.es)|172.67.11.17|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__atletismorfea.es_.html’
+
+     0K .......... .......... .......... .......... .......... 15.1M
+    50K .......... .......... .......... .......... .......... 1.67M
+   100K .......... .......... .......... .......... .......... 1.60M
+   150K .......... .......... .......... .......... .......... 9.90M
+   200K .......... .......... .......... .......... .......... 3.26M
+   250K .......... .......... .......... .......... .......... 5.42M
+   300K .......... .......... .......... .......... .......... 19.8M
+   350K .......... .......... .......... .......... .......... 18.1M
+   400K .......... .......... .......... .......... .......... 22.1M
+   450K .......... .......... .......... .......... .......... 14.7M
+   500K .......... .......... .......... .......... .......... 25.7M
+   550K .....                                                  11368G=0.1s
+
+2025-04-04 12:47:33 (5.19 MB/s) - ‘./html3/https:__atletismorfea.es_.html’ saved [569303]
+
+--2025-04-04 12:47:33--  https://bop.dipucr.es/
+Resolving bop.dipucr.es (bop.dipucr.es)... 185.191.65.156
+Connecting to bop.dipucr.es (bop.dipucr.es)|185.191.65.156|:443... connected.
+ERROR: cannot verify bop.dipucr.es's certificate, issued by ‘CN=GlobalSign GCC R6 AlphaSSL CA 2023,O=GlobalSign nv-sa,C=BE’:
+  Unable to locally verify the issuer's authority.
+To connect to bop.dipucr.es insecurely, use `--no-check-certificate'.
+--2025-04-04 12:47:33--  https://academia.gal/dicionario
+Resolving academia.gal (academia.gal)... 82.98.162.58
+Connecting to academia.gal (academia.gal)|82.98.162.58|:443... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__academia.gal_dicionario.html’
+
+     0K .......... .......... .......... .......... .......... 1.52M
+    50K .......... .......... .......... .......... .......... 1.48M
+   100K .......... .......... .......... ....                  1.44M=0.09s
+
+2025-04-04 12:47:35 (1.48 MB/s) - ‘./html3/https:__academia.gal_dicionario.html’ saved [137807]
+
+--2025-04-04 12:47:35--  https://www.honda.es/motorcycles/range/125cc/monkey/Overview.html
+Resolving www.honda.es (www.honda.es)... 18.154.22.121, 18.154.22.109, 18.154.22.89, ...
+Connecting to www.honda.es (www.honda.es)|18.154.22.121|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 565409 (552K) [text/html]
+Saving to: ‘./html3/https:__www.honda.es_motorcycles_range_125cc_monkey_Overview.html.html’
+
+     0K .......... .......... .......... .......... ..........  9% 1.79M 0s
+    50K .......... .......... .......... .......... .......... 18% 1.85M 0s
+   100K .......... .......... .......... .......... .......... 27% 3.76M 0s
+   150K .......... .......... .......... .......... .......... 36% 6.34M 0s
+   200K .......... .......... .......... .......... .......... 45% 4.18M 0s
+   250K .......... .......... .......... .......... .......... 54% 9.07M 0s
+   300K .......... .......... .......... .......... .......... 63% 7.33M 0s
+   350K .......... .......... .......... .......... .......... 72% 8.49M 0s
+   400K .......... .......... .......... .......... .......... 81% 10.3M 0s
+   450K .......... .......... .......... .......... .......... 90% 9.87M 0s
+   500K .......... .......... .......... .......... .......... 99% 13.3M 0s
+   550K ..                                                    100%  189M=0.1s
+
+2025-04-04 12:47:35 (4.60 MB/s) - ‘./html3/https:__www.honda.es_motorcycles_range_125cc_monkey_Overview.html.html’ saved [565409/565409]
+
+--2025-04-04 12:47:35--  https://www.norarealfood.com/es/
+Resolving www.norarealfood.com (www.norarealfood.com)... 185.253.155.103
+Connecting to www.norarealfood.com (www.norarealfood.com)|185.253.155.103|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.norarealfood.com_es_.html’
+
+     0K .......... .......... .......... .......... ..........  660K
+    50K .......... .......... .......... .......... .......... 1.30M
+   100K .........                                               123M=0.1s
+
+2025-04-04 12:47:36 (964 KB/s) - ‘./html3/https:__www.norarealfood.com_es_.html’ saved [111857]
+
+--2025-04-04 12:47:36--  https://www.noticiasdegipuzkoa.eus/reala/
+Resolving www.noticiasdegipuzkoa.eus (www.noticiasdegipuzkoa.eus)... 199.232.198.133, 199.232.194.133
+Connecting to www.noticiasdegipuzkoa.eus (www.noticiasdegipuzkoa.eus)|199.232.198.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 341198 (333K) [text/html]
+Saving to: ‘./html3/https:__www.noticiasdegipuzkoa.eus_reala_.html’
+
+     0K .......... .......... .......... .......... .......... 15% 1.51M 0s
+    50K .......... .......... .......... .......... .......... 30% 2.07M 0s
+   100K .......... .......... .......... .......... .......... 45% 6.72M 0s
+   150K .......... .......... .......... .......... .......... 60% 9.38M 0s
+   200K .......... .......... .......... .......... .......... 75% 2.90M 0s
+   250K .......... .......... .......... .......... .......... 90% 13.9M 0s
+   300K .......... .......... .......... ...                  100% 8.22M=0.09s
+
+2025-04-04 12:47:36 (3.51 MB/s) - ‘./html3/https:__www.noticiasdegipuzkoa.eus_reala_.html’ saved [341198/341198]
+
+--2025-04-04 12:47:36--  https://www.casareal.es/ES/actividades/Paginas/actividades_agenda-prevista.aspx
+Resolving www.casareal.es (www.casareal.es)... 212.128.109.8
+Connecting to www.casareal.es (www.casareal.es)|212.128.109.8|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:47:36 ERROR 403: Forbidden.
+
+--2025-04-04 12:47:36--  https://wise.com/es/currency-converter/brl-to-usd-rate?amount=1
+Resolving wise.com (wise.com)... 172.64.148.140, 104.18.39.116
+Connecting to wise.com (wise.com)|172.64.148.140|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__wise.com_es_currency-converter_brl-to-usd-rate?amount=1.html’
+
+     0K .......... .......... .......... .......... .......... 1.61M
+    50K .......... .......... .......... .......... .......... 1.91M
+   100K .......... .......... .......... .......... .......... 4.15M
+   150K .......... .......... .......... .......... .......... 3.77M
+   200K .......... .......... .......... .......... .......... 16.7M
+   250K .......... .......... .......... .......... ....       5.58M=0.09s
+
+2025-04-04 12:47:37 (3.15 MB/s) - ‘./html3/https:__wise.com_es_currency-converter_brl-to-usd-rate?amount=1.html’ saved [301086]
+
+--2025-04-04 12:47:37--  https://www.fcbarcelona.es/es/entradas/futbol/regular/laliga/fcbarcelona-realbetis
+Resolving www.fcbarcelona.es (www.fcbarcelona.es)... 108.157.125.24, 108.157.125.53, 108.157.125.127, ...
+Connecting to www.fcbarcelona.es (www.fcbarcelona.es)|108.157.125.24|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.fcbarcelona.es_es_entradas_futbol_regular_laliga_fcbarcelona-realbetis.html’
+
+     0K .......... .......... .......... .......... .......... 1.67M
+    50K .......... .......... .......... .......... .......... 1.88M
+   100K .......... .......... .......... .......... .......... 3.57M
+   150K .......... .......... .......... .......... .......... 2.46M
+   200K .......... .......... .......... .......... .......... 6.50M
+   250K .......... .......... .......... .......... .......... 4.18M
+   300K .......... .......... .......... .......... .......... 6.20M
+   350K .......... .......... .......... .......... .......... 6.61M
+   400K .......... .......... .......... .......... .......... 11.2M
+   450K .......... .......                                     17.3M=0.1s
+
+2025-04-04 12:47:37 (3.55 MB/s) - ‘./html3/https:__www.fcbarcelona.es_es_entradas_futbol_regular_laliga_fcbarcelona-realbetis.html’ saved [478734]
+
+--2025-04-04 12:47:37--  https://dle.rae.es/
+Resolving dle.rae.es (dle.rae.es)... 172.67.69.61, 104.26.0.151, 104.26.1.151, ...
+Connecting to dle.rae.es (dle.rae.es)|172.67.69.61|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:47:38 ERROR 403: Forbidden.
+
+--2025-04-04 12:47:38--  https://www.lavanguardia.com/deportes/20250404/10550948/brasil-blanco-amarillo.html
+Resolving www.lavanguardia.com (www.lavanguardia.com)... 2.18.188.33, 2.18.188.24, 2a02:26f0:9f00:1a::173e:b4ca, ...
+Connecting to www.lavanguardia.com (www.lavanguardia.com)|2.18.188.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 259207 (253K) [text/html]
+Saving to: ‘./html3/https:__www.lavanguardia.com_deportes_20250404_10550948_brasil-blanco-amarillo.html.html’
+
+     0K .......... .......... .......... .......... .......... 19% 1.14M 0s
+    50K .......... .......... .......... .......... .......... 39% 1.68M 0s
+   100K .......... .......... .......... .......... .......... 59% 3.52M 0s
+   150K .......... .......... .......... .......... .......... 79% 3.85M 0s
+   200K .......... .......... .......... .......... .......... 98% 6.92M 0s
+   250K ...                                                   100% 5974G=0.1s
+
+2025-04-04 12:47:38 (2.34 MB/s) - ‘./html3/https:__www.lavanguardia.com_deportes_20250404_10550948_brasil-blanco-amarillo.html.html’ saved [259207/259207]
+
+--2025-04-04 12:47:38--  https://www.20minutos.es/minuteca/brasil/1/
+Resolving www.20minutos.es (www.20minutos.es)... 13.224.115.122, 13.224.115.80, 13.224.115.56, ...
+Connecting to www.20minutos.es (www.20minutos.es)|13.224.115.122|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 98961 (97K) [text/html]
+Saving to: ‘./html3/https:__www.20minutos.es_minuteca_brasil_1_.html’
+
+     0K .......... .......... .......... .......... .......... 51% 1.53M 0s
+    50K .......... .......... .......... .......... ......    100% 2.07M=0.05s
+
+2025-04-04 12:47:38 (1.75 MB/s) - ‘./html3/https:__www.20minutos.es_minuteca_brasil_1_.html’ saved [98961/98961]
+
+--2025-04-04 12:47:38--  https://www.marca.com/baloncesto/euroliga/2025/04/03/real-madrid-gana-oda-baloncesto-acaricia-playoffs.html
+Resolving www.marca.com (www.marca.com)... 199.232.193.50, 199.232.197.50
+Connecting to www.marca.com (www.marca.com)|199.232.193.50|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 247422 (242K) [text/html]
+Saving to: ‘./html3/https:__www.marca.com_baloncesto_euroliga_2025_04_03_real-madrid-gana-oda-baloncesto-acaricia-playoffs.html.html’
+
+     0K .......... .......... .......... .......... .......... 20% 1.39M 0s
+    50K .......... .......... .......... .......... .......... 41% 1.90M 0s
+   100K .......... .......... .......... .......... .......... 62% 8.18M 0s
+   150K .......... .......... .......... .......... .......... 82% 9.52M 0s
+   200K .......... .......... .......... .......... .         100% 1.86M=0.09s
+
+2025-04-04 12:47:38 (2.52 MB/s) - ‘./html3/https:__www.marca.com_baloncesto_euroliga_2025_04_03_real-madrid-gana-oda-baloncesto-acaricia-playoffs.html.html’ saved [247422/247422]
+
+--2025-04-04 12:47:38--  https://www.esmadrid.com/informacion-turistica/palacio-real
+Resolving www.esmadrid.com (www.esmadrid.com)... 185.103.37.77, 185.103.37.76, 185.57.173.172, ...
+Connecting to www.esmadrid.com (www.esmadrid.com)|185.103.37.77|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.esmadrid.com_informacion-turistica_palacio-real.html’
+
+     0K .......... .......... .......... .......... .......... 1.06M
+    50K .......... .......... .......... .......... .......... 2.39M
+   100K .......... .......... .......... .......... .......... 2.73M
+   150K .......... .......... .......... .......... .......... 5.17M
+   200K .......... .......... .......... .......... .......... 6.38M
+   250K .......... .......... .......... .......... .......... 5.89M
+   300K .......... .......... .......... .......... .......... 7.09M
+   350K .......... .......... .......... .......... .......... 7.10M
+   400K .......... .......... .......... .......... .......... 10.7M
+   450K .......... .......... .......... .......... .......... 9.31M
+   500K .......... .......... .......... .......... .......... 8.90M
+   550K .......... .......... .......... .....                  157M=0.1s
+
+2025-04-04 12:47:39 (4.11 MB/s) - ‘./html3/https:__www.esmadrid.com_informacion-turistica_palacio-real.html’ saved [599903]
+
+--2025-04-04 12:47:39--  https://as.com/futbol/primera/mercado-de-fichajes-ultima-hora-de-real-madrid-barcelona-atletico-n-61/
+Resolving as.com (as.com)... 2.18.188.86, 2.18.188.89, 2a02:26f0:1380:27::5f64:6d4c, ...
+Connecting to as.com (as.com)|2.18.188.86|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__as.com_futbol_primera_mercado-de-fichajes-ultima-hora-de-real-madrid-barcelona-atletico-n-61_.html’
+
+     0K .......... .......... .......... .......... .......... 1.91M
+    50K .......... .......... .......... .......... .......... 7.52M
+   100K .......... .......... .......... .......... .......... 1.43M
+   150K .......... .......... .......... .......... .......... 9.12M
+   200K .......... .......... .......... .......... .......... 3.23M
+   250K .......... .......... .......... .......... .......... 7.20M
+   300K .......... ...                                          275M=0.09s
+
+2025-04-04 12:47:39 (3.27 MB/s) - ‘./html3/https:__as.com_futbol_primera_mercado-de-fichajes-ultima-hora-de-real-madrid-barcelona-atletico-n-61_.html’ saved [321440]
+
+--2025-04-04 12:47:39--  https://arquine.com/obra/monkey-house/
+Resolving arquine.com (arquine.com)... 107.170.247.190
+Connecting to arquine.com (arquine.com)|107.170.247.190|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__arquine.com_obra_monkey-house_.html’
+
+     0K .......... .......... .......... .......... ..........  138K
+    50K .......... .....                                        126M=0.4s
+
+2025-04-04 12:47:41 (180 KB/s) - ‘./html3/https:__arquine.com_obra_monkey-house_.html’ saved [67100]
+
+--2025-04-04 12:47:41--  https://www.monkeyjoes.com/
+Resolving www.monkeyjoes.com (www.monkeyjoes.com)... 75.33.175.226
+Connecting to www.monkeyjoes.com (www.monkeyjoes.com)|75.33.175.226|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.monkeyjoes.com_.html’
+
+     0K .......... .......... .......... .......... ........    175K=0.3s
+
+2025-04-04 12:47:43 (175 KB/s) - ‘./html3/https:__www.monkeyjoes.com_.html’ saved [49462]
+
+--2025-04-04 12:47:43--  https://www.monkeyjoes.com/
+Resolving www.monkeyjoes.com (www.monkeyjoes.com)... 75.33.175.226
+Connecting to www.monkeyjoes.com (www.monkeyjoes.com)|75.33.175.226|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.monkeyjoes.com_.html’
+
+     0K .......... .......... .......... .......... ........    176K=0.3s
+
+2025-04-04 12:47:44 (176 KB/s) - ‘./html3/https:__www.monkeyjoes.com_.html’ saved [49462]
+
+--2025-04-04 12:47:44--  https://www.bcb.gov.br/en
+Resolving www.bcb.gov.br (www.bcb.gov.br)... 13.107.246.77, 2620:1ec:bdf::77
+Connecting to www.bcb.gov.br (www.bcb.gov.br)|13.107.246.77|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2169 (2.1K) [text/html]
+Saving to: ‘./html3/https:__www.bcb.gov.br_en.html’
+
+     0K ..                                                    100%  818M=0s
+
+2025-04-04 12:47:45 (818 MB/s) - ‘./html3/https:__www.bcb.gov.br_en.html’ saved [2169/2169]
+
+--2025-04-04 12:47:45--  https://www.monkeyfish.com.mx/
+Resolving www.monkeyfish.com.mx (www.monkeyfish.com.mx)... 34.149.87.45
+Connecting to www.monkeyfish.com.mx (www.monkeyfish.com.mx)|34.149.87.45|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.monkeyfish.com.mx_.html’
+
+     0K .......... .......... .......... .......... ..........  968K
+    50K .......... .......... .......... .......... .......... 1.68M
+   100K .......... .......... .......... .......... .......... 3.60M
+   150K .......... .......... .......... .......... .......... 4.37M
+   200K .......... .......... .......... .......... .......... 3.19M
+   250K .......... .......... .......... .......... .......... 6.62M
+   300K .......... .......... .......... .......... .......... 14.5M
+   350K .......... .......... .......... .......... .......... 8.17M
+   400K .......... .......... .......... .......... .......... 7.74M
+   450K .......... .......... .......... .......... .......... 8.77M
+   500K .......... .......... .......... .......... .......... 9.39M
+   550K .......... .......... .......... .......... .......... 11.2M
+   600K .......... .......... .......... .......... .......... 33.3M
+   650K .......... .......... .......... .......... .......... 13.0M
+   700K .......... .......... .......... .......... .......... 9.43M
+   750K .......... .......... .......... .......... .......... 19.9M
+   800K .......... .......... .......... .......... .......... 18.2M
+   850K .......... .......... .......... .......... .......... 96.8M
+   900K .......... .......... ..........                       11.3M=0.2s
+
+2025-04-04 12:47:46 (5.12 MB/s) - ‘./html3/https:__www.monkeyfish.com.mx_.html’ saved [952998]
+
+--2025-04-04 12:47:46--  https://www.urbanmonkey.com/?srsltid=AfmBOopLKGqvyL3zuJwoURX_z2srsTpiviY6ThgQ4kaVngj3mpTpBJjL
+Resolving www.urbanmonkey.com (www.urbanmonkey.com)... 23.227.38.74, 2620:127:f00f:e::
+Connecting to www.urbanmonkey.com (www.urbanmonkey.com)|23.227.38.74|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.urbanmonkey.com_?srsltid=AfmBOopLKGqvyL3zuJwoURX_z2srsTpiviY6ThgQ4kaVngj3mpTpBJjL.html’
+
+     0K .......... .......... .......... .......... .......... 58.7M
+    50K .......... .......... .......... .......... .......... 1.47M
+   100K .......... .......... .......... .......... .......... 1.76M
+   150K .......... .......... .......... .......... .......... 1.80M
+   200K .......... .......... .......... .......... .......... 23.0M
+   250K .......... .......... .......... .......... .......... 6.68M
+   300K .......... .......... .......... .......... ..........  179M
+   350K .......... .......... .......... .......... .......... 36.9M
+   400K .......... .......... .......... .......... ..          326M=0.1s
+
+2025-04-04 12:47:47 (4.32 MB/s) - ‘./html3/https:__www.urbanmonkey.com_?srsltid=AfmBOopLKGqvyL3zuJwoURX_z2srsTpiviY6ThgQ4kaVngj3mpTpBJjL.html’ saved [453160]
+
+--2025-04-04 12:47:47--  https://www.mundodeportivo.com/baloncesto/euroliga/20250403/1002438033/real-madrid-paris-basketball-directo-euroliga-baloncesto.html
+Resolving www.mundodeportivo.com (www.mundodeportivo.com)... 2.18.188.33, 2.18.188.24, 2a02:26f0:9f00:1a::173e:b4cd, ...
+Connecting to www.mundodeportivo.com (www.mundodeportivo.com)|2.18.188.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 262317 (256K) [text/html]
+Saving to: ‘./html3/https:__www.mundodeportivo.com_baloncesto_euroliga_20250403_1002438033_real-madrid-paris-basketball-directo-euroliga-baloncesto.html.html’
+
+     0K .......... .......... .......... .......... .......... 19% 1.24M 0s
+    50K .......... .......... .......... .......... .......... 39% 1.70M 0s
+   100K .......... .......... .......... .......... .......... 58% 3.57M 0s
+   150K .......... .......... .......... .......... .......... 78% 3.40M 0s
+   200K .......... .......... .......... .......... .......... 97% 12.6M 0s
+   250K ......                                                100%  119M=0.1s
+
+2025-04-04 12:47:47 (2.50 MB/s) - ‘./html3/https:__www.mundodeportivo.com_baloncesto_euroliga_20250403_1002438033_real-madrid-paris-basketball-directo-euroliga-baloncesto.html.html’ saved [262317/262317]
+
+--2025-04-04 12:47:47--  https://www.relevo.com/futbol/golpe-real-madrid-mercado-merle-20250403141247-nt.html
+Resolving www.relevo.com (www.relevo.com)... 151.101.131.42, 151.101.195.42, 151.101.3.42, ...
+Connecting to www.relevo.com (www.relevo.com)|151.101.131.42|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 235545 (230K) [text/html]
+Saving to: ‘./html3/https:__www.relevo.com_futbol_golpe-real-madrid-mercado-merle-20250403141247-nt.html.html’
+
+     0K .......... .......... .......... .......... .......... 21% 1.45M 0s
+    50K .......... .......... .......... .......... .......... 43% 1.91M 0s
+   100K .......... .......... .......... .......... .......... 65% 7.48M 0s
+   150K .......... .......... .......... .......... .......... 86% 8.14M 0s
+   200K .......... .......... ..........                      100% 10.4M=0.07s
+
+2025-04-04 12:47:47 (3.01 MB/s) - ‘./html3/https:__www.relevo.com_futbol_golpe-real-madrid-mercado-merle-20250403141247-nt.html.html’ saved [235545/235545]
+
+--2025-04-04 12:47:47--  https://dmv.ri.gov/licenses-permits-ids/real-id
+Resolving dmv.ri.gov (dmv.ri.gov)... 104.17.83.32, 104.17.82.32
+Connecting to dmv.ri.gov (dmv.ri.gov)|104.17.83.32|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:47:48 ERROR 403: Forbidden.
+
+--2025-04-04 12:47:48--  https://www.pa.gov/agencies/dmv/driver-services/real-id/real-id-days.html
+Resolving www.pa.gov (www.pa.gov)... 13.107.246.77, 2620:1ec:bdf::77
+Connecting to www.pa.gov (www.pa.gov)|13.107.246.77|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 381040 (372K) [text/html]
+Saving to: ‘./html3/https:__www.pa.gov_agencies_dmv_driver-services_real-id_real-id-days.html.html’
+
+     0K .......... .......... .......... .......... .......... 13% 1.35M 0s
+    50K .......... .......... .......... .......... .......... 26% 2.07M 0s
+   100K .......... .......... .......... .......... .......... 40% 4.99M 0s
+   150K .......... .......... .......... .......... .......... 53% 2.62M 0s
+   200K .......... .......... .......... .......... .......... 67% 4.17M 0s
+   250K .......... .......... .......... .......... .......... 80% 2.96M 0s
+   300K .......... .......... .......... .......... .......... 94% 3.99M 0s
+   350K .......... .......... ..                              100% 5.22M=0.1s
+
+2025-04-04 12:47:49 (2.74 MB/s) - ‘./html3/https:__www.pa.gov_agencies_dmv_driver-services_real-id_real-id-days.html.html’ saved [381040/381040]
+
+--2025-04-04 12:47:49--  https://www.oregon.gov/odot/dmv/pages/realidtraveler.aspx
+Resolving www.oregon.gov (www.oregon.gov)... 18.154.22.112, 18.154.22.46, 18.154.22.78, ...
+Connecting to www.oregon.gov (www.oregon.gov)|18.154.22.112|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 88041 (86K) [text/html]
+Saving to: ‘./html3/https:__www.oregon.gov_odot_dmv_pages_realidtraveler.aspx.html’
+
+     0K .......... .......... .......... .......... .......... 58%  406K 0s
+    50K .......... .......... .......... .....                100%  323K=0.2s
+
+2025-04-04 12:47:50 (366 KB/s) - ‘./html3/https:__www.oregon.gov_odot_dmv_pages_realidtraveler.aspx.html’ saved [88041/88041]
+
+--2025-04-04 12:47:50--  https://www.lanacion.com.ar/economia/real-hoy-a-cuanto-cotiza-la-moneda-brasilera-oficial-y-blue-este-jueves-3-de-marzo-nid03042025/
+Resolving www.lanacion.com.ar (www.lanacion.com.ar)... 2.18.188.76, 2.18.188.93, 2a02:26f0:1380:27::5f64:6d4b, ...
+Connecting to www.lanacion.com.ar (www.lanacion.com.ar)|2.18.188.76|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.lanacion.com.ar_economia_real-hoy-a-cuanto-cotiza-la-moneda-brasilera-oficial-y-blue-este-jueves-3-de-marzo-nid03042025_.html’
+
+     0K .......... .......... .......... .......... .......... 1.76M
+    50K .......... .......... .......... .......... .......... 1.10M
+   100K .......... .......... .......... .......... .......... 3.16M
+   150K .......... .......... .......... .......... .......... 8.18M
+   200K .......... .......... .......... .......... .......... 6.53M
+   250K .......... .......... .......... .....                 5.90M=0.1s
+
+2025-04-04 12:47:51 (2.61 MB/s) - ‘./html3/https:__www.lanacion.com.ar_economia_real-hoy-a-cuanto-cotiza-la-moneda-brasilera-oficial-y-blue-este-jueves-3-de-marzo-nid03042025_.html’ saved [292532]
+
+--2025-04-04 12:47:51--  https://www.transfermarkt.es/real-madrid-cf/startseite/verein/418
+Resolving www.transfermarkt.es (www.transfermarkt.es)... 18.154.41.44, 18.154.41.23, 18.154.41.36, ...
+Connecting to www.transfermarkt.es (www.transfermarkt.es)|18.154.41.44|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.transfermarkt.es_real-madrid-cf_startseite_verein_418.html’
+
+     0K .......... .......... .......... .......... .......... 1.11M
+    50K .......... .......... .......... .......... .......... 2.46M
+   100K .......... .......... .......... .......... .......... 5.47M
+   150K .......... .......... .......... .......... .          5.15M=0.08s
+
+2025-04-04 12:47:51 (2.32 MB/s) - ‘./html3/https:__www.transfermarkt.es_real-madrid-cf_startseite_verein_418.html’ saved [196170]
+
+--2025-04-04 12:47:51--  https://www.castillalamancha.es/actualidad/notasdeprensa/el-biobanco-del-hospital-general-universitario-de-ciudad-real-cuenta-con-m%C3%A1s-de-6000-muestras
+Resolving www.castillalamancha.es (www.castillalamancha.es)... 89.107.242.101
+Connecting to www.castillalamancha.es (www.castillalamancha.es)|89.107.242.101|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 83351 (81K) [text/html]
+Saving to: ‘./html3/https:__www.castillalamancha.es_actualidad_notasdeprensa_el-biobanco-del-hospital-general-universitario-de-ciudad-real-cuenta-con-m%C3%A1s-de-6000-muestras.html’
+
+     0K .......... .......... .......... .......... .......... 61%  178K 0s
+    50K .......... .......... .......... .                    100% 1.03M=0.3s
+
+2025-04-04 12:47:52 (263 KB/s) - ‘./html3/https:__www.castillalamancha.es_actualidad_notasdeprensa_el-biobanco-del-hospital-general-universitario-de-ciudad-real-cuenta-con-m%C3%A1s-de-6000-muestras.html’ saved [83351/83351]
+
+--2025-04-04 12:47:52--  https://www.dhs.gov/real-id
+Resolving www.dhs.gov (www.dhs.gov)... 184.24.10.45, 2a02:26f0:e0:49f::1955, 2a02:26f0:e0:4bc::1955
+Connecting to www.dhs.gov (www.dhs.gov)|184.24.10.45|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__www.dhs.gov_real-id.html’
+
+     0K .......... .......... .......... .......... ..........  982K
+    50K .......... .......... ......                           6.09M=0.06s
+
+2025-04-04 12:47:52 (1.35 MB/s) - ‘./html3/https:__www.dhs.gov_real-id.html’ saved [78307]
+
+--2025-04-04 12:47:52--  https://www.theflyingmonkeygrill.com/
+Resolving www.theflyingmonkeygrill.com (www.theflyingmonkeygrill.com)... 198.49.23.144, 198.185.159.145, 198.185.159.144, ...
+Connecting to www.theflyingmonkeygrill.com (www.theflyingmonkeygrill.com)|198.49.23.144|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 91176 (89K) [text/html]
+Saving to: ‘./html3/https:__www.theflyingmonkeygrill.com_.html’
+
+     0K .......... .......... .......... .......... .......... 56%  422K 0s
+    50K .......... .......... .......... .........            100% 1022K=0.2s
+
+2025-04-04 12:47:53 (569 KB/s) - ‘./html3/https:__www.theflyingmonkeygrill.com_.html’ saved [91176/91176]
+
+--2025-04-04 12:47:53--  https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/realid.aspx
+Resolving wisconsindot.gov (wisconsindot.gov)... 165.189.241.137, 165.189.150.148
+Connecting to wisconsindot.gov (wisconsindot.gov)|165.189.241.137|:443... connected.
+ERROR: cannot verify wisconsindot.gov's certificate, issued by ‘CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US’:
+  Unable to locally verify the issuer's authority.
+To connect to wisconsindot.gov insecurely, use `--no-check-certificate'.
+--2025-04-04 12:47:53--  https://www.dmv.nh.gov/drivers-licensenon-driver-ids/real-id
+Resolving www.dmv.nh.gov (www.dmv.nh.gov)... 23.33.42.90, 23.33.42.91, 2600:1401:4000::1724:27b2, ...
+Connecting to www.dmv.nh.gov (www.dmv.nh.gov)|23.33.42.90|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:47:54 ERROR 403: Forbidden.
+
+--2025-04-04 12:47:54--  https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence
+Resolving www.fda.gov (www.fda.gov)... 23.223.86.29, 2a02:26f0:2380:280::308a, 2a02:26f0:2380:28f::308a
+Connecting to www.fda.gov (www.fda.gov)|23.223.86.29|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 39533 (39K) [text/html]
+Saving to: ‘./html3/https:__www.fda.gov_science-research_science-and-research-special-topics_real-world-evidence.html’
+
+     0K .......... .......... .......... ........             100% 1.10M=0.03s
+
+2025-04-04 12:47:54 (1.10 MB/s) - ‘./html3/https:__www.fda.gov_science-research_science-and-research-special-topics_real-world-evidence.html’ saved [39533/39533]
+
+--2025-04-04 12:47:54--  https://manzanareselreal.es/descubre-manzaenergia-y-mejora-tu-eficiencia-energetica/
+Resolving manzanareselreal.es (manzanareselreal.es)... 81.19.161.50
+Connecting to manzanareselreal.es (manzanareselreal.es)|81.19.161.50|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘./html3/https:__manzanareselreal.es_descubre-manzaenergia-y-mejora-tu-eficiencia-energetica_.html’
+
+     0K .......... .......... .......... .......... ..........  399K
+    50K .......... .......... .......... .......... ..........  521K
+   100K .......... .......... .......... .......... ..........  151K
+   150K .......... .......... .......... .......... ..........  344K
+   200K .......... .......... .......... .......... ..........  436K
+   250K .......... .......... .......... .......... ..........  441K
+   300K .......... .......... .......... .......... ..........  345K
+   350K .......... .......... .......... .........              998K=1.1s
+
+2025-04-04 12:47:58 (351 KB/s) - ‘./html3/https:__manzanareselreal.es_descubre-manzaenergia-y-mejora-tu-eficiencia-energetica_.html’ saved [398570]
+
+--2025-04-04 12:47:58--  https://realid.ilsos.gov/
+Resolving realid.ilsos.gov (realid.ilsos.gov)... 2.18.188.31, 2.18.188.33, 2a02:26f0:9f00:1a::173e:b4d7, ...
+Connecting to realid.ilsos.gov (realid.ilsos.gov)|2.18.188.31|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-04-04 12:47:58 ERROR 403: Forbidden.
+
