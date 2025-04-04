@@ -1,11 +1,11 @@
 # Practica TID
 Autor: Himar Edhey Hérnandez Alonso
 
-## Links
+## Processing
 ### Search
 En primer lugar hemos hecho una búsqueda avanza en Google filtrando por las palabras france, rat y crazy. A continuación hemos usado el add-on de Firefox Copy `Selected Links` para obtener los enlaces a las páginas más frecuentes dada la búsqueda. Hemos pasado los enlaces a un fichero de texto para procesarlos.
 
-### Processing
+### Links
 Para crear nuestro corpus primero limpiamos aquellos enlaces que no nos sirven, como los de youtube o los de traduccion usando:
 
 ```bash
@@ -293,7 +293,7 @@ Por último, hemos hecho un clustering de los documentos usando el algoritmo KMe
    nour  -  0.03543078650847351
 ```
 
-### Análisis
+### Analize results
 En el grupo 0 hay palabras reacionadas con rat:
 rat, cooki, site, nour
 Esto se puede deber a paginas que relacionen rat y france como el personaje de la serie de dibujos animados Ratatouille, que es un ratón que cocina. De ahí la relación con las palabras cooki y site.
@@ -305,3 +305,134 @@ Esta salida nos da a entender que algunas páginas están en español, vemos que
 Dados los resultamos vemos que en el grupo 2 hay palabras más relacionadas con france:
 european, archiv, origin, king
 El algoritmo ha agrupado las páginas que tienen que ver con la historia de Francia, ya que a lo largo de su historia ha tenido muchos reyes y reinas, y la historia de Europa está muy relacionada con la historia de Francia.
+
+### Other clusters
+Hemos probado a hacer el clustering con 2, 4, 5 y 6 grupos, obteniendo el siguiente resultado:
+
+2. 
+```bash
+:
+   ndiscov  -  0.4981149434896166
+   program  -  0.3452234443976409
+   programm  -  0.24577226976284935
+   studi  -  0.2036726347725815
+
+0:
+   en  -  0.0651313952814827
+   la  -  0.062216517976923576
+   rat  -  0.051622544302259696
+   le  -  0.04543968888633389
+```
+
+Vemos que ahora  solo agrupa en dos grupos, uno relacionado con la educación y el otro con las palabras en español.
+
+4. 
+```bash
+1:
+   en  -  0.4000834434286343
+   del  -  0.3679306185047282
+   la  -  0.318927929076574
+   el  -  0.24442178178338275
+
+0:
+   world  -  0.047226526573829655
+   countri  -  0.03927101799376008
+   pleas  -  0.03395842606968932
+   news  -  0.03281140503546772
+
+3:
+   rat  -  0.5259485936415982
+   control  -  0.08327781654859116
+   care  -  0.06829949612457663
+   resourc  -  0.06545335482720986
+
+2:
+   le  -  0.17239458119803608
+   et  -  0.1196846941006762
+   la  -  0.08736634124107949
+   cooki  -  0.07840308019899613
+```
+
+En este caso vemos que el algoritmo ha agrupado las palabras en español en un grupo, las relacionadas con noticias en otro, uno sobre las ratas como plaga y otro con palabras en francés y cocina.
+
+5. 
+```bash
+4:
+   nfranc  -  0.08173758311732049
+   le  -  0.06911580098301763
+   war  -  0.06853922791317323
+   world  -  0.06755411348040694
+
+3:
+   rat  -  0.5259485936415982
+   control  -  0.08327781654859116
+   care  -  0.06829949612457663
+   resourc  -  0.06545335482720986
+
+0:
+   et  -  0.12609491380049018
+   le  -  0.10943302013157431
+   site  -  0.09000096422372829
+   nour  -  0.07995210128596374
+
+1:
+   en  -  0.4000834434286343
+   del  -  0.3679306185047282
+   la  -  0.318927929076574
+   el  -  0.24442178178338275
+
+2:
+   cooki  -  0.05386906229684895
+   live  -  0.04003520426821368
+   travel  -  0.03797184564315914
+   resid  -  0.037630118163962875
+```
+
+Para 5 clusters, el algoritmo ha agrupado las palabras en español en un grupo, otro con la plaga de ratas, otro con palabras relacionadas con la guerra y francia (historia), un cuarto  bastante diverso con contenido sobre viajes y cocina y por último otro grupo relacionado con palabras en francés.
+
+6. 
+```bash
+3:
+   live  -  0.37135022045293836
+   british  -  0.21860637868274857
+   con  -  0.14289044994058028
+   life  -  0.12981059818718196
+
+5:
+   rat  -  0.3506323957610655
+   pleas  -  0.09144393432757185
+   tri  -  0.07353073314304223
+   technic  -  0.07283557843266925
+
+2:
+   cooki  -  0.14610427259998668
+   travel  -  0.09398333071020827
+   resid  -  0.06751897669058995
+   tax  -  0.06396956111626077
+
+1:
+   world  -  0.06177905080976542
+   countri  -  0.04730489834019346
+   le  -  0.04637903082405217
+   research  -  0.043454980065265186
+
+4:
+   ukrain  -  0.11165428778918231
+   macron  -  0.10620571619487919
+   nfranc  -  0.0985237714190382
+   presid  -  0.09605969219141385
+
+0:
+   en  -  0.35052359186901455
+   la  -  0.3123031786515634
+   del  -  0.2772950578186071
+   el  -  0.18331633633753708
+```
+En este caso el grupo 3 parece centrarse en la vida y aspectos británicos; el grupo 5 destaca términos técnicos y acciones relacionadas con el control; el grupo 2 incluye contenido sobre cookies, viajes y residencia, posiblemente de páginas web; el grupo 1 toca temas globales como países y investigación; el grupo 4 está relacionado con Ucrania, Macron y presidencia, sugiriendo un contexto político; y el grupo 0 reúne textos en español, basado en términos comunes del idioma
+
+### Elbow Method
+Para determinar el número óptimo de clusters, se pueden aplicar métodos como el del codo, al hacerlo obtenemos la siguiente gráfica (hemos fijado la aleatoriedad porque si no el resultado cambia cada vez que se ejecuta el algoritmo):
+![alt text](image.png)
+
+### Conclusiones
+El algoritmo KMeans es capaz de agrupar documentos en función de su contenido, y el número óptimo de clusters puede variar según el contexto. En este caso, el método del codo sugiere que 3 o 4 clusters son adecuados para los datos analizados. Al interpretar los datos obtenidos vemos que es razonable el quedarnos con 3/4 clusters, ya que el algoritmo ha creado grupos homogéneos y coherentes.

@@ -107,28 +107,43 @@ for col in response.nonzero()[1]:
 km_model = KMeans(n_clusters=3, n_init='auto', verbose=0)
 km_model.fit(tfidf_model)
 
-# Print clusters
-clusters = collections.defaultdict(list)
-for idx, label in enumerate(km_model.labels_):
-    clusters[label].append(idx)
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
 
-print(dict(clusters))
+inertias = []
+for k in range(1, 10):
+    model = KMeans(n_clusters=k, n_init='auto')
+    model.fit(tfidf_model)
+    inertias.append(model.inertia_)
 
-# Print number of elements of each cluster
-for key, elements in dict(clusters).items():
-    print(str(key) + ':', len(elements))
+plt.plot(range(1, 10), inertias, marker='o')
+plt.xlabel('Número de clústeres')
+plt.ylabel('Inercia')
+plt.show()
 
-# Print labels of each url webpage
-key = list(token_dict.keys())
-for idx, label in enumerate(km_model.labels_):
-    print(str(label) + ':', key[idx].replace('_','/').replace('.html',''))
 
-# Print 4 most relevant tokens of each cluster
-kmcc = km_model.cluster_centers_.copy()
-for idx, item in enumerate(dict(clusters).items()):
-    print(str(item[0]) + ':')
-    for j in range(4):
-        idxmax = kmcc[idx].argmax()
-        print('  ', feature_names[idxmax], ' - ', kmcc[idx][idxmax])
-        kmcc[idx][idxmax] = 0.0
-    print()
+# # Print clusters
+# clusters = collections.defaultdict(list)
+# for idx, label in enumerate(km_model.labels_):
+#     clusters[label].append(idx)
+
+# print(dict(clusters))
+
+# # Print number of elements of each cluster
+# for key, elements in dict(clusters).items():
+#     print(str(key) + ':', len(elements))
+
+# # Print labels of each url webpage
+# key = list(token_dict.keys())
+# for idx, label in enumerate(km_model.labels_):
+#     print(str(label) + ':', key[idx].replace('_','/').replace('.html',''))
+
+# # Print 4 most relevant tokens of each cluster
+# kmcc = km_model.cluster_centers_.copy()
+# for idx, item in enumerate(dict(clusters).items()):
+#     print(str(item[0]) + ':')
+#     for j in range(4):
+#         idxmax = kmcc[idx].argmax()
+#         print('  ', feature_names[idxmax], ' - ', kmcc[idx][idxmax])
+#         kmcc[idx][idxmax] = 0.0
+#     print()
